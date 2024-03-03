@@ -1,0 +1,43 @@
+﻿{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "2,2",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "layout",
+                        "key": "costumegrid"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "maingrid"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "miscgrid"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "layout",
+                        "key": "questgrid"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "keygrid"
+                    }
+                ]
+            }
+        ]
+    }
+}

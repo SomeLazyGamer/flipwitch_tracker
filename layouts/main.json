@@ -1,0 +1,41 @@
+// sets layouts for shadred items grids
+// bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+{
+    "maingrid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "3, 3",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "FBubble",
+                                "DWings",
+                                "ChaosK"                                   
+                            ],
+                            [
+                                "BBubble",
+                                "AFeather",
+                                "GForm"
+                            ],
+                            [
+                                "GCrystal",
+                                "MScale",
+                                "SForm"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "costumegrid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "3, 3",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "NavyCos",
+                                "CatCos",
+                                "NunCos",
+                                "RedCos",
+                                "GobCos",
+                                "PriestCos"                                   
+                            ],
+                            [
+                                "MikoCos",
+                                "NurseCos",
+                                "FairyCos",
+                                "FarmCos",
+                                "MailCos",
+                                "PigCos"
+                            ],
+                            [
+                                "MaidCos",
+                                "BunCos",
+                                "DomCos",
+                                "RatCos",
+                                "AlchCos",
+                                "FishCos"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

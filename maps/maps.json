@@ -1,0 +1,57 @@
+//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
+[
+    {
+        "name": "WW",
+        "location_size": 30,
+        "location_border_thickness": 3,
+        "img": "images/maps/WitchyWoods.png"
+    },    
+    {
+        "name": "SC",
+        "location_size": 30,
+        "location_border_thickness": 3,
+        "img": "images/maps/SpiritCity.png"
+    },    
+    {
+        "name": "GC",
+        "location_size": 30,
+        "location_border_thickness": 3,
+        "img": "images/maps/GhostCastle.png"
+    },    
+    {
+        "name": "CD",
+        "location_size": 30,
+        "location_border_thickness": 3,
+        "img": "images/maps/Jigoku.png"
+    },    
+    {
+        "name": "TG",
+        "location_size": 30,
+        "location_border_thickness": 3,
+        "img": "images/maps/Tengoku.png"
+    },    
+    {
+        "name": "FF",
+        "location_size": 30,
+        "location_border_thickness": 3,
+        "img": "images/maps/FungalForest.png"
+    },    
+    {
+        "name": "SC2",
+        "location_size": 30,
+        "location_border_thickness": 3,
+        "img": "images/maps/SlimeCitadel.png"
+    },    
+    {
+        "name": "UU",
+        "location_size": 30,
+        "location_border_thickness": 3,
+        "img": "images/maps/UmiUmi.png"
+    },    
+    {
+        "name": "CC",
+        "location_size": 30,
+        "location_border_thickness": 3,
+        "img": "images/maps/ChaosCastle.png"
+    }
+]

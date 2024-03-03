@@ -1,0 +1,596 @@
+[
+    {
+        "name": "Navy Witch Costume",
+        "type": "toggle",
+        "img": "images/items/NavyCos.png",
+        "codes": "NavyCos"
+    },
+    {
+        "name": "Red Wizard Costume",
+        "type": "toggle",
+        "img": "images/items/RedCos.png",
+        "codes": "RedCos"
+    },
+    {
+        "name": "Cat Costume",
+        "type": "toggle",
+        "img": "images/items/CatCos.png",
+        "codes": "CatCos"
+    },
+    {
+        "name": "Goblin Costume",
+        "type": "toggle",
+        "img": "images/items/GobCos.png",
+        "codes": "GobCos"
+    },{
+        "name": "Alchemist Costume",
+        "type": "toggle",
+        "img": "images/items/AlchCos.png",
+        "codes": "AlchCos"
+    },
+    {
+        "name": "Bunny Costume",
+        "type": "toggle",
+        "img": "images/items/BunCos.png",
+        "codes": "BunCos"
+    },
+    {
+        "name": "Dominating Costume",
+        "type": "toggle",
+        "img": "images/items/DomCos.png",
+        "codes": "DomCos"
+    },
+    {
+        "name": "Fairy Costume",
+        "type": "toggle",
+        "img": "images/items/FairyCos.png",
+        "codes": "FairyCos"
+    },{
+        "name": "Farmer Costume",
+        "type": "toggle",
+        "img": "images/items/FarmCos.png",
+        "codes": "FarmCos"
+    },
+    {
+        "name": "Angler Costume",
+        "type": "toggle",
+        "img": "images/items/FishCos.png",
+        "codes": "FishCos"
+    },
+    {
+        "name": "Maid Costume",
+        "type": "toggle",
+        "img": "images/items/MaidCos.png",
+        "codes": "MaidCos"
+    },
+    {
+        "name": "Postman Costume",
+        "type": "toggle",
+        "img": "images/items/MailCos.png",
+        "codes": "MailCos"
+    },{
+        "name": "Miko Costume",
+        "type": "toggle",
+        "img": "images/items/MikoCos.png",
+        "codes": "MikoCos"
+    },
+    {
+        "name": "Nun Costume",
+        "type": "toggle",
+        "img": "images/items/NunCos.png",
+        "codes": "NunCos"
+    },
+    {
+        "name": "Nurse Costume",
+        "type": "toggle",
+        "img": "images/items/NurseCos.png",
+        "codes": "NurseCos"
+    },
+    {
+        "name": "Pigman Costume",
+        "type": "toggle",
+        "img": "images/items/PigCos.png",
+        "codes": "PigCos"
+    },
+    {
+        "name": "Priest Costume",
+        "type": "toggle",
+        "img": "images/items/PriestCos.png",
+        "codes": "PriestCos"
+    },
+    {
+        "name": "Rat Costume",
+        "type": "toggle",
+        "img": "images/items/RatCos.png",
+        "codes": "RatCos"
+    },
+    {
+        "name": "Bewitched Bubble",
+        "type": "toggle",
+        "img": "images/items/Bewitched.png",
+        "codes": "BBubble"
+    },
+    {
+        "name": "Goblin Crystal",
+        "type": "toggle",
+        "img": "images/items/Crystal.png",
+        "codes": "GCrystal"
+    },
+    {
+        "name": "Demon Wings",
+        "type": "toggle",
+        "img": "images/items/DemonW.png",
+        "codes": "DWings"
+    },
+    {
+        "name": "Angel Feathers",
+        "type": "toggle",
+        "img": "images/items/AngelF.png",
+        "codes": "AFeather"
+    },
+    {
+        "name": "Mermaid Scale",
+        "type": "toggle",
+        "img": "images/items/MermaidS.png",
+        "codes": "MScale"
+    },{
+        "name": "Fairy Bubble",
+        "type": "toggle",
+        "img": "images/items/FairyB.png",
+        "codes": "FBubble"
+    },
+    {
+        "name": "Ghost Form",
+        "type": "toggle",
+        "img": "images/items/GhostForm.png",
+        "codes": "GForm"
+    },
+    {
+        "name": "Slime Form",
+        "type": "toggle",
+        "img": "images/items/SlimeForm.png",
+        "codes": "SForm"
+    },
+    {
+        "name": "Chaos Key Pieces",
+        "type": "consumable",
+        "img": "images/items/ChaosK.png",
+        "max_quantity": 6,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "ChaosK"
+    },
+    {
+        "name": "Long Distance Items",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/AngelLetter.png",
+                "codes": "ALetter",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/DemonLetter.png",
+                "codes": "DLetter",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Belle's Items",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/BelleBell.png",
+                "codes": "BBell",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/DeliMilk.png",
+                "codes": "DMilk",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/BelleMilk.png",
+                "codes": "BMilk",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/SmKey.png",
+                "codes": "CAKey",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Gobliana's Items",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/GoblinPic.png",
+                "codes": "GHead",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/GoblinCard.png",
+                "codes": "GCard",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/SmKey.png",
+                "codes": "GAKey",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/GoblianaCase.png",
+                "codes": "GLug",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Kyoni's Items",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/HellDango.png",
+                "codes": "HDango",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/HeavenDaikon.png",
+                "codes": "HDaikon",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Tatil's Items",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/SmKey.png",
+                "codes": "FKey",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/FungalDeed.png",
+                "codes": "FDeed",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Bundle of Clothes",
+        "type": "toggle",
+        "img": "images/items/ClothesBundle.png",
+        "codes": "BClothes"
+    },
+    {
+        "name": "Deed to Fungal Forest",
+        "type": "toggle",
+        "img": "images/items/FungalDeed.png",
+        "codes": "FDeed"
+    },
+    {
+        "name": "Mimic Chest Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "MimicKey"
+    },
+    {
+        "name": "Blue Jelly",
+        "type": "toggle",
+        "img": "images/items/JellyMush.png",
+        "codes": "BJelly"
+    },
+    {
+        "name": "Legendary Halo",
+        "type": "toggle",
+        "img": "images/items/LegendHalo.png",
+        "codes": "LHalo"
+    },
+    {
+        "name": "Maid Contract",
+        "type": "toggle",
+        "img": "images/items/MaidContract.png",
+        "codes": "MContract"
+    },
+    {
+        "name": "Red Wine",
+        "type": "toggle",
+        "img": "images/items/RedWine.png",
+        "codes": "RWine"
+    },
+    {
+        "name": "Momo Server Admin Password",
+        "type": "toggle",
+        "img": "images/items/RobotPass.png",
+        "codes": "MPass"
+    },
+    {
+        "name": "Silky Slime",
+        "type": "toggle",
+        "img": "images/items/SilkySlime.png",
+        "codes": "SSlime"
+    },
+    {
+        "name": "Soul Fragments",
+        "type": "consumable",
+        "img": "images/items/SoulF.png",
+        "max_quantity": 3,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SFrag"
+    },
+    {
+        "name": "Summoning Stones",
+        "type": "consumable",
+        "img": "images/items/SumStone.png",
+        "max_quantity": 3,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SStone"
+    },
+    {
+        "name": "Gacha Coins",
+        "type": "consumable",
+        "img": "images/items/GachaCoin.png",
+        "max_quantity": 44,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "Gacha"
+    },
+    {
+        "name": "HP Upgrades",
+        "type": "consumable",
+        "img": "images/items/HPUp.png",
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "HP"
+    },
+    {
+        "name": "MP Upgrades",
+        "type": "consumable",
+        "img": "images/items/MPUp.png",
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "MP"
+    },
+    {
+        "name": "Peachy Peach Upgrades",
+        "type": "consumable",
+        "img": "images/items/Peach.png",
+        "max_quantity": 12,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 2,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "Peach"
+    },
+    {
+        "name": "Portable Portal Crystal",
+        "type": "toggle",
+        "img": "images/items/PortPort.png",
+        "codes": "PPCrystal"
+    },
+    {
+        "name": "Fortune Cat",
+        "type": "toggle",
+        "img": "images/items/FortuneCat.png",
+        "codes": "FCat"
+    },
+    {
+        "name": "Belle1",
+        "type": "toggle",
+        "codes": "B1"
+    },
+    {
+        "name": "Belle2",
+        "type": "toggle",
+        "codes": "B2"
+    },
+    {
+        "name": "Belle3",
+        "type": "toggle",
+        "codes": "B3"
+    },
+    {
+        "name": "Goblin1",
+        "type": "toggle",
+        "codes": "G1"
+    },
+    {
+        "name": "Goblin2",
+        "type": "toggle",
+        "codes": "G2"
+    },
+    {
+        "name": "Rover1",
+        "type": "toggle",
+        "codes": "R1"
+    },{
+        "name": "Rover2",
+        "type": "toggle",
+        "codes": "R2"
+    },{
+        "name": "Rover3",
+        "type": "toggle",
+        "codes": "R3"
+    },
+    {
+        "name": "Merchant1",
+        "type": "toggle",
+        "codes": "M1"
+    },
+    {
+        "name": "Milk&Cream1",
+        "type": "toggle",
+        "codes": "MC1"
+    },
+    {
+        "name": "Milk&Cream2",
+        "type": "toggle",
+        "codes": "MC2"
+    },
+    {
+        "name": "Milk&Cream3",
+        "type": "toggle",
+        "codes": "MC3"
+    },
+    {
+        "name": "Janic1",
+        "type": "toggle",
+        "codes": "J1"
+    },
+    {
+        "name": "Janic2",
+        "type": "toggle",
+        "codes": "J2"
+    },
+    {
+        "name": "Kyoni1",
+        "type": "toggle",
+        "codes": "K1"
+    },
+    {
+        "name": "Rundown House Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "RHKey"
+    },
+    {
+        "name": "Goblin Queen Key",
+        "type": "toggle",
+        "img": "images/items/BossKey.png",
+        "codes": "GQKey"
+    },
+    {
+        "name": "Goblin Apartment Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "GAKey"
+    },
+    {
+        "name": "Abandoned Apartment Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "AAKey"
+    },
+    {
+        "name": "Ghostly Castle Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "GCKey"
+    },
+    {
+        "name": "Rose Garden Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "RGKey"
+    },
+    {
+        "name": "Secret Garden Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "SGKey"
+    },
+    {
+        "name": "Cherry Apartment Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "CAKey"
+    },
+    {
+        "name": "The Beast's Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "TBKey"
+    },
+    {
+        "name": "Collapsed Temple Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "CTKey"
+    },
+    {
+        "name": "Club Door Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "CDKey"
+    },
+    {
+        "name": "Secret Club Door Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "SCDKey"
+    },
+    {
+        "name": "Demon Boss Key",
+        "type": "toggle",
+        "img": "images/items/BossKey.png",
+        "codes": "DBKey"
+    },
+    {
+        "name": "Forgotten Fungal Door Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "FFDKey"
+    },
+    {
+        "name": "Slime Citadel Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "SCKey"
+    },
+    {
+        "name": "Slimy Sub Boss Key",
+        "type": "toggle",
+        "img": "images/items/SmKey.png",
+        "codes": "SSBKey"
+    },
+    {
+        "name": "Slime Boss Key",
+        "type": "toggle",
+        "img": "images/items/BossKey.png",
+        "codes": "SBKey"
+    },
+    {
+        "name": "Frog Boss Key",
+        "type": "toggle",
+        "img": "images/items/BossKey.png",
+        "codes": "FBKey"
+    },
+    {
+        "name": "Chaos Sanctum Key",
+        "type": "toggle",
+        "img": "images/items/BossKey.png",
+        "codes": "CSKey"
+    }
+]

@@ -1,0 +1,165 @@
+﻿{
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Costumes",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "costumegrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Main Items",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "maingrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Quest Items",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "questgrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Misc",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "miscgrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Keys",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "keygrid"
+                            }
+                        }
+                        
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Witchy Woods",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "WW"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Spirit City/Shady Sewers",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SC"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ghost Castle",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "GC"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Jigoku/Club Demon",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "CD"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tengoku/Angelic Hallway",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "TG"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Fungal Forest",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "FF"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Slime Citadel",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SC2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Umi Umi",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "UU"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Chaos Castle",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "CC"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
