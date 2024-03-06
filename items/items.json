@@ -184,6 +184,7 @@
         "name": "Belle's Items",
         "type": "progressive",
         "initial_stage_idx": 0,
+        "codes": "Belle",
         "stages": [
             {
                 "img": "images/items/BelleBell.png",
@@ -361,7 +362,7 @@
     {
         "name": "HP Upgrades",
         "type": "consumable",
-        "img": "images/items/HPUp.png",
+        "img": "images/items/HP.png",
         "max_quantity": 10,
         "increment": 1,
         "decrement": 1,
@@ -373,7 +374,7 @@
     {
         "name": "MP Upgrades",
         "type": "consumable",
-        "img": "images/items/MPUp.png",
+        "img": "images/items/MP.png",
         "max_quantity": 10,
         "increment": 1,
         "decrement": 1,
@@ -389,7 +390,7 @@
         "max_quantity": 12,
         "increment": 1,
         "decrement": 1,
-        "initial_quantity": 2,
+        "initial_quantity": 0,
         "overlay_background": "#000000",
         "overlay_font_size": 8,
         "codes": "Peach"
@@ -592,5 +593,11 @@
         "type": "toggle",
         "img": "images/items/BossKey.png",
         "codes": "CSKey"
+    },
+    {
+        "name": "Completed Quests",
+        "type": "consumable",
+        "codes": "Reward",
+        "max_quantity": 40
     }
 ]

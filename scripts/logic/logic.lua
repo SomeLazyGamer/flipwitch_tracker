@@ -13,3 +13,7 @@ function has_more_then_n_consumable(n)
     end
     return 0 -- 0 => no access
 end
+function hascount(code, count)
+    return Tracker:ProviderCountForCode(code) >= tonumber(count)
+  end
+  
