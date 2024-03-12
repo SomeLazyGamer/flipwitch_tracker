@@ -1391,7 +1391,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Momo Server Admin Password",
+                        "name": "Server Password",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -3229,7 +3229,7 @@
                 ]
             },
             {
-                "name": "Hidden Foliage",
+                "name": "Hidden Foliage 1",
                 "map_locations": [
                     {
                         "map": "TG",
@@ -3248,7 +3248,7 @@
                 ]
             },
             {
-                "name": "Hidden Foliage",
+                "name": "Hidden Foliage 2",
                 "map_locations": [
                     {
                         "map": "TG",
@@ -3570,7 +3570,7 @@
                 ]
             },
             {
-                "name": "Early Pit",
+                "name": "Lower Pit",
                 "map_locations": [
                     {
                         "map": "FF",
@@ -3608,25 +3608,6 @@
                             "[DWings]",
                             "BBubble"
                         ]
-                    }
-                ]
-            },
-            {
-                "name": "Early Pit",
-                "map_locations": [
-                    {
-                        "map": "FF",
-                        "x": 300,
-                        "y": 138
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gacha Coin",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GCoin.png",
-                        "chest_unopened_img": "images/items/GachaCoin.png",
-                        "clear_as_group": false
                     }
                 ]
             },
@@ -3786,25 +3767,6 @@
                     {
                         "name": "Shop Items",
                         "item_count": 2,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
-                    }
-                ]
-            },
-            {
-                "name": "Guarded by Mushrooms",
-                "map_locations": [
-                    {
-                        "map": "FF",
-                        "x": 1768,
-                        "y": 233
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Chest",
-                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
@@ -4385,7 +4347,7 @@
                 ]
             },
             {
-                "name": "Flip Magic Coins",
+                "name": "Flip Magic Room",
                 "map_locations": [
                     {
                         "map": "UU",
@@ -4445,7 +4407,7 @@
                 ]
             },
             {
-                "name": "Flip Magic Gacha Coin",
+                "name": "Flip Magic Room 2",
                 "map_locations": [
                     {
                         "map": "UU",
@@ -4687,7 +4649,7 @@
         ],
         "children": [
             {
-                "name": "Early Gacha Coin",
+                "name": "Outside Castle",
                 "map_locations": [
                     {
                         "map": "CC",
@@ -4823,7 +4785,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Shop Items",
+                        "name": "Shop Item",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",

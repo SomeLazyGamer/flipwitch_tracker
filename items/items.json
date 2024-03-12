@@ -1,9 +1,9 @@
 [
     {
-        "name": "Navy Witch Costume",
+        "name": "Black Witch Costume",
         "type": "toggle",
         "img": "images/items/NavyCos.png",
-        "codes": "NavyCos"
+        "codes": "BlackCos"
     },
     {
         "name": "Red Wizard Costume",
@@ -164,9 +164,10 @@
         "codes": "ChaosK"
     },
     {
-        "name": "Long Distance Items",
+        "name": "Progressive Letter",
         "type": "progressive",
         "initial_stage_idx": 0,
+        "codes": "Letter",
         "stages": [
             {
                 "img": "images/items/AngelLetter.png",
@@ -181,7 +182,7 @@
         ]
     },
     {
-        "name": "Belle's Items",
+        "name": "Progressive Belle Item",
         "type": "progressive",
         "initial_stage_idx": 0,
         "codes": "Belle",
@@ -209,9 +210,10 @@
         ]
     },
     {
-        "name": "Gobliana's Items",
+        "name": "Progressive Gobliana Item",
         "type": "progressive",
         "initial_stage_idx": 0,
+        "codes": "Gobliana",
         "stages": [
             {
                 "img": "images/items/GoblinPic.png",
@@ -236,9 +238,10 @@
         ]
     },
     {
-        "name": "Kyoni's Items",
+        "name": "Progressive Kyoni Item",
         "type": "progressive",
         "initial_stage_idx": 0,
+        "codes": "Kyoni",
         "stages": [
             {
                 "img": "images/items/HellDango.png",
@@ -253,9 +256,10 @@
         ]
     },
     {
-        "name": "Tatil's Items",
+        "name": "Progressive Tatil Item",
         "type": "progressive",
         "initial_stage_idx": 0,
+        "codes": "Tatil",
         "stages": [
             {
                 "img": "images/items/SmKey.png",
@@ -288,7 +292,7 @@
         "codes": "MimicKey"
     },
     {
-        "name": "Blue Jelly",
+        "name": "Blue Jelly Mushroom",
         "type": "toggle",
         "img": "images/items/JellyMush.png",
         "codes": "BJelly"
@@ -324,7 +328,7 @@
         "codes": "SSlime"
     },
     {
-        "name": "Soul Fragments",
+        "name": "Soul Fragment",
         "type": "consumable",
         "img": "images/items/SoulF.png",
         "max_quantity": 3,
@@ -336,7 +340,7 @@
         "codes": "SFrag"
     },
     {
-        "name": "Summoning Stones",
+        "name": "Summon Stones",
         "type": "consumable",
         "img": "images/items/SumStone.png",
         "max_quantity": 3,
@@ -396,7 +400,7 @@
         "codes": "Peach"
     },
     {
-        "name": "Portable Portal Crystal",
+        "name": "Portable Portal",
         "type": "toggle",
         "img": "images/items/PortPort.png",
         "codes": "PPCrystal"
@@ -541,7 +545,7 @@
         "codes": "CTKey"
     },
     {
-        "name": "Club Door Key",
+        "name": "Demon Club Door Key",
         "type": "toggle",
         "img": "images/items/SmKey.png",
         "codes": "CDKey"
