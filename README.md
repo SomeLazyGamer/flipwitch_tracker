@@ -15,5 +15,5 @@ The packs folder can be under `USER/Documents/PopTracker/packs`, `USER/PopTracke
 Some things I want to add in the future include:
 * Improve Logic
 * Refining the Item Tracker
-* ~~ Implement autotracking with use of an upcoming Archipelago implementation of the game ~~ (Finished! Next release will feature AP Autotracking, which will release alongside the APWorld/Game Mod.)
+* <s>Implement autotracking with use of an upcoming Archipelago implementation of the game</s> (Finished! Next release will feature AP Autotracking, which will release alongside the APWorld/Game Mod.)
 * Wack any bugs with muh magic wand
