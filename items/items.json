@@ -203,7 +203,7 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/items/SmKey.png",
+                "img": "images/items/SmKeyIcon.png",
                 "codes": "CAKey",
                 "inherit_codes": false
             }
@@ -226,7 +226,7 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/items/SmKey.png",
+                "img": "images/items/SmKeyIcon.png",
                 "codes": "GAKey",
                 "inherit_codes": false
             },
@@ -262,7 +262,7 @@
         "codes": "Tatil",
         "stages": [
             {
-                "img": "images/items/SmKey.png",
+                "img": "images/items/SmKeyIcon.png",
                 "codes": "FKey",
                 "inherit_codes": false
             },
@@ -288,7 +288,7 @@
     {
         "name": "Mimic Chest Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "MimicKey"
     },
     {
@@ -487,115 +487,115 @@
     {
         "name": "Rundown House Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "RHKey"
     },
     {
         "name": "Goblin Queen Key",
         "type": "toggle",
-        "img": "images/items/BossKey.png",
+        "img": "images/items/BossKeyIcon.png",
         "codes": "GQKey"
     },
     {
         "name": "Goblin Apartment Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "GAKey"
     },
     {
         "name": "Abandoned Apartment Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "AAKey"
     },
     {
         "name": "Ghostly Castle Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "GCKey"
     },
     {
         "name": "Rose Garden Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "RGKey"
     },
     {
         "name": "Secret Garden Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "SGKey"
     },
     {
         "name": "Cherry Apartment Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "CAKey"
     },
     {
         "name": "The Beast's Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "TBKey"
     },
     {
         "name": "Collapsed Temple Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "CTKey"
     },
     {
         "name": "Demon Club Door Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "CDKey"
     },
     {
         "name": "Secret Club Door Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "SCDKey"
     },
     {
         "name": "Demon Boss Key",
         "type": "toggle",
-        "img": "images/items/BossKey.png",
+        "img": "images/items/BossKeyIcon.png",
         "codes": "DBKey"
     },
     {
         "name": "Forgotten Fungal Door Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "FFDKey"
     },
     {
         "name": "Slime Citadel Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "SCKey"
     },
     {
         "name": "Slimy Sub Boss Key",
         "type": "toggle",
-        "img": "images/items/SmKey.png",
+        "img": "images/items/SmKeyIcon.png",
         "codes": "SSBKey"
     },
     {
         "name": "Slime Boss Key",
         "type": "toggle",
-        "img": "images/items/BossKey.png",
+        "img": "images/items/BossKeyIcon.png",
         "codes": "SBKey"
     },
     {
         "name": "Frog Boss Key",
         "type": "toggle",
-        "img": "images/items/BossKey.png",
+        "img": "images/items/BossKeyIcon.png",
         "codes": "FBKey"
     },
     {
         "name": "Chaos Sanctum Key",
         "type": "toggle",
-        "img": "images/items/BossKey.png",
+        "img": "images/items/BossKeyIcon.png",
         "codes": "CSKey"
     },
     {
