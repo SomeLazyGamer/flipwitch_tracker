@@ -63,6 +63,17 @@
                           ]
                     },
                     {
+                        "name": "Wand Upgrade Scene",
+                        "hosted_item": "Reward",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPeach.png",
+                        "chest_unopened_img": "images/items/Peach.png",
+                        "clear_as_group": true,
+                        "access_rules":[
+                            "$hascount|Reward|4"
+                        ]
+                    },
+                    {
                         "name": "Quest Upgrade 2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
@@ -964,7 +975,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "MC3, CatCos"
                         ]
@@ -1004,10 +1015,9 @@
                     },
                     {
                         "name": "VIP Chest",
-                        "hosted_item": "Reward",
                         "item_count": 1,
-                        "chest_opened_img": "images/items/GPeach.png",
-                        "chest_unopened_img": "images/items/Peach.png",
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
                             "J2"
@@ -1115,7 +1125,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "NurseCos"
                         ]
@@ -1168,7 +1178,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "DomCos"
                         ]
@@ -1241,7 +1251,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "BunCos"
                         ]
@@ -1252,7 +1262,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "SSlime"
                         ]
@@ -1297,7 +1307,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "G2, GForm, DWings, BBubble"
                         ]
@@ -1402,7 +1412,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": true,
+                        "clear_as_group": false,
                         "access_rules":[
                             "MPass"
                         ]
@@ -1413,7 +1423,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "MPass"
                         ]
@@ -1424,7 +1434,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "MPass, BBubble"
                         ]
@@ -1447,7 +1457,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "NunCos"
                         ]
@@ -1458,7 +1468,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "PriestCos"
                         ]
@@ -1481,7 +1491,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "BBubble, AFeather"
                         ]
@@ -1615,7 +1625,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "FDeed"
                         ]
@@ -1637,7 +1647,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "MContract, MaidCos"
                         ]
@@ -1821,7 +1831,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "RatCos"
                         ]
@@ -2483,7 +2493,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "SFrag:, MikoCos"
                         ]
@@ -2544,7 +2554,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "FarmCos"
                         ]
@@ -2815,7 +2825,7 @@
                         "clear_as_group": false,
                         "access_rules":[
                             "ALetter",
-                            "DLetter"
+                            "MailCos"
                         ]
                     }
                 ]
@@ -3402,7 +3412,10 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "MailCos"
+                        ]
                     },
                     {
                         "name": "Long Distance Relationship",                        
@@ -3410,9 +3423,9 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
-                            "DLetter"
+                            "DLetter, MailCos"
                         ]
                     },
                     {
@@ -3999,12 +4012,11 @@
                         "clear_as_group": false
                     },
                     {
-                        "name": "Summoning Stone",                        
-                        "hosted_item": "Reward",
+                        "name": "Summoning Stone",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "AlchCos"
                         ]
@@ -4236,11 +4248,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Summoning Stones",
+                        "name": "Summoning Stones",                        
+                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "SStone:3, AlchCos"
                         ]
@@ -4604,7 +4617,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "FishCos, FBKey"
                         ]
