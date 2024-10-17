@@ -13,20 +13,28 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "3, 3",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "Gacha",
-                                "Peach"                                 
+                                "AGacha",
+                                "PGacha",
+                                "WCB"                                 
                             ],
                             [
-                                "FCat",
-                                "HP"
+                                "BGacha",
+                                "HP",
+                                "CCB"
                             ],
                             [
-                                "PPCrystal",
-                                "MP"
+                                "ADGacha",
+                                "MP",
+                                "PPCrystal"
+                            ],
+                            [
+                                "MGacha",
+                                "Peach",
+                                "FCat"
                             ]
                         ]
                     }

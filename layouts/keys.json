@@ -11,14 +11,14 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_size": "2",
                         "item_margin": "2, 2",
                         "h_alignment": "left",
                         "rows": [
                             [
                                 "RHKey",
                                 "SGKey",
-                                "SCDKey"                 
+                                "SCDKey",
+                                "VIPKey"                 
                             ],
                             [
                                 "AAKey",
@@ -46,7 +46,6 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_size": "2",
                         "item_margin": "2, 2",
                         "h_alignment": "left",
                         "rows": [
