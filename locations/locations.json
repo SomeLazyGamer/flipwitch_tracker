@@ -428,6 +428,13 @@
                 ],
                 "sections": [
                     {
+                        "name": "Rescue Great Fairy",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false
+                    },
+                    {
                         "name": "Fairy Costume",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
@@ -756,6 +763,13 @@
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
                         "clear_as_group": false
+                    },
+                    {
+                        "name": "Crystal Blockade Removal",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GCrystal.png",
+                        "chest_unopened_img": "images/items/Crystal.png",
+                        "clear_as_group": false
                     }
                 ],
                     "access_rules":[
@@ -880,16 +894,6 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
-                    {
-                        "name": "Animal Girls Gacha",
-                        "item_count": 10,
-                        "chest_opened_img": "images/items/GBall.png",
-                        "chest_unopened_img": "images/items/GachaBall.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "Gacha"
-                        ]
                     },
                     {
                         "name": "Boned",
@@ -1026,6 +1030,455 @@
                 ]
             },
             {
+                "name": "Angel & Demon Girls Gacha",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 215,
+                        "y": 550
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Angel & Demon Gacha Pull 1",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|AGacha|1"
+                          ]
+                    },
+                    {
+                        "name": "Angel & Demon Gacha Pull 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": true,
+                        "access_rules":[
+                            "$hascount|AGacha|2"
+                        ]
+                    },
+                    {
+                        "name": "Angel & Demon Gacha Pull 3",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|AGacha|3"
+                          ]
+                    },
+                    {
+                        "name": "Angel & Demon Gacha Pull 4",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|AGacha|4"
+                          ]
+                    },
+                    {
+                        "name": "Angel & Demon Gacha Pull 5",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|AGacha|5"
+                          ]
+                    },
+                    {
+                        "name": "Angel & Demon Gacha Pull 6",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|AGacha|6"
+                          ]
+                    },
+                    {
+                        "name": "Angel & Demon Gacha Pull 7",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|AGacha|7"
+                          ]
+                    },
+                    {
+                        "name": "Angel & Demon Gacha Pull 8",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|AGacha|8"
+                          ]
+                    },
+                    {
+                        "name": "Angel & Demon Gacha Pull 9",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|AGacha|9"
+                          ]
+                    },
+                    {
+                        "name": "Angel & Demon Gacha Pull 10",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|AGacha|10"
+                          ]
+                    }
+                ]
+            },
+            
+            {
+                "name": "Bunny Girl Gacha",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 215,
+                        "y": 600
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Bunny Gacha Pull 1",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|BGacha|1"
+                          ]
+                    },
+                    {
+                        "name": "Bunny Gacha Pull 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": true,
+                        "access_rules":[
+                            "$hascount|BGacha|2"
+                        ]
+                    },
+                    {
+                        "name": "Bunny Gacha Pull 3",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|BGacha|3"
+                          ]
+                    },
+                    {
+                        "name": "Bunny Gacha Pull 4",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|BGacha|4"
+                          ]
+                    },
+                    {
+                        "name": "Bunny Gacha Pull 5",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|BGacha|5"
+                          ]
+                    },
+                    {
+                        "name": "Bunny Gacha Pull 6",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|BGacha|6"
+                          ]
+                    },
+                    {
+                        "name": "Bunny Gacha Pull 7",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|BGacha|7"
+                          ]
+                    },
+                    {
+                        "name": "Bunny Gacha Pull 8",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|BGacha|8"
+                          ]
+                    },
+                    {
+                        "name": "Bunny Gacha Pull 9",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|BGacha|9"
+                          ]
+                    },
+                    {
+                        "name": "Bunny Gacha Pull 10",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|BGacha|10"
+                          ]
+                    }
+                ]
+            },           
+            {
+                "name": "Monster Girl Gacha",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 215,
+                        "y": 650
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Animal Gacha Pull 1",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|ADGacha|1"
+                          ]
+                    },
+                    {
+                        "name": "Animal Gacha Pull 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": true,
+                        "access_rules":[
+                            "$hascount|ADGacha|2"
+                        ]
+                    },
+                    {
+                        "name": "Animal Gacha Pull 3",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|ADGacha|3"
+                          ]
+                    },
+                    {
+                        "name": "Animal Gacha Pull 4",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|ADGacha|4"
+                          ]
+                    },
+                    {
+                        "name": "Animal Gacha Pull 5",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|ADGacha|5"
+                          ]
+                    },
+                    {
+                        "name": "Animal Gacha Pull 6",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|ADGacha|6"
+                          ]
+                    },
+                    {
+                        "name": "Animal Gacha Pull 7",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|ADGacha|7"
+                          ]
+                    },
+                    {
+                        "name": "Animal Gacha Pull 8",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|ADGacha|8"
+                          ]
+                    },
+                    {
+                        "name": "Animal Gacha Pull 9",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|ADGacha|9"
+                          ]
+                    },
+                    {
+                        "name": "Animal Gacha Pull 10",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|ADGacha|10"
+                          ]
+                    }
+                ]
+            },            
+            {
+                "name": "Monster Girls Gacha",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 215,
+                        "y": 700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Monster Gacha Pull 1",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|MGacha|1"
+                          ]
+                    },
+                    {
+                        "name": "Monster Gacha Pull 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": true,
+                        "access_rules":[
+                            "$hascount|MGacha|2"
+                        ]
+                    },
+                    {
+                        "name": "Monster Gacha Pull 3",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|MGacha|3"
+                          ]
+                    },
+                    {
+                        "name": "Monster Gacha Pull 4",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|MGacha|4"
+                          ]
+                    },
+                    {
+                        "name": "Monster Gacha Pull 5",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|MGacha|5"
+                          ]
+                    },
+                    {
+                        "name": "Monster Gacha Pull 6",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|MGacha|6"
+                          ]
+                    },
+                    {
+                        "name": "Monster Gacha Pull 7",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|MGacha|7"
+                          ]
+                    },
+                    {
+                        "name": "Monster Gacha Pull 8",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|MGacha|8"
+                          ]
+                    },
+                    {
+                        "name": "Monster Gacha Pull 9",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|MGacha|9"
+                          ]
+                    },
+                    {
+                        "name": "Monster Gacha Pull 10",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GBall.png",
+                        "chest_unopened_img": "images/items/GachaBall.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|MGacha|10"
+                          ]
+                    }
+                ]
+            },
+            {
                 "name": "Unmarked House",
                 "map_locations": [
                     {
@@ -1041,16 +1494,6 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
-                    {
-                        "name": "Angels & Demons Gacha",
-                        "item_count": 10,
-                        "chest_opened_img": "images/items/GBall.png",
-                        "chest_unopened_img": "images/items/GachaBall.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "Gacha"
-                        ]
                     }
                 ]
             },
@@ -1077,16 +1520,6 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
-                    {
-                        "name": "Monster Girls Gacha",
-                        "item_count": 10,
-                        "chest_opened_img": "images/items/GBall.png",
-                        "chest_unopened_img": "images/items/GachaBall.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "Gacha"
-                        ]
                     }
                 ]
             },
@@ -1324,16 +1757,6 @@
                     }
                 ],
                 "sections": [
-                    {
-                        "name": "Bunny Girls Gacha",
-                        "item_count": 10,
-                        "chest_opened_img": "images/items/GBall.png",
-                        "chest_unopened_img": "images/items/GachaBall.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "Gacha"
-                        ]
-                    },
                     {
                         "name": "Belle's Milkshake",
                         "item_count": 1,
@@ -3906,6 +4329,16 @@
                         "clear_as_group": false,
                         "access_rules":[
                             "FFDKey, BBubbleMale"
+                        ]
+                    },
+                    {
+                        "name": "Tutorial Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "FFDKey, BBubbleMale, SForm"
                         ]
                     }
                 ]

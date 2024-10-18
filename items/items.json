@@ -204,7 +204,7 @@
     {
         "name": "Cherry Apartment Key",
         "type": "toggle",
-        "img": "images/items/SmKeyIcon.png",
+        "img": "images/items/CAKey.png",
         "codes": "CAKey"
     },
     {
@@ -222,7 +222,7 @@
     {
         "name": "Goblin Apartment Key",
         "type": "toggle",
-        "img": "images/items/SmKeyIcon.png",
+        "img": "images/items/GAKey.png",
         "codes": "GAKey"
     },
     {
@@ -246,7 +246,7 @@
     {
         "name": "Fungal Key",
         "type": "toggle",
-        "img": "images/items/SmKeyIcon.png",
+        "img": "images/items/FKey.png",
         "codes": "FKey"
     },
     {
@@ -264,7 +264,7 @@
     {
         "name": "Mimic Chest Key",
         "type": "toggle",
-        "img": "images/items/SmKeyIcon.png",
+        "img": "images/items/MimicKey.png",
         "codes": "MimicKey"
     },
     {
@@ -330,13 +330,13 @@
     {
         "name": "Promo Gacha Coin",
         "type": "toggle",
-        "img": "images/items/GachaCoin.png",
+        "img": "images/items/PromoCoin.png",
         "codes": "PGacha"
     },
     {
         "name": "Animal Girl Gacha Coins",
         "type": "consumable",
-        "img": "images/items/GachaCoin.png",
+        "img": "images/items/AnimalCoin.png",
         "max_quantity": 10,
         "increment": 1,
         "decrement": 1,
@@ -348,7 +348,7 @@
     {
         "name": "Bunny Girl Gacha Coins",
         "type": "consumable",
-        "img": "images/items/GachaCoin.png",
+        "img": "images/items/BunnyCoin.png",
         "max_quantity": 10,
         "increment": 1,
         "decrement": 1,
@@ -360,7 +360,7 @@
     {
         "name": "Angel & Demon Girls Gacha Coins",
         "type": "consumable",
-        "img": "images/items/GachaCoin.png",
+        "img": "images/items/AngelDemonCoin.png",
         "max_quantity": 10,
         "increment": 1,
         "decrement": 1,
@@ -372,7 +372,7 @@
     {
         "name": "Monster Girl Gacha Coins",
         "type": "consumable",
-        "img": "images/items/GachaCoin.png",
+        "img": "images/items/MonsterCoin.png",
         "max_quantity": 10,
         "increment": 1,
         "decrement": 1,
@@ -432,13 +432,13 @@
     {
         "name": "Woods Crystal Blockade Removal",
         "type": "toggle",
-        "img": "images/items/Crystal.png",
+        "img": "images/items/WWCrystalBlock.png",
         "codes": "WCB"
     },
     {
         "name": "City Crystal Blockade Removal",
         "type": "toggle",
-        "img": "images/items/Crystal.png",
+        "img": "images/items/SCCrystalBlock.png",
         "codes": "CCB"
     },
     {
@@ -527,12 +527,6 @@
         "codes": "GQKey"
     },
     {
-        "name": "Goblin Apartment Key",
-        "type": "toggle",
-        "img": "images/items/SmKeyIcon.png",
-        "codes": "GAKey"
-    },
-    {
         "name": "Abandoned Apartment Key",
         "type": "toggle",
         "img": "images/items/SmKeyIcon.png",
@@ -561,12 +555,6 @@
         "type": "toggle",
         "img": "images/items/SmKeyIcon.png",
         "codes": "SGKey"
-    },
-    {
-        "name": "Cherry Apartment Key",
-        "type": "toggle",
-        "img": "images/items/SmKeyIcon.png",
-        "codes": "CAKey"
     },
     {
         "name": "The Beast's Key",
