@@ -51,7 +51,7 @@ LOCATION_MAPPING = {
     [44] = { "@Witchy Woods/Beatrix/Quest Upgrade 12" },
     [45] = { "@Witchy Woods/Beatrix/Quest Upgrade 13" },
     [46] = { "@Witchy Woods/Beatrix/Quest Upgrade 14" },
-    [48] = { "@Witchy Woods/Great Fairy/Fairy Costume" },
+    [48] = { "@Witchy Woods/Great Fairy/Fairy Reward" },
     [49] = { "@Witchy Woods/Before Great Fairy/Gacha Coin" },
     [50] = { "@Goblin Caves/Gobliana/Goblin Headshot" },
 

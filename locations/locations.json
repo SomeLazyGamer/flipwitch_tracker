@@ -80,7 +80,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|8"
+                            "$hascount|Reward|8, BBubbleFemale"
                           ]
                     },
                     {
@@ -90,7 +90,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|12"
+                            "$hascount|Reward|12, BBubbleFemale"
                           ]
                     },
                     {
@@ -100,7 +100,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|16"
+                            "$hascount|Reward|16, BBubbleFemale"
                           ]
                     },
                     {
@@ -110,7 +110,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|20"
+                            "$hascount|Reward|20, BBubbleFemale"
                           ]
                     },
                     {
@@ -120,7 +120,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|24"
+                            "$hascount|Reward|24, BBubbleFemale, BBubbleMale"
                           ]
                     },
                     {
@@ -130,7 +130,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|28"
+                            "$hascount|Reward|28, BBubbleFemale, BBubbleMale"
                           ]
                     },
                     {
@@ -140,7 +140,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|32"
+                            "$hascount|Reward|32, BBubbleFemale, BBubbleMale"
                           ]
                     },
                     {
@@ -150,7 +150,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|36"
+                            "$hascount|Reward|36, BBubbleFemale, BBubbleMale"
                           ]
                     },
                     {
@@ -160,7 +160,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|40"
+                            "$hascount|Reward|40, BBubbleFemale, BBubbleMale"
                           ]
                     }
                 ]
@@ -202,7 +202,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "BBell", "DMilk", "BMilk", "CAKey"
+                            "BBell"
                         ]
                     }
                 ]
@@ -435,7 +435,7 @@
                         "clear_as_group": false
                     },
                     {
-                        "name": "Fairy Costume",
+                        "name": "Fairy Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -601,10 +601,7 @@
                     }
                 ],
                 "access_rules":[
-                    "GHead",
-                    "GCard",
-                    "GAKey",
-                    "GLug"
+                    "GHead"
                 ]
             },
             {
@@ -674,7 +671,10 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "BBubbleFemale"
+                        ]
                     }
                 ]
             },
@@ -696,7 +696,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "FairyCos"
+                            "FairyCos, BBubbleFemale, BBubbleMale"
                         ]
                     },
                     {
@@ -733,9 +733,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "GCard",
-                            "GAKey",
-                            "GLug"
+                            "GCard, GHead"
                         ]
                     }
                 ]
@@ -794,7 +792,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "GobCos"
+                            "GobCos, BBubbleMale"
                         ]
                     }
                 ],
@@ -831,6 +829,9 @@
     },
     {
         "name": "Spirit City",
+        "access_rules":[
+            "WCB"
+        ],
         "children": [
             {
                 "name": "Toilets",
@@ -849,7 +850,7 @@
                         "chest_unopened_img": "images/items/HP.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "BBubbleMale"
+                            "BBubbleMale, BBubbleFemale"
                         ]
                     },
                     {
@@ -859,7 +860,7 @@
                         "chest_unopened_img": "images/items/MP.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "BBubbleMale"
+                            "BBubbleMale, BBubbleFemale"
                         ]
                     },
                     {
@@ -929,8 +930,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "BMilk", 
-                            "CAKey"
+                            "BMilk"
                         ]
                     },
                     {
@@ -981,7 +981,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "MC3, CatCos"
+                            "MC3, CatCos, BBubbleFemale"
                         ]
                     },
                     {
@@ -1024,13 +1024,13 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "J2"
+                            "VIPKey"
                         ]
                     }
                 ]
             },
             {
-                "name": "Angel & Demon Girls Gacha",
+                "name": "Animal Girl Gacha",
                 "map_locations": [
                     {
                         "map": "SC",
@@ -1040,7 +1040,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Angel & Demon Gacha Pull 1",
+                        "name": "Animal Gacha Pull 1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1050,7 +1050,7 @@
                           ]
                     },
                     {
-                        "name": "Angel & Demon Gacha Pull 2",
+                        "name": "Animal Gacha Pull 2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1060,7 +1060,7 @@
                         ]
                     },
                     {
-                        "name": "Angel & Demon Gacha Pull 3",
+                        "name": "Animal Gacha Pull 3",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1070,7 +1070,7 @@
                           ]
                     },
                     {
-                        "name": "Angel & Demon Gacha Pull 4",
+                        "name": "Animal Gacha Pull 4",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1080,7 +1080,7 @@
                           ]
                     },
                     {
-                        "name": "Angel & Demon Gacha Pull 5",
+                        "name": "Animal Gacha Pull 5",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1090,7 +1090,7 @@
                           ]
                     },
                     {
-                        "name": "Angel & Demon Gacha Pull 6",
+                        "name": "Animal Gacha Pull 6",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1100,7 +1100,7 @@
                           ]
                     },
                     {
-                        "name": "Angel & Demon Gacha Pull 7",
+                        "name": "Animal Gacha Pull 7",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1110,7 +1110,7 @@
                           ]
                     },
                     {
-                        "name": "Angel & Demon Gacha Pull 8",
+                        "name": "Animal Gacha Pull 8",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1120,7 +1120,7 @@
                           ]
                     },
                     {
-                        "name": "Angel & Demon Gacha Pull 9",
+                        "name": "Animal Gacha Pull 9",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1130,7 +1130,7 @@
                           ]
                     },
                     {
-                        "name": "Angel & Demon Gacha Pull 10",
+                        "name": "Animal Gacha Pull 10",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1255,7 +1255,7 @@
                 ]
             },           
             {
-                "name": "Monster Girl Gacha",
+                "name": "Angel & Demon Girls Gacha",
                 "map_locations": [
                     {
                         "map": "SC",
@@ -1265,7 +1265,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Animal Gacha Pull 1",
+                        "name": "Angel & Demon Gacha Pull 1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1275,7 +1275,7 @@
                           ]
                     },
                     {
-                        "name": "Animal Gacha Pull 2",
+                        "name": "Angel & Demon Gacha Pull 2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1285,7 +1285,7 @@
                         ]
                     },
                     {
-                        "name": "Animal Gacha Pull 3",
+                        "name": "Angel & Demon Gacha Pull 3",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1295,7 +1295,7 @@
                           ]
                     },
                     {
-                        "name": "Animal Gacha Pull 4",
+                        "name": "Angel & Demon Gacha Pull 4",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1305,7 +1305,7 @@
                           ]
                     },
                     {
-                        "name": "Animal Gacha Pull 5",
+                        "name": "Angel & Demon Gacha Pull 5",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1315,7 +1315,7 @@
                           ]
                     },
                     {
-                        "name": "Animal Gacha Pull 6",
+                        "name": "Angel & Demon Gacha Pull 6",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1325,7 +1325,7 @@
                           ]
                     },
                     {
-                        "name": "Animal Gacha Pull 7",
+                        "name": "Angel & Demon Gacha Pull 7",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1335,7 +1335,7 @@
                           ]
                     },
                     {
-                        "name": "Animal Gacha Pull 8",
+                        "name": "Angel & Demon Gacha Pull 8",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1345,7 +1345,7 @@
                           ]
                     },
                     {
-                        "name": "Animal Gacha Pull 9",
+                        "name": "Angel & Demon Gacha Pull 9",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1355,7 +1355,7 @@
                           ]
                     },
                     {
-                        "name": "Animal Gacha Pull 10",
+                        "name": "Angel & Demon Gacha Pull 10",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1560,7 +1560,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "NurseCos"
+                            "NurseCos, BBubbleFemale"
                         ]
                     }
                 ]
@@ -1583,7 +1583,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "GForm"
+                            "GForm, BBubbleFemale"
                         ]
                     }
                 ]
@@ -1613,7 +1613,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "DomCos"
+                            "DomCos, BBubbleFemale"
                         ]
                     }
                 ]
@@ -1635,12 +1635,9 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "MScale"
+                            "MScale, CCB"
                         ]
                     }
-                ],
-                "access_rules":[
-                    "ChaosK:1"
                 ]
             },
             {
@@ -1660,12 +1657,9 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "BBubbleMale"
+                            "BBubbleMale, BBubbleFemale, CCB"
                         ]
                     }
-                ],
-                "access_rules":[
-                    "ChaosK:1"
                 ]
             },
             {
@@ -1686,7 +1680,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "BunCos"
+                            "BunCos, BBubbleFemale"
                         ]
                     },
                     {
@@ -1731,7 +1725,7 @@
                         "clear_as_group": true,
 
                         "access_rules":[
-                            "GLug"
+                            "GLug, G1"
                         ]
                     },
                     {
@@ -1764,9 +1758,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "DMilk, R1, B1, MC1",
-                            "BMilk, R1, B1, MC1",
-                            "CAKey, R1, B1, MC1"
+                            "DMilk, R1, B1, MC1"
                         ]
                     },
                     {
@@ -1882,7 +1874,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "NunCos"
+                            "NunCos. BBubbleFemale"
                         ]
                     },
                     {
@@ -1893,7 +1885,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "PriestCos"
+                            "PriestCos, BBubbleMale"
                         ]
                     }
                 ]
@@ -1982,8 +1974,8 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather",
-                            "DWings"
+                            "AFeather, WCB",
+                            "DWings, WCB"
                         ]
                     },
                     {
@@ -1993,7 +1985,7 @@
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "GForm"
+                            "GForm, WCB"
                         ]
                     },
                     {
@@ -2003,7 +1995,7 @@
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "MScale"
+                            "MScale, WCB"
                         ]
                     },
                     {
@@ -2013,7 +2005,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "SForm"
+                            "SForm, WCB"
                         ]
                     }
                 ]
@@ -2021,8 +2013,8 @@
             {
                 "name": "Pig Mansion",
                 "access_rules":[
-                    "BBubbleMale",
-                    "AFeather"
+                    "WCB, BBubbleFemale, BBubbleMale",
+                    "WCB, BBubbleFemale, AFeather"
                 ],
                 "map_locations": [
                     {
@@ -2039,7 +2031,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "PigCos"
+                            "PigCos, BBubbleMale"
                         ]
                     },
                     {
@@ -2050,7 +2042,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "FDeed"
+                            "FKey, FDeed, PigCos, BBubbleMale"
                         ]
                     },
                     {
@@ -2060,8 +2052,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "MaidCos",
-                            "PigCos"
+                            "MaidCos, BBubbleFemale"
                         ]
                     },
                     {
@@ -2072,7 +2063,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "MContract, MaidCos"
+                            "MContract, MaidCos, BBubbleFemale"
                         ]
                     }
                     
@@ -2080,6 +2071,9 @@
             },
             {
                 "name": "Lone House",
+                "access_rules":[
+                    "WCB, BBubbleFemale, AFeather"
+                ],
                 "map_locations": [
                     {
                         "map": "SC",
@@ -2093,10 +2087,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "AFeather"
-                        ]
+                        "clear_as_group": false
                     }
                 ]
             }
@@ -2106,7 +2097,7 @@
     {
         "name": "Shady Sewers",
         "access_rules":[
-            "SForm"
+            "SForm, GForm"
         ],
         "children": [
             {
@@ -2185,6 +2176,9 @@
             },
             {
                 "name": "Shady Gauntlet",
+                "access_rules":[
+                    "BBubbleMale, BBubbleFemale, Feather"
+                ],
                 "map_locations": [
                     {
                         "map": "SC",
@@ -2205,10 +2199,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "AFeather"
-                        ]
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -2246,7 +2237,11 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "BBubbleMale",
+                            "AFeather"
+                        ]
                     },
                     {
                         "name": "Cardio Day",
@@ -2256,7 +2251,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "RatCos"
+                            "RatCos, BBubbleMale"
                         ]
                     }
                 ]
@@ -2302,7 +2297,7 @@
     {
         "name": "Early Ghost Castle",
         "access_rules":[
-            "ChaosK:1"
+            "WCB"
         ],
         "children": [
             {
@@ -2328,28 +2323,6 @@
                 ]
             },
             {
-                "name": "Ghost Form",
-                "map_locations": [
-                    {
-                        "map": "GC",
-                        "x": 1313,
-                        "y": 427
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Big Chest",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "SGKey"
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "Slime Form Coins",
                 "access_rules":[
                     "GCKey, SForm"
@@ -2364,7 +2337,7 @@
                 "sections": [
                     {
                         "name": "Ground Chests",
-                        "item_count": 1,
+                        "item_count": 2,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
@@ -2387,8 +2360,8 @@
     {
         "name": "Ghost Castle",
         "access_rules":[
-            "ChaosK:1, GCKey, BBubbleMale",
-            "ChaosK:1, SGKey, GForm"
+            "WCB, GCKey, BBubbleMale, BBubbleFemale",
+            "WCB, GCKey, SGKey, GForm"
         ],
         "children": [
             {
@@ -2428,7 +2401,11 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "GCKey, BBubbleMale, BBubbleFemale",
+                            "GCKey, BBubbleMale, AFeather, DWings"
+                        ]
                     }
                 ]
             },
@@ -2460,8 +2437,9 @@
     {
         "name": "Ghost Castle Rose Garden",
         "access_rules":[
-            "ChaosK:1, BBubbleMale, GCKey, RGKey",
-            "ChaosK:1, SGKey, GForm"
+            "WCB, GCKey, BBubbleMale, BBubbleFemale, RGKey",
+            "WCB, GCKey, SGKey, GForm, AFeather",
+            "WCB, GCKey, SGKey, GForm, DWings"
         ],
         "children": [
             {
@@ -2482,13 +2460,18 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "BClothes"
+                            "BClothes, BBubbleMale"
                         ]
                     }
                 ]
             },
             {
                 "name": "Elf Merchant",
+                "access_rules": [
+                    "BBubbleFemale, BBubbleMale",
+                    "AFeather",
+                    "DWings"
+                ]
                 "map_locations": [
                     {
                         "map": "GC",
@@ -2509,10 +2492,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "[AFeather]"
-                        ]
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -2532,6 +2512,28 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Ghost Form",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 1313,
+                        "y": 427
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Big Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "SGKey"
+                        ]
                     }
                 ]
             },
@@ -2567,8 +2569,9 @@
     {
         "name": "Top of Ghost Castle",
         "access_rules":[
-            "ChaosK:1, BBubbleMale, SGKey, GForm",
-            "ChaosK:1, BBubbleMale, GCKey, RGKey, GForm"
+            "WCB, GCKey, BBubbleMale, BBubbleFemale, GForm, RGKey",
+            "WCB, GCKey, BBubbleMale, BBubbleFemale, GForm, SGKey, AFeathers",
+            "WCB, GCKey, BBubbleMale, BBubbleFemale, GForm, SGKey, DWings"
         ],
         "children": [  
             {
