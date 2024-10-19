@@ -57,6 +57,7 @@ ITEM_MAPPING = {
     --[49] = { "Wand Upgrade", "toggle" },
     [50] = { "Peach", "consumable" },
     [51] = { "BBubbleMale", "toggle" },
+    [51] = { "BBubbleFemale", "toggle" },
     [52] = { "GCrystal", "toggle" },
     [53] = { "PPCrystal", "toggle" },
     [54] = { "DWings", "toggle" },
