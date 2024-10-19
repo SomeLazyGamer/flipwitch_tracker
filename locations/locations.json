@@ -3881,8 +3881,8 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "WCB, DWings, GForm, DLetter, ALetter, MailCos, BBubbleMale",
-                            "WCB, AFeather, GForm, DLetter, ALetter, MailCos, BBubbleMale"
+                            "WCB, CCB, GForm, DLetter, ALetter, MailCos, BBubbleMale, BBubbleFemale, DWings",
+                            "WCB, CCB, GForm, DLetter, ALetter, MailCos, BBubbleMale, AFeather"
                         ]
                     },
                     {

@@ -66,7 +66,7 @@ ITEM_MAPPING = {
     --[57] = { "Lucky Coin", "toggle" },
     --[58] = { "Loose Change", "toggle" },
     [59] = { "WCB", "toggle" },
-    [60] = { "GCB", "toggle" },
+    [60] = { "CCB", "toggle" },
     [61] = { "BlackCos", "toggle" },
     [63] = { "RedCos", "toggle" },
     [64] = { "NunCos", "toggle" },
@@ -109,10 +109,10 @@ ITEM_MAPPING = {
     --[104] = { "Sex Thoughts", "toggle" },
     --[105] = { "Armor Barrier", "toggle" },
     [106] = { "Peachy Peach Upgrade", "toggle" },
-    [107] = { "AGacha", "progressive" },
-    [108] = { "BGacha", "progressive" },
-    [109] = { "ADGacha", "progressive" },
-    [110] = { "MGacha", "progressive" },
+    [107] = { "AGacha", "consumable" },
+    [108] = { "BGacha", "consumable" },
+    [109] = { "ADGacha", "consumable" },
+    [110] = { "MGacha", "consumable" },
     [111] = { "PGacha", "toggle" },
 
     --Warps
