@@ -105,20 +105,6 @@
         "codes": "RatCos"
     },
     {
-        "name": "Genders/Bewitched Bubble",
-        "type": "toggle",
-        "img": "images/items/BewitchedMale.png",
-        "codes": "BBubbleMale",
-        "loop": true
-    },
-    {
-        "name": "Genders/Bewitched Bubble",
-        "type": "toggle_badged",
-        "base_item": "BBubbleMale",
-        "img": "images/items/BewitchedFemale.png",
-        "codes": "BBubbleFemale"
-    },
-    {
         "name": "Goblin Crystal",
         "type": "toggle",
         "img": "images/items/Crystal.png",
@@ -141,11 +127,18 @@
         "type": "toggle",
         "img": "images/items/MermaidS.png",
         "codes": "MScale"
-    },{
+    },
+    {
         "name": "Fairy Bubble",
         "type": "toggle",
         "img": "images/items/FairyB.png",
         "codes": "FBubble"
+    },
+    {
+        "name": "Bewitched Bubble",
+        "type": "toggle",
+        "img": "images/items/Bewitched.png",
+        "codes": "BBubble"
     },
     {
         "name": "Ghost Form",
@@ -627,5 +620,65 @@
         "type": "consumable",
         "codes": "Reward",
         "max_quantity": 40
+    },
+    {
+      "name": "Gender",
+      "type": "progressive",
+      "loop": true,
+      "allow_disabled": false,
+      "stages": [
+        {
+            "img": "images/items/BewitchedFemale.png",
+            "name": "Starting Gender - Female",
+            "codes": "StartingGender,BBubbleFemale"
+        },
+        {
+          "img": "images/items/BewitchedMale.png",
+          "name": "Starting Gender - Male",
+          "codes": "StartingGender,BBubbleMale",
+          "inherit_codes": false
+        }
+        
+      ]
+    },
+    {
+      "name": "Gacha Shuffle",
+      "type": "progressive",
+      "loop": true,
+      "allow_disabled": false,
+      "stages": [
+        {
+            "img": "images/items/GCoin.png",
+            "name": "Shuffled Gacha Machines - Off",
+            "codes": "GachaShuffle,GachaOff",
+            "inherit_codes": false
+        },
+        {
+          "img": "images/items/GachaCoin.png",
+          "name": "Shuffled Gacha Machines - On",
+          "codes": "GachaShuffle,GachaOn"
+        }
+        
+      ]
+    },
+    {
+      "name": "Chaos Key Shuffle",
+      "type": "progressive",
+      "loop": true,
+      "allow_disabled": false,
+      "stages": [
+        {
+            "img": "images/items/GCoin.png",
+            "name": "Shuffled Chaos Pieces - Off",
+            "codes": "ChaosShuffle,GachaOff",
+            "inherit_codes": false
+        },
+        {
+          "img": "images/items/ChaosK.png",
+          "name": "Shuffled Chaos Pieces - On",
+          "codes": "ChaosShuffle,GachaOn"
+        }
+        
+      ]
     }
 ]

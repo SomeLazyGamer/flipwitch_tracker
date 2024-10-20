@@ -39,6 +39,7 @@ Tracker:AddLayouts("layouts/main.json")
 Tracker:AddLayouts("layouts/quest.json")
 Tracker:AddLayouts("layouts/misc.json")
 Tracker:AddLayouts("layouts/keys.json")
+Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 

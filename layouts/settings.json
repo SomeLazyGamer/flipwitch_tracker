@@ -1,5 +1,5 @@
 {
-    "maingrid": {
+    "settingsgrid": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -16,19 +16,8 @@
                         "item_h_alignment": "center",
                         "rows": [
                             [
-                                "FBubble",
-                                "DWings",
-                                "ChaosK"                                   
-                            ],
-                            [
-                                "BBubble",
-                                "AFeather",
-                                "GForm"
-                            ],
-                            [
-                                "GCrystal",
-                                "MScale",
-                                "SForm"
+                                "StartingGender",
+                                "GachaShuffle"                  
                             ]
                         ]
                     }

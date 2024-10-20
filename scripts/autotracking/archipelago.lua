@@ -10,6 +10,7 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+GACHA_COUNTS = {}
 
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -17,6 +18,13 @@ function onClear(slot_data)
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
+    LOCAL_ITEMS = {}
+    GLOBAL_ITEMS = {}
+
+    GACHA_COUNTS = {}
+    for i=652,691 do
+        GACHA_COUNTS[i] = false
+    end
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
         if v[1] then
@@ -58,14 +66,31 @@ function onClear(slot_data)
             end
         end
     end
-    LOCAL_ITEMS = {}
-    GLOBAL_ITEMS = {}
-    -- manually run snes interface functions after onClear in case we are already ingame
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here
-    end
-end
 
+    if slot_data['starting_gender'] then
+        local obj = Tracker:FindObjectForCode("StartingGender")
+        local stage = slot_data['starting_gender']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['gachapon'] then
+        local obj = Tracker:FindObjectForCode("GachaShuffle")
+        local stage = slot_data['gachapon']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['shuffle_chaos_pieces'] then
+        local obj = Tracker:FindObjectForCode("ChaosShuffle")
+        local stage = slot_data['shuffle_chaos_pieces']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+
+
+end
 -- called when an item gets collected
 function onItem(index, item_id, item_name, player_number)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -128,9 +153,6 @@ function onItem(index, item_id, item_name, player_number)
         print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here for local item tracking
-    end
 end
 
 -- called when a location gets cleared
@@ -148,6 +170,43 @@ function onLocation(location_id, location_name)
     if not v[1] then
         return
     end
+    if (location_id >= 652 and location_id <= 691) then
+            -- gacha reward locations
+        
+            GACHA_COUNTS[location_id] = true
+        
+            local function setObj(str)
+                local obj = Tracker:FindObjectForCode(str)
+                if obj then
+                    obj.AvailableChestCount = obj.AvailableChestCount - 1
+                elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                    print(string.format("onLocation: could not find object for code %s", str))
+                end
+            end
+
+            local count = 0
+            for i = 652, 661 do--Animal Girls
+                if GACHA_COUNTS[i] then count = count + 1 end
+                setObj("@Spirit City/Animal Gacha/Animal Gacha Pull "..count)
+            end
+            count = 0
+            for i = 662, 671 do--Bunny Girls
+                if GACHA_COUNTS[i] then count = count + 1 end
+                setObj("@Spirit City/Bunny Gacha/Bunny Gacha Pull "..count)
+            end
+            count = 0
+            for i = 672, 681 do--AngelDemon Girls
+                if GACHA_COUNTS[i] then count = count + 1 end
+                setObj("@Spirit City/Angel & Demon Gacha/Angel & Demon Gacha Pull "..count)
+            end
+            count = 0
+            for i = 682, 691 do--Monster Girls
+                if GACHA_COUNTS[i] then count = count + 1 end
+                setObj("@Spirit City/Monster Gacha/Monster Gacha Pull "..count)
+            end
+        
+            return
+        end
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
         if v[1]:sub(1, 1) == "@" then
