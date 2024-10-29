@@ -3383,11 +3383,7 @@
                         "item_count": 2,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "BBubbleMale",
-                            "BBubble"
-                        ]
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -3975,10 +3971,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chest",
+                        "name": "Gacha Coin",
                         "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_opened_img": "images/items/GCoin.png",
+                        "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules":[
                             "BBubbleMale",
@@ -4198,10 +4194,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Gacha Coin",
+                        "name": "Chest",
                         "item_count": 1,
-                        "chest_opened_img": "images/items/GCoin.png",
-                        "chest_unopened_img": "images/items/GachaCoin.png",
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
                             "AFeather, BBubble",
