@@ -34,6 +34,9 @@
             },
             {
                 "name": "Beatrix",
+                "access_rules":[
+                    "FBubble"
+                ],
                 "map_locations": [
                     {
                         "map": "WW",
@@ -44,14 +47,10 @@
                 "sections": [
                     {
                         "name": "Magical Mentor & Bewitched Bubble",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": true,
-                        "access_rules":[
-                            "FBubble"
-                        ]
+                        "clear_as_group": true
                     },
                     {
                         "name": "Quest Upgrade 1",
@@ -62,17 +61,6 @@
                         "access_rules": [
                             "$hascount|Reward|4"
                           ]
-                    },
-                    {
-                        "name": "Wand Upgrade Scene",
-                        "hosted_item": "Reward",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GPeach.png",
-                        "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": true,
-                        "access_rules":[
-                            "$hascount|Reward|4"
-                        ]
                     },
                     {
                         "name": "Quest Upgrade 2",
@@ -92,12 +80,23 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
+                            "$hascount|Reward|8, BBubbleFemale",
+                            "$hascount|Reward|8, BBubble"
+                          ]
+                    },
+                    {
+                        "name": "Quest Upgrade 4",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules": [
                             "$hascount|Reward|12, BBubbleFemale",
                             "$hascount|Reward|12, BBubble"
                           ]
                     },
                     {
-                        "name": "Quest Upgrade 4",
+                        "name": "Quest Upgrade 5",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -108,24 +107,14 @@
                           ]
                     },
                     {
-                        "name": "Quest Upgrade 5",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "$hascount|Reward|20, BBubbleFemale",
-                            "$hascount|Reward|20, BBubble"
-                          ]
-                    },
-                    {
                         "name": "Quest Upgrade 6",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|24, BBubble"
+                            "$hascount|Reward|16, BBubble",
+                            "$hascount|Reward|20, BBubbleFemale"
                           ]
                     },
                     {
@@ -135,7 +124,8 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|28, BBubble"
+                            "$hascount|Reward|20, BBubble",
+                            "$hascount|Reward|20, BBubbleFemale"
                           ]
                     },
                     {
@@ -145,7 +135,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|32, BBubble"
+                            "$hascount|Reward|24, BBubble"
                           ]
                     },
                     {
@@ -155,11 +145,51 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|36, BBubble"
+                            "$hascount|Reward|24, BBubble"
                           ]
                     },
                     {
                         "name": "Quest Upgrade 10",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|Reward|28, BBubble"
+                          ]
+                    },
+                    {
+                        "name": "Quest Upgrade 11",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|Reward|32, BBubble"
+                          ]
+                    },
+                    {
+                        "name": "Quest Upgrade 12",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|Reward|32, BBubble"
+                          ]
+                    },
+                    {
+                        "name": "Quest Upgrade 13",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$hascount|Reward|36, BBubble"
+                          ]
+                    },
+                    {
+                        "name": "Quest Upgrade 14",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -201,7 +231,7 @@
                 "sections": [
                     {
                         "name": "Need My Cowbell",
-                        "hosted_item": "B1, Reward",
+                        "hosted_item": "B1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -305,7 +335,6 @@
                     },
                     {
                         "name": "Giant Chest Key",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -432,13 +461,6 @@
                     }
                 ],
                 "sections": [
-                    {
-                        "name": "Rescue Great Fairy",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
-                    },
                     {
                         "name": "Fairy Reward",
                         "item_count": 1,
@@ -698,7 +720,6 @@
                 "sections": [
                     {
                         "name": "Fairy Mushrooms",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -735,7 +756,7 @@
                     },
                     {
                         "name": "A Model Goblin",
-                        "hosted_item": "G1, Reward",
+                        "hosted_item": "G1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -769,13 +790,6 @@
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
                         "clear_as_group": false
-                    },
-                    {
-                        "name": "Crystal Blockade Removal",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GCrystal.png",
-                        "chest_unopened_img": "images/items/Crystal.png",
-                        "clear_as_group": false
                     }
                 ],
                     "access_rules":[
@@ -794,7 +808,6 @@
                 "sections": [
                     {
                         "name": "Goblin Stud",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -907,7 +920,7 @@
                     },
                     {
                         "name": "Boned",
-                        "hosted_item": "R2, Reward",
+                        "hosted_item": "R2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -915,7 +928,7 @@
                     },
                     {
                         "name": "Legendary Chewtoy",
-                        "hosted_item": "R3, Reward",
+                        "hosted_item": "R3",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -933,7 +946,7 @@
                     },
                     {
                         "name": "Deluxe Milkshake",
-                        "hosted_item": "B2, Reward",
+                        "hosted_item": "B2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -954,7 +967,7 @@
                     },
                     {
                         "name": "Rat Problem",
-                        "hosted_item": "B3, Reward",
+                        "hosted_item": "B3",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -965,7 +978,7 @@
                     },
                     {
                         "name": "Ghost Hunters",
-                        "hosted_item": "MC2, Reward",
+                        "hosted_item": "MC2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -973,7 +986,7 @@
                     },
                     {
                         "name": "Haunted Bathroom",
-                        "hosted_item": "MC3, Reward",
+                        "hosted_item": "MC3",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -984,7 +997,6 @@
                     },
                     {
                         "name": "Ectogasm",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -996,7 +1008,7 @@
                     },
                     {
                         "name": "Jelly Mushroom",
-                        "hosted_item": "M1, Reward",
+                        "hosted_item": "M1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1007,7 +1019,7 @@
                     },
                     {
                         "name": "Booze Bunny",
-                        "hosted_item": "J1, Reward",
+                        "hosted_item": "J1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1018,7 +1030,7 @@
                     },
                     {
                         "name": "Help Wanted",
-                        "hosted_item": "J2, Reward",
+                        "hosted_item": "J2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1563,7 +1575,6 @@
                 "sections": [
                     {
                         "name": "Medical Emergency",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1587,7 +1598,7 @@
                 "sections": [
                     {
                         "name": "Let the Dog Out",
-                        "hosted_item": "R1, Reward",
+                        "hosted_item": "R1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1618,7 +1629,6 @@
                     },
                     {
                         "name": "Stop Democracy",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1686,7 +1696,6 @@
                 "sections": [
                     {
                         "name": "The Bunny Club",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1698,7 +1707,6 @@
                     },
                     {
                         "name": "Find the Silky Slime",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1731,7 +1739,7 @@
                     },
                     {
                         "name": "Emotional Baggage",
-                        "hosted_item": "G2, Reward",
+                        "hosted_item": "G2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1743,7 +1751,6 @@
                     },
                     {
                         "name": "Dirty Debut",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1777,7 +1784,7 @@
                     },
                     {
                         "name": "Devilicious!",
-                        "hosted_item": "K1, Reward",
+                        "hosted_item": "K1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1789,7 +1796,6 @@
                     },
                     {
                         "name": "What's a Daikon?",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1848,7 +1854,6 @@
                     },
                     {
                         "name": "Girl's Gallery",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1860,7 +1865,6 @@
                     },
                     {
                         "name": "Boy's Gallery",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1884,7 +1888,6 @@
                 "sections": [
                     {
                         "name": "Priestess of Whorus",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1896,7 +1899,6 @@
                     },
                     {
                         "name": "A Priest's Duties",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1920,7 +1922,6 @@
                 "sections": [
                     {
                         "name": "Alley Cat",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -2056,7 +2057,6 @@
                     },
                     {
                         "name": "Tatil's Tale",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -2079,7 +2079,6 @@
                     },
                     {
                         "name": "Signing Bonus",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -2270,7 +2269,6 @@
                     },
                     {
                         "name": "Cardio Day",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -2482,7 +2480,7 @@
                 "sections": [
                     {
                         "name": "Panty Raid",
-                        "hosted_item": "MC1, Reward",
+                        "hosted_item": "MC1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -2948,7 +2946,6 @@
                 "sections": [
                     {
                         "name": "Unlucky Cat Statue",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -3010,7 +3007,6 @@
                 "sections": [
                     {
                         "name": "Harvest Season",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -3917,7 +3913,6 @@
                     },
                     {
                         "name": "Long Distance Relationship",                        
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -4782,7 +4777,6 @@
                 "sections": [
                     {
                         "name": "Summoning Stones",                        
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -5142,7 +5136,6 @@
                 "sections": [
                     {
                         "name": "Seamen, With an A",
-                        "hosted_item": "Reward",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",

@@ -49,7 +49,7 @@ ITEM_MAPPING = {
     --[46] = { "HP Heal", "toggle" },
     --[47] = { "MP Heal", "toggle" },
     --[48] = { "Peach Recharge", "toggle" },
-    --[49] = { "Armor Barrier", "consumable" },
+    [49] = { "Armor Barrier", "consumable" },
     [50] = { "Peachy Peach Upgrade", "toggle" },
 
     --Gacha
@@ -61,8 +61,6 @@ ITEM_MAPPING = {
 
     --Shop Items
     [151] = { "FBubble", "toggle" },
-    [160] = { "FCat", "toggle" },
-    [167] = { "PPCrystal", "toggle" },
     [168] = { "CatCos", "toggle" },
     [169] = { "GobCos", "toggle" },
     [170] = { "NunCos", "toggle" },
@@ -104,7 +102,7 @@ ITEM_MAPPING = {
     [223] = { "MimicKey", "toggle" },
     [224] = { "FKey", "toggle" },
     [225] = { "GAKey", "toggle" },
-    --[226] = { "Sex Experience", "consumable" },
+    [226] = { "Reward", "consumable" },
     [227] = { "BunCos", "toggle" },
     [228] = { "AAKey", "toggle" },
 
@@ -181,6 +179,8 @@ ITEM_MAPPING = {
     --[157] = { "Ring Of The Sun", "toggle" },
     --[158] = { "Slime Sentry", "toggle" },
     --[159] = { "Haunted Scythe", "toggle" },
+    --[160] = { "FCat", "toggle" },
+    --[167] = { "PPCrystal", "toggle" },
     --[161] = { "Heart Necklace", "toggle" },
     --[162] = { "Star Bracelet", "toggle" },
     --[163] = { "Cursed Talisman", "toggle" },

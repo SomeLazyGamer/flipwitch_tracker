@@ -411,16 +411,16 @@
         "codes": "Peach"
     },
     {
-        "name": "Portable Portal",
-        "type": "toggle",
-        "img": "images/items/PortPort.png",
-        "codes": "PPCrystal"
-    },
-    {
-        "name": "Fortune Cat",
-        "type": "toggle",
-        "img": "images/items/FortuneCat.png",
-        "codes": "FCat"
+        "name": "Protective Barrier Upgrades",
+        "type": "consumable",
+        "img": "images/items/NeckBarrier.png",
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "Armor Barrier"
     },
     {
         "name": "Woods Crystal Blockade Removal",
@@ -616,8 +616,9 @@
         "codes": "CSKey"
     },
     {
-        "name": "Completed Quests",
+        "name": "Sex Experience",
         "type": "consumable",
+        "img": "images/items/QReward.png",
         "codes": "Reward",
         "max_quantity": 40
     },
@@ -642,41 +643,96 @@
       ]
     },
     {
-      "name": "Gacha Shuffle",
+      "name": "Shopsanity",
       "type": "progressive",
       "loop": true,
       "allow_disabled": false,
       "stages": [
         {
             "img": "images/items/GCoin.png",
-            "name": "Shuffled Gacha Machines - Off",
+            "name": "Shopsanity - Off",
+            "codes": "Shopsanity,ShopOff"
+        },
+        {
+          "img": "images/items/GoldCoin.png",
+          "name": "Shopsanity - On",
+          "codes": "Shopsanity,ShopOn",
+          "inherit_codes": false
+        }
+        
+      ]
+    },
+    {
+      "name": "Stat Shuffle",
+      "type": "progressive",
+      "loop": true,
+      "allow_disabled": false,
+      "stages": [
+        {
+            "img": "images/items/GStat.png",
+            "name": "Stat Shuffle - Off",
+            "codes": "StatShuffle,StatOff"
+        },
+        {
+          "img": "images/items/Stat.png",
+          "name": "Stat Shuffle - On",
+          "codes": "StatShuffle,StatOn",
+          "inherit_codes": false
+        }
+        
+      ]
+    },
+    {
+      "name": "Gacha Shuffle",
+      "type": "progressive",
+      "loop": false,
+      "allow_disabled": false,
+      "stages": [
+        {
+            "img": "images/items/GCoin.png",
+            "name": "Shuffled Gacha - Off",
             "codes": "GachaShuffle,GachaOff",
             "inherit_codes": false
         },
         {
           "img": "images/items/GachaCoin.png",
-          "name": "Shuffled Gacha Machines - On",
+          "name": "Shuffled Gacha - Coins Only",
+          "codes": "GachaShuffle,GachaCoins"
+        },
+        {
+          "img": "images/items/GachaAll.png",
+          "name": "Shuffled Gacha Machines - Coins And Prizes",
           "codes": "GachaShuffle,GachaOn"
         }
         
       ]
     },
     {
-      "name": "Chaos Key Shuffle",
+      "name": "Quest Shuffle",
       "type": "progressive",
-      "loop": true,
+      "loop": false,
       "allow_disabled": false,
       "stages": [
         {
-            "img": "images/items/GCoin.png",
-            "name": "Shuffled Chaos Pieces - Off",
-            "codes": "ChaosShuffle,GachaOff",
+            "img": "images/items/GPeach.png",
+            "name": "Quest For Sex - Vanilla",
+            "codes": "QuestShuffle,QuestOff",
             "inherit_codes": false
         },
         {
-          "img": "images/items/ChaosK.png",
-          "name": "Shuffled Chaos Pieces - On",
-          "codes": "ChaosShuffle,GachaOn"
+          "img": "images/items/QReward.png",
+          "name": "Quest For Sex - Shuffled Sensei Rewards",
+          "codes": "QuestShuffle,QuestSensei"
+        },
+        {
+          "img": "images/items/Peach.png",
+          "name": "Quest For Sex - Shuffled Quest Items",
+          "codes": "QuestShuffle,QuestItems"
+        },
+        {
+          "img": "images/items/QShuffle.png",
+          "name": "Quest For Sex - Shuffled Quests & Rewards",
+          "codes": "QuestShuffle,QuestOn"
         }
         
       ]

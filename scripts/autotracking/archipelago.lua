@@ -74,16 +74,30 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
-    if slot_data['gachapon'] then
-        local obj = Tracker:FindObjectForCode("GachaShuffle")
-        local stage = slot_data['gachapon']
+    if slot_data['shopsanity'] then
+        local obj = Tracker:FindObjectForCode("Shopsanity")
+        local stage = slot_data['shopsanity']
         if obj then
             obj.CurrentStage = stage
         end
     end
-    if slot_data['shuffle_chaos_pieces'] then
-        local obj = Tracker:FindObjectForCode("ChaosShuffle")
-        local stage = slot_data['shuffle_chaos_pieces']
+    if slot_data['stat_shuffle'] then
+        local obj = Tracker:FindObjectForCode("StatShuffle")
+        local stage = slot_data['stat_shuffle']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['gachapon_shuffle'] then
+        local obj = Tracker:FindObjectForCode("GachaShuffle")
+        local stage = slot_data['gachapon_shuffle']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['quest_for_sex'] then
+        local obj = Tracker:FindObjectForCode("QuestShuffle")
+        local stage = slot_data['quest_for_sex']
         if obj then
             obj.CurrentStage = stage
         end
@@ -170,7 +184,7 @@ function onLocation(location_id, location_name)
     if not v[1] then
         return
     end
-    if (location_id >= 652 and location_id <= 691) then
+    if (location_id >= 602 and location_id <= 641) then
             -- gacha reward locations
         
             GACHA_COUNTS[location_id] = true
@@ -185,22 +199,22 @@ function onLocation(location_id, location_name)
             end
 
             local count = 0
-            for i = 652, 661 do--Animal Girls
+            for i = 602, 611 do--Animal Girls
                 if GACHA_COUNTS[i] then count = count + 1 end
                 setObj("@Spirit City/Animal Gacha/Animal Gacha Pull "..count)
             end
             count = 0
-            for i = 662, 671 do--Bunny Girls
+            for i = 612, 621 do--Bunny Girls
                 if GACHA_COUNTS[i] then count = count + 1 end
                 setObj("@Spirit City/Bunny Gacha/Bunny Gacha Pull "..count)
             end
             count = 0
-            for i = 672, 681 do--AngelDemon Girls
+            for i = 622, 631 do--AngelDemon Girls
                 if GACHA_COUNTS[i] then count = count + 1 end
                 setObj("@Spirit City/Angel & Demon Gacha/Angel & Demon Gacha Pull "..count)
             end
             count = 0
-            for i = 682, 691 do--Monster Girls
+            for i = 632, 641 do--Monster Girls
                 if GACHA_COUNTS[i] then count = count + 1 end
                 setObj("@Spirit City/Monster Gacha/Monster Gacha Pull "..count)
             end
@@ -245,5 +259,3 @@ end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     Archipelago:AddLocationHandler("location handler", onLocation)
 end
--- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)

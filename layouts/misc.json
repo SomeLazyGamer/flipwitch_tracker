@@ -19,22 +19,22 @@
                             [
                                 "AGacha",
                                 "PGacha",
-                                "WCB"                                 
+                                "HP"                                 
                             ],
                             [
                                 "BGacha",
-                                "HP",
-                                "CCB"
+                                "WCB",
+                                "MP"
                             ],
                             [
                                 "ADGacha",
-                                "MP",
-                                "PPCrystal"
+                                "CCB",
+                                "Peach"
                             ],
                             [
                                 "MGacha",
-                                "Peach",
-                                "FCat"
+                                "Reward",
+                                "Armor Barrier"
                             ]
                         ]
                     }

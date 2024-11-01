@@ -18,6 +18,13 @@
                             [
                                 "StartingGender",
                                 "GachaShuffle"                  
+                            ],
+                            [
+                                "Shopsanity",
+                                "QuestShuffle"                  
+                            ],
+                            [
+                                "StatShuffle"                 
                             ]
                         ]
                     }
