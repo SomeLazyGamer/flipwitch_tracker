@@ -467,8 +467,9 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "ChaosK:1"
+                        "access_rules": [
+                            "GQKey, BBubbleMale",
+                            "GQKey, BBubble"
                         ]
                     }
                 ]
