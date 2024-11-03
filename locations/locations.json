@@ -59,7 +59,8 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$hascount|Reward|4"
+                            "$hascount|Reward|4, BBubbleFemale",
+                            "$hascount|Reward|4, BBubble"
                           ]
                     },
                     {
@@ -365,8 +366,7 @@
                     }
                 ],
                 "access_rules": [
-                    "GAKey",
-                    "GLug"
+                    "GAKey"
                 ]
             },
             {
@@ -718,6 +718,9 @@
                         "y": 490
                     }
                 ],
+                "access_rules":[
+                    "BBubble"
+                ],
                 "sections": [
                     {
                         "name": "Fairy Mushrooms",
@@ -726,7 +729,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "FairyCos, BBubble"
+                            "FairyCos"
                         ]
                     },
                     {
@@ -1747,7 +1750,7 @@
                         "clear_as_group": true,
 
                         "access_rules":[
-                            "GLug, G1"
+                            "GLug, GAKey, G1"
                         ]
                     },
                     {
@@ -1987,6 +1990,9 @@
                         "y": 215
                     }
                 ],
+                "access_rules":[
+                    "CCB, WCB"
+                ],
                 "sections": [
                     {
                         "name": "02 House Chest",
@@ -1995,8 +2001,8 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather, WCB",
-                            "DWings, WCB"
+                            "AFeather",
+                            "DWings"
                         ]
                     },
                     {
@@ -2006,7 +2012,7 @@
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "GForm, WCB"
+                            "GForm"
                         ]
                     },
                     {
@@ -2016,7 +2022,7 @@
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "MScale, WCB"
+                            "MScale"
                         ]
                     },
                     {
@@ -2026,7 +2032,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "SForm, WCB"
+                            "SForm"
                         ]
                     }
                 ]
@@ -2121,7 +2127,7 @@
     {
         "name": "Shady Sewers",
         "access_rules":[
-            "SForm, GForm"
+            "WCB, SForm, GForm"
         ],
         "children": [
             {
@@ -2201,7 +2207,7 @@
             {
                 "name": "Shady Gauntlet",
                 "access_rules":[
-                    "BBubble, Feather"
+                    "BBubble"
                 ],
                 "map_locations": [
                     {
@@ -2386,8 +2392,7 @@
     {
         "name": "Ghost Castle",
         "access_rules":[
-            "WCB, CCB, GCKey, BBubble",
-            "WCB, CCB, GCKey, SGKey, GForm"
+            "WCB, CCB, GCKey"
         ],
         "children": [
             {
@@ -2430,7 +2435,7 @@
                         "clear_as_group": false,
                         "access_rules":[
                             "GCKey, BBubble",
-                            "GCKey, BBubbleMale, AFeather, DWings"
+                            "GCKey, AFeather"
                         ]
                     }
                 ]
@@ -2450,11 +2455,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "BBubbleMale",
-                            "BBubble"
-                        ]
+                        "clear_as_group": false
                     }
                 ]
             }
@@ -2465,6 +2466,7 @@
         "name": "Ghost Castle Rose Garden",
         "access_rules":[
             "WCB, CCB, GCKey, BBubble, RGKey",
+            "WCB, CCB, GCKey, AFeather, RGKey",
             "WCB, CCB, GCKey, SGKey, GForm, AFeather",
             "WCB, CCB, GCKey, SGKey, GForm, DWings"
         ],
@@ -2560,7 +2562,8 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "SGKey"
+                            "SGKey",
+                            "GForm"
                         ]
                     }
                 ]
@@ -3578,7 +3581,6 @@
         "name": "Upper Tengoku",
         "access_rules":[
             "WCB, CCB, GForm, AFeather",
-            "WCB, CCB, GForm, DWings, BBubbleMale",
             "WCB, CCB, GForm, DWings, BBubble"
         ],
         "children": [
@@ -3607,9 +3609,6 @@
             },
             {
                 "name": "Birby",
-                "access_rules":[
-                    "BBubble"
-                ],
                 "map_locations": [
                     {
                         "map": "TG",
@@ -3629,10 +3628,6 @@
             },
             {
                 "name": "Flip Magic Coins",
-                "access_rules":[
-                    "BBubbleFemale",
-                    "BBubble"
-                ],
                 "map_locations": [
                     {
                         "map": "TG",
@@ -3646,11 +3641,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "AFeather",
-                            "BBubble"
-                        ]
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -3833,7 +3824,6 @@
                         "chest_unopened_img": "images/items/HP.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "BBubbleMale",
                             "BBubble"
                         ]
                     }
@@ -3849,7 +3839,7 @@
                     }
                 ],
                 "access_rules":[
-                    "GForm, BBubble"
+                    "GForm"
                 ],
                 "sections": [
                     {
@@ -4172,7 +4162,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "FKey"
                         ]
@@ -4197,6 +4187,7 @@
                         "clear_as_group": false,
                         "access_rules":[
                             "AFeather, BBubble",
+                            "AFeather, BBubbleMale, DWings",
                             "AFeather, BBubbleFemale, DWings"
                         ]
                     }

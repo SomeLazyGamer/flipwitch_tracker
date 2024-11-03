@@ -12,6 +12,141 @@ LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 GACHA_COUNTS = {}
 
+function Belle1()
+    if Tracker:FindObjectForCode("B1").Active then
+        Tracker:FindObjectForCode("@Witchy Woods/Belle/Need My Cowbell").AvailableChestCount = Tracker:FindObjectForCode("@Witchy Woods/Belle/Need My Cowbell").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("B1").Active == false then
+        Tracker:FindObjectForCode("@Witchy Woods/Belle/Need My Cowbell").AvailableChestCount = Tracker:FindObjectForCode("@Witchy Woods/Belle/Need My Cowbell").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("Belle_Quest1", "B1", Belle1)
+
+function Gobliana1()
+    if Tracker:FindObjectForCode("G1").Active then
+        Tracker:FindObjectForCode("@Goblin Caves/Gobliana/A Model Goblin").AvailableChestCount = Tracker:FindObjectForCode("@Goblin Caves/Gobliana/A Model Goblin").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("G1").Active == false then
+        Tracker:FindObjectForCode("@Goblin Caves/Gobliana/A Model Goblin").AvailableChestCount = Tracker:FindObjectForCode("@Goblin Caves/Gobliana/A Model Goblin").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("Gobliana_Quest1", "G1", Gobliana1)
+
+function Rover2()
+    if Tracker:FindObjectForCode("R2").Active then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Boned").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Boned").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("R2").Active == false then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Boned").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Boned").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("Rover_Quest2", "R2", Rover2)
+
+function Rover3()
+    if Tracker:FindObjectForCode("R3").Active then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Legendary Chewtoy").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Legendary Chewtoy").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("R3").Active == false then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Legendary Chewtoy").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Legendary Chewtoy").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("Rover_Quest3", "R3", Rover3)
+
+function Belle2()
+    if Tracker:FindObjectForCode("B2").Active then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Deluxe Milkshake").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Deluxe Milkshake").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("B2").Active == false then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Deluxe Milkshake").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Deluxe Milkshake").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("Belle_Quest2", "B2", Belle2)
+
+function Belle3()
+    if Tracker:FindObjectForCode("B3").Active then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Rat Problem").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Rat Problem").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("B3").Active == false then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Rat Problem").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Rat Problem").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("Belle_Quest3", "B3", Belle3)
+
+function MilkCream2()
+    if Tracker:FindObjectForCode("MC2").Active then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Ghost Hunters").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Ghost Hunters").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("MC2").Active == false then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Ghost Hunters").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Ghost Hunters").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("MilkCream_Quest2", "MC2", MilkCream2)
+
+function MilkCream3()
+    if Tracker:FindObjectForCode("MC3").Active then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Haunted Bathroom").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Haunted Bathroom").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("MC3").Active == false then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Haunted Bathroom").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Haunted Bathroom").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("MilkCream_Quest3", "MC3", MilkCream3)
+
+function Merch1()
+    if Tracker:FindObjectForCode("M1").Active then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Jelly Mushroom").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Jelly Mushroom").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("M1").Active == false then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Jelly Mushroom").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Jelly Mushroom").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("Merch_Quest1", "M1", Merch1)
+
+function Janice1()
+    if Tracker:FindObjectForCode("J1").Active then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Booze Bunny").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Booze Bunny").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("J1").Active == false then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Booze Bunny").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Booze Bunny").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("Janice_Quest1", "J1", Janice1)
+
+function Janice2()
+    if Tracker:FindObjectForCode("J2").Active then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Help Wanted").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Help Wanted").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("J2").Active == false then
+        Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Help Wanted").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Cabaret Cafe/Help Wanted").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("Janice_Quest2", "J2", Janice2)
+
+function Rover1()
+    if Tracker:FindObjectForCode("R1").Active then
+        Tracker:FindObjectForCode("@Spirit City/Rover/Let the Dog Out").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Rover/Let the Dog Out").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("R1").Active == false then
+        Tracker:FindObjectForCode("@Spirit City/Rover/Let the Dog Out").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Rover/Let the Dog Out").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("Rover_Quest1", "R1", Rover1)
+
+function Gobliana2()
+    if Tracker:FindObjectForCode("G2").Active then
+        Tracker:FindObjectForCode("@Spirit City/Leg's Office/Emotional Baggage").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Leg's Office/Emotional Baggage").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("G2").Active == false then
+        Tracker:FindObjectForCode("@Spirit City/Leg's Office/Emotional Baggage").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Leg's Office/Emotional Baggage").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("Gobliana_Quest2", "G2", Gobliana2)
+
+function Kyoni1()
+    if Tracker:FindObjectForCode("K1").Active then
+        Tracker:FindObjectForCode("@Spirit City/Kyoni's Shop/Devilicious!").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Kyoni's Shop/Devilicious!").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("K1").Active == false then
+        Tracker:FindObjectForCode("@Spirit City/Kyoni's Shop/Devilicious!").AvailableChestCount = Tracker:FindObjectForCode("@Spirit City/Kyoni's Shop/Devilicious!").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("Kyoni_Quest1", "K1", Kyoni1)
+
+function MilkCream1()
+    if Tracker:FindObjectForCode("MC1").Active then
+        Tracker:FindObjectForCode("@Ghost Castle Rose Garden/Milk & Cream/Panty Raid").AvailableChestCount = Tracker:FindObjectForCode("@Ghost Castle Rose Garden/Milk & Cream/Panty Raid").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("MC1").Active == false then
+        Tracker:FindObjectForCode("@Ghost Castle Rose Garden/Milk & Cream/Panty Raid").AvailableChestCount = Tracker:FindObjectForCode("@Ghost Castle Rose Garden/Milk & Cream/Panty Raid").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("MilkCream_Quest1", "MC1", MilkCream1)
+
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))

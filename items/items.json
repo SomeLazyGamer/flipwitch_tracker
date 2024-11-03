@@ -437,6 +437,7 @@
     {
         "name": "Belle1",
         "type": "toggle",
+        "img": "images/items/SCCrystalBlock.png",
         "codes": "B1"
     },
     {
