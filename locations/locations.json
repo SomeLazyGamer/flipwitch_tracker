@@ -1056,7 +1056,10 @@
                 ]
             },
             {
-                "name": "Animal Gacha",
+                "name": "Animal Gacha - Cabaret Cafe",
+                "access_rules": [
+                    "R1, B1, MC1"
+                ],
                 "map_locations": [
                     {
                         "map": "SC",
@@ -1168,7 +1171,7 @@
                 ]
             },
             {
-                "name": "Bunny Gacha",
+                "name": "Bunny Gacha - Kyoni's Shop",
                 "map_locations": [
                     {
                         "map": "SC",
@@ -1280,7 +1283,7 @@
                 ]
             },           
             {
-                "name": "Angel & Demon Gacha",
+                "name": "Angel & Demon Gacha - Unmarked House",
                 "map_locations": [
                     {
                         "map": "SC",
@@ -1392,7 +1395,7 @@
                 ]
             },            
             {
-                "name": "Monster Gacha",
+                "name": "Monster Gacha - Rare Items Shop",
                 "map_locations": [
                     {
                         "map": "SC",
@@ -1931,7 +1934,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "BBubbleMale, AFeather",
+                            "BBubbleMale, AFeather, DWings",
                             "BBubble, AFeather"
                         ]
                     }
@@ -2081,7 +2084,9 @@
                         "clear_as_group": false,
                         "access_rules":[
                             "MaidCos, BBubbleFemale",
-                            "MaidCos, BBubble"
+                            "MaidCos, BBubble",
+                            "PigCos, BBubble",
+                            "PigCos, BBubbleMale"
                         ]
                     },
                     {
@@ -3193,7 +3198,7 @@
                 "access_rules":[
                     "CTKey",
                     "AFeather",
-                    "DWing"
+                    "DWings"
                 ],
                 "map_locations": [
                     {

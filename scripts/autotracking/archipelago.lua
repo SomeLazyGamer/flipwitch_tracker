@@ -336,22 +336,22 @@ function onLocation(location_id, location_name)
             local count = 0
             for i = 602, 611 do--Animal Girls
                 if GACHA_COUNTS[i] then count = count + 1 end
-                setObj("@Spirit City/Animal Gacha/Animal Gacha Pull "..count)
+                setObj("@Spirit City/Animal Gacha - Cabaret Cafe/Animal Gacha Pull "..count)
             end
             count = 0
             for i = 612, 621 do--Bunny Girls
                 if GACHA_COUNTS[i] then count = count + 1 end
-                setObj("@Spirit City/Bunny Gacha/Bunny Gacha Pull "..count)
+                setObj("@Spirit City/Bunny Gacha - Kyoni's Shop/Bunny Gacha Pull "..count)
             end
             count = 0
             for i = 622, 631 do--AngelDemon Girls
                 if GACHA_COUNTS[i] then count = count + 1 end
-                setObj("@Spirit City/Angel & Demon Gacha/Angel & Demon Gacha Pull "..count)
+                setObj("@Spirit City/Angel & Demon Gacha - Unmarked House/Angel & Demon Gacha Pull "..count)
             end
             count = 0
             for i = 632, 641 do--Monster Girls
                 if GACHA_COUNTS[i] then count = count + 1 end
-                setObj("@Spirit City/Monster Gacha/Monster Gacha Pull "..count)
+                setObj("@Spirit City/Monster Gacha - Rare Items Shop/Monster Gacha Pull "..count)
             end
         
             return
