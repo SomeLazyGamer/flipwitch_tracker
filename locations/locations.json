@@ -267,7 +267,7 @@
                         "chest_unopened_img": "images/items/GachaBall.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "Gacha"
+                            "PGacha"
                         ]
                     }
                 ]
@@ -1860,7 +1860,9 @@
                         ]
                     },
                     {
-                        "name": "Girl's Gallery",
+                        "name": "Girl's Gallery (Manually Toggle)",
+                        "visibility_rules": [ "QuestOff"
+                        ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1871,7 +1873,11 @@
                         ]
                     },
                     {
-                        "name": "Boy's Gallery",
+                        "name": "Boy's Gallery (Manually Toggle)",
+                        "visibility_rules": [ "QuestOff",
+                            "QuestSensei",
+                            "QuestItems" 
+                        ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",

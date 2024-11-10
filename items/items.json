@@ -716,8 +716,7 @@
         {
             "img": "images/items/GPeach.png",
             "name": "Quest For Sex - Vanilla",
-            "codes": "QuestShuffle,QuestOff",
-            "inherit_codes": false
+            "codes": "QuestShuffle,QuestOff"
         },
         {
           "img": "images/items/QReward.png",
