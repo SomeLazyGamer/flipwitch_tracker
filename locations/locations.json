@@ -905,7 +905,8 @@
             {
                 "name": "Cabaret Cafe",
                 "access_rules": [
-                    "R1, B1, MC1"
+                    "WCB, CCB, GCKey, RGKey, R1, B1, MC1, GForm, BBubble, BClothes",
+                    "WCB, CCB, GCKey, SGKey, R1, B1, MC1, GForm, BBubble, BClothes"
                 ],
                 "map_locations": [
                     {
@@ -956,7 +957,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "DMilk, BMilk"
+                            "DMilk, BMilk, BBell, B1"
                         ]
                     },
                     {
@@ -966,7 +967,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "B2"
+                            "B2, DMilk, BMilk, BBell"
                         ]
                     },
                     {
@@ -977,7 +978,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "CAKey"
+                            "CAKey, B2, DMilk, BMilk, BBell"
                         ]
                     },
                     {
@@ -1006,8 +1007,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "MC3, CatCos, BBubbleFemale",
-                            "MC3, CatCos, BBubble"
+                            "MC2, SForm, MC3, CatCos"
                         ]
                     },
                     {
@@ -1040,7 +1040,8 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "R3, J1, B3, MC3, M1"
+                            "R3, R2, LHalo, J1, RWine, B3, CAKey, B2, DMilk, BMilk, BBell, MC3, MC2, SForm"
+
                         ]
                     },
                     {
@@ -1058,7 +1059,8 @@
             {
                 "name": "Animal Gacha - Cabaret Cafe",
                 "access_rules": [
-                    "R1, B1, MC1"
+                    "WCB, CCB, GCKey, RGKey, R1, B1, MC1, GForm, BBubble, BClothes",
+                    "WCB, CCB, GCKey, SGKey, R1, B1, MC1, GForm, BBubble, BClothes"
                 ],
                 "map_locations": [
                     {
@@ -1741,7 +1743,8 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "G1"
+                            "G1, GCard, GHead, BBubbleMale",
+                            "G1, GCard, GHead, BBubble"
                         ]
                     },
                     {
@@ -1753,7 +1756,8 @@
                         "clear_as_group": true,
 
                         "access_rules":[
-                            "GLug, GAKey, G1"
+                            "GLug, GAKey, G1, GCard, GHead, BBubbleMale",
+                            "GLug, GAKey, G1, GCard, GHead, BBubble"
                         ]
                     },
                     {
@@ -1763,8 +1767,9 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "WCB, CCB, GForm, AFeather, G2",
-                            "WCB, CCB, GForm, DWings, BBubble, G2"
+                            "CCB, GForm, AFeather, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+                            "CCB, GForm, AFeather, BBubbleMale, G2, GLug, GAKey, G1, GCard, GHead",
+                            "CCB, GForm, DWings, BBubble, G2, GLug, GAKey, G1, GCard, GHead"
                         ]
                     }
                 ]
@@ -1797,8 +1802,8 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "B2, HDango",
-                            "B2, HDaikon"
+                            "DMilk, BMilk, BBell, R1, B1, MC1, B2, HDango",
+                            "DMilk, BMilk, BBell, R1, B1, MC1, B2, HDaikon"
                         ]
                     },
                     {
@@ -1861,8 +1866,6 @@
                     },
                     {
                         "name": "Girl's Gallery (Manually Toggle)",
-                        "visibility_rules": [ "QuestOff"
-                        ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1874,10 +1877,6 @@
                     },
                     {
                         "name": "Boy's Gallery (Manually Toggle)",
-                        "visibility_rules": [ "QuestOff",
-                            "QuestSensei",
-                            "QuestItems" 
-                        ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
