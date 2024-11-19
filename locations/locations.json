@@ -2611,7 +2611,7 @@
         "name": "Top of Ghost Castle",
         "access_rules":[
             "WCB, CCB, GCKey, BBubble, GForm, RGKey",
-            "WCB, CCB, GCKey, BBubble, GForm, SGKey, AFeathers",
+            "WCB, CCB, GCKey, BBubble, GForm, SGKey, AFeather",
             "WCB, CCB, GCKey, BBubble, GForm, SGKey, DWings"
         ],
         "children": [  
@@ -4979,7 +4979,7 @@
     {
         "name": "Umi Umi Depths",
         "access_rules":[
-            "WCB, CCB, GForm, MScale, AFeathers",
+            "WCB, CCB, GForm, MScale, AFeather",
             "WCB, CCB, GForm, MScale, BBubbleMale",
             "WCB, CCB, GForm, MScale, BBubble"
         ],
