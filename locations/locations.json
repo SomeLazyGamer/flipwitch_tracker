@@ -5204,7 +5204,7 @@
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather"
+                            "AFeather, DWings"
                         ]
                     }
                 ]
