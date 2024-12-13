@@ -60,7 +60,7 @@ LOCATION_MAPPING = {
     [100] = { "@Top of Ghost Castle/Along the Path/Chest" },
     [101] = { "@Top of Ghost Castle/Behind the Vines/Coins" },
     [102] = { "@Top of Ghost Castle/Hidden Shrub/Chest" },
-    [103] = { "@Ghost Castle Rose Garden/Ghost Form/Big Chest" },
+    [103] = { "@Ghost Castle/Ghost Form/Big Chest" },
     [104] = { "@Ghost Castle Rose Garden/Thimble/Chest" },
     [105] = { "@Top of Ghost Castle/Ghost Boss/Chaos Key Piece" },
 

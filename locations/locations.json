@@ -609,7 +609,8 @@
                     }
                 ],
                 "access_rules":[
-                    "AFeather"
+                    "AFeather, BBubbleFemale",
+                    "AFeather, BBubble"
                 ]
             },
             {
@@ -1007,7 +1008,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "MC2, SForm, MC3, CatCos"
+                            "MC2, SForm, CatCos"
                         ]
                     },
                     {
@@ -1590,7 +1591,7 @@
                         "clear_as_group": true,
                         "access_rules":[
                             "NurseCos, BBubbleFemale",
-                            "MurseCos, BBubble"
+                            "NurseCos, BBubble"
                         ]
                     }
                 ]
@@ -1999,7 +2000,7 @@
                     }
                 ],
                 "access_rules":[
-                    "CCB, WCB"
+                    "CCB"
                 ],
                 "sections": [
                     {
@@ -2048,8 +2049,8 @@
             {
                 "name": "Pig Mansion",
                 "access_rules":[
-                    "WCB, BBubble",
-                    "WCB, BBubbleFemale, AFeather"
+                    "CCB, BBubble",
+                    "CCB, BBubbleFemale, AFeather"
                 ],
                 "map_locations": [
                     {
@@ -2111,8 +2112,8 @@
             {
                 "name": "Lone House",
                 "access_rules":[
-                    "WCB, BBubbleFemale, AFeather",
-                    "WCB, BBubble, AFeather"
+                    "CCB, BBubbleFemale, AFeather",
+                    "CCB, BBubble, AFeather"
                 ],
                 "map_locations": [
                     {
@@ -2468,8 +2469,32 @@
                         "clear_as_group": false
                     }
                 ]
-            }
+            },
             
+            {
+                "name": "Ghost Form",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 1313,
+                        "y": 427
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Big Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "BBubble, RGKey",
+                            "AFeather, RGKey",
+                            "SGKey"
+                        ]
+                    }
+                ]
+            }            
         ]
     },
     {
@@ -2552,29 +2577,6 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    }
-                ]
-            },
-            {
-                "name": "Ghost Form",
-                "map_locations": [
-                    {
-                        "map": "GC",
-                        "x": 1313,
-                        "y": 427
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Big Chest",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "SGKey",
-                            "GForm"
-                        ]
                     }
                 ]
             },
@@ -5200,7 +5202,10 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "AFeather"
+                        ]
                     }
                 ]
             }
@@ -5461,7 +5466,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "SForm, AFeather"
+                            "AFeather"
                         ]
                     }
                 ]
