@@ -1722,7 +1722,8 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "SSlime"
+                            "SSlime, BBubble",
+                            "SSlime, BBubbleMale"
                         ]
                     }
                 ]
@@ -2488,8 +2489,8 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "BBubble, RGKey",
-                            "AFeather, RGKey",
+                            "BBubble, RGKey, GForm",
+                            "AFeather, RGKey, GForm",
                             "SGKey"
                         ]
                     }
