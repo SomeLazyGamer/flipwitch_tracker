@@ -683,6 +683,26 @@
       ]
     },
     {
+      "name": "Shuffle Chaos Pieces",
+      "type": "progressive",
+      "loop": true,
+      "allow_disabled": false,
+      "stages": [
+        {
+            "img": "images/items/GChaos.png",
+            "name": "Shuffle Chaos Pieces - Off",
+            "codes": "ChaosShuffle,ChaosOff"
+        },
+        {
+          "img": "images/items/ChaosK.png",
+          "name": "Shuffle Chaos Pieces - On",
+          "codes": "ChaosShuffle,ChaosOn",
+          "inherit_codes": false
+        }
+        
+      ]
+    },
+    {
       "name": "Gacha Shuffle",
       "type": "progressive",
       "loop": false,
@@ -730,7 +750,7 @@
         },
         {
           "img": "images/items/QShuffle.png",
-          "name": "Quest For Sex - Shuffled Quests & Rewards",
+          "name": "Quest For Sex - Shuffled Quests & Exp",
           "codes": "QuestShuffle,QuestOn"
         }
         

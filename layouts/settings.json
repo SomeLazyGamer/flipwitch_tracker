@@ -24,7 +24,8 @@
                                 "QuestShuffle"                  
                             ],
                             [
-                                "StatShuffle"                 
+                                "StatShuffle",
+                                "ChaosShuffle"                 
                             ]
                         ]
                     }

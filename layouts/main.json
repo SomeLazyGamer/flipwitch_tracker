@@ -16,19 +16,18 @@
                         "item_h_alignment": "center",
                         "rows": [
                             [
-                                "FBubble",
-                                "DWings",
-                                "ChaosK"                                   
-                            ],
-                            [
                                 "BBubble",
-                                "AFeather",
-                                "GForm"
+                                "DWings",
+                                "AFeather"                                   
                             ],
                             [
-                                "GCrystal",
-                                "MScale",
-                                "SForm"
+                                "GForm",
+                                "SForm",
+                                "MScale"
+                            ],
+                            [
+                                "ChaosK",
+                                "FBubble"
                             ]
                         ]
                     }

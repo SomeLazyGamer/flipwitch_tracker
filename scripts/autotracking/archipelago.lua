@@ -223,6 +223,14 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
+    
+    if slot_data['shuffle_chaos_pieces'] then
+        local obj = Tracker:FindObjectForCode("ChaosShuffle")
+        local stage = slot_data['shuffle_chaos_pieces']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
     if slot_data['gachapon_shuffle'] then
         local obj = Tracker:FindObjectForCode("GachaShuffle")
         local stage = slot_data['gachapon_shuffle']

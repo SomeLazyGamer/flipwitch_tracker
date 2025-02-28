@@ -47,6 +47,7 @@
                 "sections": [
                     {
                         "name": "Magical Mentor & Bewitched Bubble",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -54,6 +55,7 @@
                     },
                     {
                         "name": "Quest Upgrade 1",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -65,6 +67,7 @@
                     },
                     {
                         "name": "Quest Upgrade 2",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -76,6 +79,7 @@
                     },
                     {
                         "name": "Quest Upgrade 3",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -87,6 +91,7 @@
                     },
                     {
                         "name": "Quest Upgrade 4",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -98,6 +103,7 @@
                     },
                     {
                         "name": "Quest Upgrade 5",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -109,17 +115,19 @@
                     },
                     {
                         "name": "Quest Upgrade 6",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules": [
                             "$hascount|Reward|16, BBubble",
-                            "$hascount|Reward|20, BBubbleFemale"
+                            "$hascount|Reward|16, BBubbleFemale"
                           ]
                     },
                     {
                         "name": "Quest Upgrade 7",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -131,6 +139,7 @@
                     },
                     {
                         "name": "Quest Upgrade 8",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -141,6 +150,7 @@
                     },
                     {
                         "name": "Quest Upgrade 9",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -151,6 +161,7 @@
                     },
                     {
                         "name": "Quest Upgrade 10",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -161,6 +172,7 @@
                     },
                     {
                         "name": "Quest Upgrade 11",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -171,6 +183,7 @@
                     },
                     {
                         "name": "Quest Upgrade 12",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -181,6 +194,7 @@
                     },
                     {
                         "name": "Quest Upgrade 13",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -191,6 +205,7 @@
                     },
                     {
                         "name": "Quest Upgrade 14",
+                        "visibility_rules": [ "QuestSensei", "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -232,6 +247,7 @@
                 "sections": [
                     {
                         "name": "Need My Cowbell",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "B1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -255,6 +271,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -262,6 +279,7 @@
                     },
                     {
                         "name": "Special Promotion",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -303,6 +321,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin Above Door",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -336,6 +355,7 @@
                     },
                     {
                         "name": "Giant Chest Key",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -359,6 +379,7 @@
                 "sections": [
                     {
                         "name": "Gobliana's Luggage",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -371,6 +392,7 @@
             },
             {
                 "name": "Red Wine",
+                "visibility_rules": [ "QuestItems", "QuestOn" ],
                 "map_locations": [
                     {
                         "map": "WW",
@@ -403,7 +425,15 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "item_count": 2,
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Mimic Key",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
+                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
@@ -412,6 +442,7 @@
             },
             {
                 "name": "Belle's Cowbell",
+                "visibility_rules": [ "QuestItems", "QuestOn" ],
                 "map_locations": [
                     {
                         "map": "WW",
@@ -441,6 +472,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -486,6 +518,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -516,6 +549,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -625,6 +659,7 @@
                 "sections": [
                     {
                         "name": "Goblin Business Card",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -680,6 +715,7 @@
                     },
                     {
                         "name": "HP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
@@ -699,6 +735,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -725,6 +762,7 @@
                 "sections": [
                     {
                         "name": "Fairy Mushrooms",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -754,6 +792,7 @@
                 "sections": [
                     {
                         "name": "Goblin Headshot",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -761,6 +800,7 @@
                     },
                     {
                         "name": "A Model Goblin",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "G1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -784,6 +824,7 @@
                 "sections": [
                     {
                         "name": "Chaos Key Piece",
+                        "visibility_rules": [ "ChaosOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -791,6 +832,7 @@
                     },
                     {
                         "name": "MP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
@@ -813,6 +855,7 @@
                 "sections": [
                     {
                         "name": "Goblin Stud",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -839,6 +882,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -872,6 +916,7 @@
                 "sections": [
                     {
                         "name": "HP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
@@ -882,6 +927,7 @@
                     },
                     {
                         "name": "MP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
@@ -892,6 +938,7 @@
                     },
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -919,6 +966,7 @@
                 "sections": [
                     {
                         "name": "Girl's Room Chest",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -926,6 +974,7 @@
                     },
                     {
                         "name": "Boned",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "R2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -934,6 +983,7 @@
                     },
                     {
                         "name": "Legendary Chewtoy",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "R3",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -945,6 +995,7 @@
                     },
                     {
                         "name": "Delicious Milk",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -952,6 +1003,7 @@
                     },
                     {
                         "name": "Deluxe Milkshake",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "B2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -963,6 +1015,7 @@
                     },
                     {
                         "name": "Cherry Apt. Key",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -973,6 +1026,7 @@
                     },
                     {
                         "name": "Rat Problem",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "B3",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -984,6 +1038,7 @@
                     },
                     {
                         "name": "Ghost Hunters",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "MC2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -992,6 +1047,7 @@
                     },
                     {
                         "name": "Haunted Bathroom",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "MC3",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -1003,6 +1059,7 @@
                     },
                     {
                         "name": "Ectogasm",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1013,6 +1070,7 @@
                     },
                     {
                         "name": "Jelly Mushroom",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "M1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -1024,6 +1082,7 @@
                     },
                     {
                         "name": "Booze Bunny",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "J1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -1035,6 +1094,7 @@
                     },
                     {
                         "name": "Help Wanted",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "J2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -1047,6 +1107,7 @@
                     },
                     {
                         "name": "VIP Chest",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -1073,6 +1134,7 @@
                 "sections": [
                     {
                         "name": "Animal Gacha Pull 1",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1083,6 +1145,7 @@
                     },
                     {
                         "name": "Animal Gacha Pull 2",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1093,6 +1156,7 @@
                     },
                     {
                         "name": "Animal Gacha Pull 3",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1103,6 +1167,7 @@
                     },
                     {
                         "name": "Animal Gacha Pull 4",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1113,6 +1178,7 @@
                     },
                     {
                         "name": "Animal Gacha Pull 5",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1123,6 +1189,7 @@
                     },
                     {
                         "name": "Animal Gacha Pull 6",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1133,6 +1200,7 @@
                     },
                     {
                         "name": "Animal Gacha Pull 7",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1143,6 +1211,7 @@
                     },
                     {
                         "name": "Animal Gacha Pull 8",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1153,6 +1222,7 @@
                     },
                     {
                         "name": "Animal Gacha Pull 9",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1163,6 +1233,7 @@
                     },
                     {
                         "name": "Animal Gacha Pull 10",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1185,6 +1256,7 @@
                 "sections": [
                     {
                         "name": "Bunny Gacha Pull 1",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1195,6 +1267,7 @@
                     },
                     {
                         "name": "Bunny Gacha Pull 2",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1205,6 +1278,7 @@
                     },
                     {
                         "name": "Bunny Gacha Pull 3",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1215,6 +1289,7 @@
                     },
                     {
                         "name": "Bunny Gacha Pull 4",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1225,6 +1300,7 @@
                     },
                     {
                         "name": "Bunny Gacha Pull 5",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1235,6 +1311,7 @@
                     },
                     {
                         "name": "Bunny Gacha Pull 6",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1245,6 +1322,7 @@
                     },
                     {
                         "name": "Bunny Gacha Pull 7",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1255,6 +1333,7 @@
                     },
                     {
                         "name": "Bunny Gacha Pull 8",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1265,6 +1344,7 @@
                     },
                     {
                         "name": "Bunny Gacha Pull 9",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1275,6 +1355,7 @@
                     },
                     {
                         "name": "Bunny Gacha Pull 10",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1297,6 +1378,7 @@
                 "sections": [
                     {
                         "name": "Angel & Demon Gacha Pull 1",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1307,6 +1389,7 @@
                     },
                     {
                         "name": "Angel & Demon Gacha Pull 2",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1317,6 +1400,7 @@
                     },
                     {
                         "name": "Angel & Demon Gacha Pull 3",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1327,6 +1411,7 @@
                     },
                     {
                         "name": "Angel & Demon Gacha Pull 4",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1337,6 +1422,7 @@
                     },
                     {
                         "name": "Angel & Demon Gacha Pull 5",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1347,6 +1433,7 @@
                     },
                     {
                         "name": "Angel & Demon Gacha Pull 6",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1357,6 +1444,7 @@
                     },
                     {
                         "name": "Angel & Demon Gacha Pull 7",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1367,6 +1455,7 @@
                     },
                     {
                         "name": "Angel & Demon Gacha Pull 8",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1377,6 +1466,7 @@
                     },
                     {
                         "name": "Angel & Demon Gacha Pull 9",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1387,6 +1477,7 @@
                     },
                     {
                         "name": "Angel & Demon Gacha Pull 10",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1409,6 +1500,7 @@
                 "sections": [
                     {
                         "name": "Monster Gacha Pull 1",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1419,6 +1511,7 @@
                     },
                     {
                         "name": "Monster Gacha Pull 2",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1429,6 +1522,7 @@
                     },
                     {
                         "name": "Monster Gacha Pull 3",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1439,6 +1533,7 @@
                     },
                     {
                         "name": "Monster Gacha Pull 4",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1449,6 +1544,7 @@
                     },
                     {
                         "name": "Monster Gacha Pull 5",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1459,6 +1555,7 @@
                     },
                     {
                         "name": "Monster Gacha Pull 6",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1469,6 +1566,7 @@
                     },
                     {
                         "name": "Monster Gacha Pull 7",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1479,6 +1577,7 @@
                     },
                     {
                         "name": "Monster Gacha Pull 8",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1489,6 +1588,7 @@
                     },
                     {
                         "name": "Monster Gacha Pull 9",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1499,6 +1599,7 @@
                     },
                     {
                         "name": "Monster Gacha Pull 10",
+                        "visibility_rules": [ "GachaOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GBall.png",
                         "chest_unopened_img": "images/items/GachaBall.png",
@@ -1521,6 +1622,7 @@
                 "sections": [
                     {
                         "name": "Fairy Bubble",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -1540,6 +1642,7 @@
                 "sections": [
                     {
                         "name": "Shop Items",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 4,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -1566,6 +1669,7 @@
                 "sections": [
                     {
                         "name": "Thimble",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 2,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -1585,6 +1689,7 @@
                 "sections": [
                     {
                         "name": "Medical Emergency",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1608,6 +1713,7 @@
                 "sections": [
                     {
                         "name": "Let the Dog Out",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "R1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -1639,6 +1745,7 @@
                     },
                     {
                         "name": "Stop Democracy",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1706,6 +1813,7 @@
                 "sections": [
                     {
                         "name": "The Bunny Club",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1717,6 +1825,7 @@
                     },
                     {
                         "name": "Find the Silky Slime",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1740,6 +1849,7 @@
                 "sections": [
                     {
                         "name": "Goblin Apartment Key",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -1751,6 +1861,7 @@
                     },
                     {
                         "name": "Emotional Baggage",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "G2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -1764,6 +1875,7 @@
                     },
                     {
                         "name": "Dirty Debut",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1788,6 +1900,7 @@
                 "sections": [
                     {
                         "name": "Belle's Milkshake",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -1798,6 +1911,7 @@
                     },
                     {
                         "name": "Devilicious!",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "K1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -1810,6 +1924,7 @@
                     },
                     {
                         "name": "What's a Daikon?",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1851,6 +1966,7 @@
                 "sections": [
                     {
                         "name": "Server Password",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -1858,34 +1974,13 @@
                     },
                     {
                         "name": "Out of Service",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
                             "MPass"
-                        ]
-                    },
-                    {
-                        "name": "Girl's Gallery (Manually Toggle)",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GPeach.png",
-                        "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": true,
-                        "access_rules":[
-                            "MPass, BBubbleFemale",
-                            "MPass, BBubble"
-                        ]
-                    },
-                    {
-                        "name": "Boy's Gallery (Manually Toggle)",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GPeach.png",
-                        "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": true,
-                        "access_rules":[
-                            "MPass, BBubbleMale",
-                            "MPass, BBubble"
                         ]
                     }
                 ]
@@ -1902,6 +1997,7 @@
                 "sections": [
                     {
                         "name": "Priestess of Whorus",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1913,6 +2009,7 @@
                     },
                     {
                         "name": "A Priest's Duties",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1936,6 +2033,7 @@
                 "sections": [
                     {
                         "name": "Alley Cat",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -1959,6 +2057,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -1981,6 +2080,7 @@
                 "sections": [
                     {
                         "name": "Hellish Dango",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -2006,6 +2106,7 @@
                 "sections": [
                     {
                         "name": "02 House Chest",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -2017,6 +2118,7 @@
                     },
                     {
                         "name": "01 House Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -2027,6 +2129,7 @@
                     },
                     {
                         "name": "6 House Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -2063,6 +2166,7 @@
                 "sections": [
                     {
                         "name": "Fungal Key",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -2074,17 +2178,19 @@
                     },
                     {
                         "name": "Tatil's Tale",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "FKey, FDeed, PigCos, BBubbleMale",
-                            "FKey, FDeed, PigCos, BBubble"
+                            "FKey, FDeed, PigCos, BBubbleMale, GForm",
+                            "FKey, FDeed, PigCos, BBubble, GForm"
                         ]
                     },
                     {
                         "name": "Maid Contract",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -2098,6 +2204,7 @@
                     },
                     {
                         "name": "Signing Bonus",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -2173,6 +2280,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -2202,6 +2310,7 @@
                 "sections": [
                     {
                         "name": "Shop Items",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 2,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -2219,7 +2328,7 @@
             {
                 "name": "Shady Gauntlet",
                 "access_rules":[
-                    "BBubble"
+                    "BBubble, [AFeather]"
                 ],
                 "map_locations": [
                     {
@@ -2231,6 +2340,7 @@
                 "sections": [
                     {
                         "name": "HP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
@@ -2276,6 +2386,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -2288,6 +2399,7 @@
                     },
                     {
                         "name": "Cardio Day",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -2318,6 +2430,7 @@
                     },
                     {
                         "name": "MP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
@@ -2419,6 +2532,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -2519,6 +2633,7 @@
                 "sections": [
                     {
                         "name": "Panty Raid",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "MC1",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
@@ -2548,6 +2663,7 @@
                 "sections": [
                     {
                         "name": "Shop Item",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -2593,6 +2709,7 @@
                 "sections": [
                     {
                         "name": "Shop Items",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 2,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -2630,6 +2747,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -2690,6 +2808,7 @@
                 "sections": [
                     {
                         "name": "HP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
@@ -2751,6 +2870,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -2793,6 +2913,7 @@
                 "sections": [
                     {
                         "name": "Chaos Key Piece",
+                        "visibility_rules": [ "ChaosOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -2800,6 +2921,7 @@
                     },
                     {
                         "name": "MP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
@@ -2819,6 +2941,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -2914,6 +3037,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -2940,6 +3064,7 @@
                 "sections": [
                     {
                         "name": "Cat Shrine",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "access_rules":[
                             "MikoCos, BBubbleFemale",
@@ -2963,6 +3088,7 @@
                 "sections": [
                     {
                         "name": "Unlucky Cat Statue",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -3024,6 +3150,7 @@
                 "sections": [
                     {
                         "name": "Harvest Season",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -3054,6 +3181,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -3073,6 +3201,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -3092,6 +3221,7 @@
                 "sections": [
                     {
                         "name": "Shop Items",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 2,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -3139,7 +3269,7 @@
                         "clear_as_group": false,
                         "access_rules":[
                             "AFeather",
-                            "DWings"
+                            "DWings, BBubble"
                         ]
                     }
                 ]
@@ -3218,6 +3348,7 @@
                 "sections": [
                     {
                         "name": "Cat Shrine",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "access_rules":[
                             "MikoCos, BBubbleFemale ",
@@ -3236,6 +3367,7 @@
                     },
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -3302,6 +3434,7 @@
                 "sections": [
                     {
                         "name": "Demon Letter",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -3371,6 +3504,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -3393,6 +3527,7 @@
                 "sections": [
                     {
                         "name": "Shop Items",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 2,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -3412,6 +3547,7 @@
                 "sections": [
                     {
                         "name": "HP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
@@ -3441,6 +3577,7 @@
                     },
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -3460,6 +3597,7 @@
                 "sections": [
                     {
                         "name": "Cat Shrine",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -3508,6 +3646,7 @@
                 "sections": [
                     {
                         "name": "Chaos Key Piece",
+                        "visibility_rules": [ "ChaosOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -3515,6 +3654,7 @@
                     },
                     {
                         "name": "MP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
@@ -3543,6 +3683,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -3613,6 +3754,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -3670,6 +3812,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -3746,6 +3889,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -3765,6 +3909,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -3787,6 +3932,7 @@
                 "sections": [
                     {
                         "name": "Shop Items",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 2,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -3813,6 +3959,7 @@
                 "sections": [
                     {
                         "name": "Chest",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -3832,6 +3979,7 @@
                 "sections": [
                     {
                         "name": "HP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
@@ -3857,6 +4005,7 @@
                 "sections": [
                     {
                         "name": "Shop Items",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 2,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -3906,6 +4055,7 @@
                 "sections": [
                     {
                         "name": "Angel Letter",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -3916,7 +4066,8 @@
                         ]
                     },
                     {
-                        "name": "Long Distance Relationship",                        
+                        "name": "Long Distance Relationship", 
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],                       
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -3971,15 +4122,11 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "BBubbleMale",
-                            "AFeather",
-                            "BBubble"
-                        ]
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -4031,6 +4178,7 @@
                     },
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -4055,6 +4203,7 @@
                 "sections": [
                     {
                         "name": "Chaos Key Piece",
+                        "visibility_rules": [ "ChaosOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -4062,6 +4211,7 @@
                     },
                     {
                         "name": "MP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
@@ -4089,6 +4239,7 @@
                 "sections": [
                     {
                         "name": "Shop Items",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 2,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -4127,6 +4278,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -4149,7 +4301,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Fungal Deel",
+                        "name": "Fungal Deed",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -4172,6 +4325,7 @@
                 "sections": [
                     {
                         "name": "MP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
@@ -4184,6 +4338,7 @@
             },
             {
                 "name": "Heavenly Daikon",
+                "visibility_rules": [ "QuestItems", "QuestOn" ],
                 "map_locations": [
                     {
                         "map": "FF",
@@ -4293,6 +4448,7 @@
                     },
                     {
                         "name": "Shop Items",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 2,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -4331,6 +4487,7 @@
                 "sections": [
                     {
                         "name": "HP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
@@ -4344,6 +4501,7 @@
             },
             {
                 "name": "Blue Jelly Mushroom",
+                "visibility_rules": [ "QuestItems", "QuestOn" ],
                 "map_locations": [
                     {
                         "map": "FF",
@@ -4396,6 +4554,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -4526,6 +4685,7 @@
             },
             {
                 "name": "Silky Slime",
+                "visibility_rules": [ "QuestItems", "QuestOn" ],
                 "map_locations": [
                     {
                         "map": "SC2",
@@ -4566,6 +4726,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -4605,6 +4766,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -4624,6 +4786,7 @@
                 "sections": [
                     {
                         "name": "Shop Items",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 2,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -4643,6 +4806,7 @@
                 "sections": [
                     {
                         "name": "HP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
@@ -4681,6 +4845,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -4688,6 +4853,7 @@
                     },
                     {
                         "name": "Summoning Stone",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -4730,6 +4896,7 @@
                 "sections": [
                     {
                         "name": "Shop Items",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 2,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -4759,6 +4926,7 @@
                     },
                     {
                         "name": "Summoning Stone",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -4781,7 +4949,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Summoning Stones",                        
+                        "name": "Summoning Stones", 
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],                       
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -4808,6 +4977,7 @@
                 "sections": [
                     {
                         "name": "Chaos Key Piece",
+                        "visibility_rules": [ "ChaosOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -4815,6 +4985,7 @@
                     },
                     {
                         "name": "MP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
@@ -4843,6 +5014,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -4929,6 +5101,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -4967,6 +5140,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -5038,6 +5212,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -5098,6 +5273,7 @@
                 "sections": [
                     {
                         "name": "HP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
@@ -5122,6 +5298,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -5141,6 +5318,7 @@
                 "sections": [
                     {
                         "name": "Seamen, With an A",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
@@ -5166,6 +5344,7 @@
                 "sections": [
                     {
                         "name": "Chaos Key Piece",
+                        "visibility_rules": [ "ChaosOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -5173,6 +5352,7 @@
                     },
                     {
                         "name": "MP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
@@ -5200,6 +5380,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -5249,6 +5430,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -5268,6 +5450,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -5328,6 +5511,7 @@
                 "sections": [
                     {
                         "name": "Shop Item",
+                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -5376,6 +5560,7 @@
                 "sections": [
                     {
                         "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
@@ -5398,6 +5583,7 @@
                 "sections": [
                     {
                         "name": "HP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
@@ -5440,6 +5626,7 @@
                     },
                     {
                         "name": "MP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
