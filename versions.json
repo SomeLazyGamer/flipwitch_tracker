@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.7.8",
+			"download_url": "https://github.com/SomeLazyGamer/flipwitch_tracker/releases/download/0.7.8/FlipWitch_Tracker_SLG_0.7.8.zip",
+			"sha256": "0c2c13411be8b85ccd46a040043bd937a80bc9d6a62d2dca64798eafe061e4b6",
+			"changelog": ["Logic Fixes/Visibility Options"]
+		},
+		{
 			"package_version": "0.7.7",
 			"download_url": "https://github.com/SomeLazyGamer/flipwitch_tracker/releases/download/0.7.7/FlipWitch_Tracker_SLG_0.7.7.zip",
 			"sha256": "fd65bc90b5325408165bd18575548e31d78f2792922f7fe7d8094f413206b73d",
