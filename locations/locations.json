@@ -953,8 +953,8 @@
             {
                 "name": "Cabaret Cafe",
                 "access_rules": [
-                    "WCB, CCB, GCKey, RGKey, R1, B1, MC1, GForm, BBubble, BClothes",
-                    "WCB, CCB, GCKey, SGKey, R1, B1, MC1, GForm, BBubble, BClothes"
+                    "WCB, CCB, GCKey, RGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell",
+                    "WCB, CCB, GCKey, SGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell"
                 ],
                 "map_locations": [
                     {
@@ -1010,7 +1010,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "DMilk, BMilk, BBell, B1"
+                            "DMilk, BMilk, B1"
                         ]
                     },
                     {
@@ -1021,7 +1021,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "B2, DMilk, BMilk, BBell"
+                            "B2, DMilk, BMilk"
                         ]
                     },
                     {
@@ -1033,7 +1033,7 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "CAKey, B2, DMilk, BMilk, BBell"
+                            "CAKey, B2, DMilk, BMilk"
                         ]
                     },
                     {
@@ -1905,8 +1905,9 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "DMilk, R1, B1, MC1"
+                        "access_rules": [
+                            "WCB, CCB, GCKey, RGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell, DMilk",
+                            "WCB, CCB, GCKey, SGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell, DMilk"
                         ]
                     },
                     {
@@ -1918,8 +1919,8 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "DMilk, BMilk, BBell, R1, B1, MC1, B2, HDango",
-                            "DMilk, BMilk, BBell, R1, B1, MC1, B2, HDaikon"
+                            "WCB, CCB, GCKey, RGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell, DMilk, BMilk, B2, HDango",
+                            "WCB, CCB, GCKey, SGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell, DMilk, BMilk, B2, HDango"
                         ]
                     },
                     {
@@ -1930,7 +1931,8 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "K1, HDaikon"
+                            "WCB, CCB, GCKey, RGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell, DMilk, BMilk, B2, HDango, K1, HDaikon",
+                            "WCB, CCB, GCKey, SGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell, DMilk, BMilk, B2, HDango, K1, HDaikon"
                         ]
                     }
                 ]
@@ -3131,6 +3133,11 @@
                 "sections": [
                     {
                         "name": "Chest",
+                        "access_rules":[
+                            "BBubbleMale",
+                            "BBubble",
+                            "AFeather"
+                        ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -3440,8 +3447,8 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "ALetter, MailCos, BBubbleMale",
-                            "ALetter, MailCos, BBubble"
+                            "CCB, ALetter, MailCos, BBubbleMale",
+                            "CCB, ALetter, MailCos, BBubble"
                         ]
                     }
                 ]
@@ -4704,6 +4711,7 @@
                     {
                         "name": "Summoning Stone",
                         "item_count": 1,
+                        "hosted_item": "SS1",
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": true,
@@ -4855,6 +4863,7 @@
                         "name": "Summoning Stone",
                         "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
+                        "hosted_item": "SS2",
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
@@ -4928,6 +4937,7 @@
                         "name": "Summoning Stone",
                         "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
+                        "hosted_item": "SS3",
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
@@ -4956,8 +4966,8 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "SStone:3, AlchCos, BBubbleMale",
-                            "SStone:3, AlchCos, BBubble"
+                            "SStone:3, AlchCos, BBubbleMale, SS1, SS2, SS3",
+                            "SStone:3, AlchCos, BBubble, SS1, SS2, SS3"
                         ]
                     }
                 ]
@@ -5654,7 +5664,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather"
+                            "AFeather, CSKey    "
                         ]
                     }
                 ]

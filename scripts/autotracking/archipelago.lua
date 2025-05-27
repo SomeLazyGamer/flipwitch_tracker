@@ -11,6 +11,7 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 GACHA_COUNTS = {}
+local AP_GAME_NAME = "FlipWitch Forbidden Sex Hex"
 
 function Belle1()
     if Tracker:FindObjectForCode("B1").Active then
@@ -161,13 +162,14 @@ function onClear(slot_data)
         GACHA_COUNTS[i] = false
     end
     -- reset locations
-    for _, v in pairs(LOCATION_MAPPING) do
+    for k, v in pairs(LOCATION_MAPPING) do
         if v[1] then
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("onClear: clearing location %s", v[1]))
             end
             local obj = Tracker:FindObjectForCode(v[1])
-            if obj then
+            local apcheck = Archipelago:GetLocationName(k, AP_GAME_NAME)
+            if obj and (apcheck ~= "Unknown") then
                 if v[1]:sub(1, 1) == "@" then
                     obj.AvailableChestCount = obj.ChestCount
                 else
@@ -179,13 +181,14 @@ function onClear(slot_data)
         end
     end
     -- reset items
-    for _, v in pairs(ITEM_MAPPING) do
+    for k, v in pairs(ITEM_MAPPING) do
         if v[1] and v[2] then
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: clearing item %s of type %s", v[1], v[2]))
+                print(string.format("onClear: processing item %s of type %s", v[1], v[2]))
             end
             local obj = Tracker:FindObjectForCode(v[1])
-            if obj then
+            local apcheck = Archipelago:GetItemName(k, AP_GAME_NAME)
+            if obj and (apcheck ~= "Unknown") then
                 if v[2] == "toggle" then
                     obj.Active = false
                 elseif v[2] == "progressive" then

@@ -321,6 +321,21 @@
         "codes": "SStone"
     },
     {
+        "name": "Stone1",
+        "type": "toggle",
+        "codes": "SS1"
+    },
+    {
+        "name": "Stone2",
+        "type": "toggle",
+        "codes": "SS2"
+    },
+    {
+        "name": "Stone3",
+        "type": "toggle",
+        "codes": "SS3"
+    },
+    {
         "name": "Promo Gacha Coin",
         "type": "toggle",
         "img": "images/items/PromoCoin.png",

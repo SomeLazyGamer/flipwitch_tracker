@@ -280,7 +280,7 @@ LOCATION_MAPPING = {
     [514] = { "@Slime Citadel/Silky Slime/Summoning Stone" },
     [515] = { "@Slime Citadel/Secret Room Past Spring/Summoning Stone" },
     [516] = { "@Slime Citadel/Slurp/Summoning Stone" },
-    [517] = { "@Witchy Woods/Mimic Chest Key Room/Chest" },
+    [517] = { "@Witchy Woods/Mimic Chest Key Room/Mimic Key" },
     [518] = { "@Spirit City/Abandon Homes/02 House Chest" },
     [519] = { "@Spirit City/Chaos Fight/Hellish Dango" },
 
