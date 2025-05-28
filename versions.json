@@ -1,9 +1,9 @@
 {
 	"versions": [
 		{
-			"package_version": "0.7.9b",
-			"download_url": "https://github.com/SomeLazyGamer/flipwitch_tracker/releases/download/0.7.9b/FlipWitch_Tracker_SLG_0.7.9b.zip",
-			"sha256": "978cce62df7ad7bee8bddfca10b67785a65cba01c0e3e0a5a72b760abafc19af",
+			"package_version": "0.8.0",
+			"download_url": "https://github.com/SomeLazyGamer/flipwitch_tracker/releases/download/0.8.0/FlipWitch_Tracker_SLG_0.8.0.zip",
+			"sha256": "6924aae26ebc39941ea19de23fc167e7db84c11aec94a7ae22f6ad6d26cd5f8d",
 			"changelog": ["Vanilla Item Fix (for real this time i hope)"]
 		},
 		{
