@@ -11,7 +11,6 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 GACHA_COUNTS = {}
-local AP_GAME_NAME = "FlipWitch Forbidden Sex Hex"
 
 function Belle1()
     if Tracker:FindObjectForCode("B1").Active then
@@ -157,6 +156,11 @@ function onClear(slot_data)
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
 
+    GACHAPON_SHUFFLE = slot_data['gachapon_shuffle'] or 0
+    CHAOS_SHUFFLE = slot_data['shuffle_chaos_pieces'] or 0
+    STAT_SHUFFLE = slot_data['stat_shuffle'] or 0
+    SEX_QUEST = slot_data['quest_for_sex'] or 0
+
     GACHA_COUNTS = {}
     for i=652,691 do
         GACHA_COUNTS[i] = false
@@ -168,8 +172,7 @@ function onClear(slot_data)
                 print(string.format("onClear: clearing location %s", v[1]))
             end
             local obj = Tracker:FindObjectForCode(v[1])
-            local apcheck = Archipelago:GetLocationName(k, AP_GAME_NAME)
-            if obj and (apcheck ~= "Unknown") then
+            if obj then
                 if v[1]:sub(1, 1) == "@" then
                     obj.AvailableChestCount = obj.ChestCount
                 else
@@ -187,9 +190,24 @@ function onClear(slot_data)
                 print(string.format("onClear: processing item %s of type %s", v[1], v[2]))
             end
             local obj = Tracker:FindObjectForCode(v[1])
-            local apcheck = Archipelago:GetItemName(k, AP_GAME_NAME)
-            if obj and (apcheck ~= "Unknown") then
-                if v[2] == "toggle" then
+            if obj then
+                if (k == 8 or k == 9) and STAT_SHUFFLE == 0 then
+                    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print(string.format("onClear: skipping HP/MP item %s", v[1]))
+                    end
+                elseif k == 45 and CHAOS_SHUFFLE == 0 then
+                    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print(string.format("onClear: skipping chaos key %s", v[1]))
+                    end
+                elseif k > 100 and k < 150 and GACHAPON_SHUFFLE == 0 then
+                    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print(string.format("onClear: skipping gacha item %s", v[1]))
+                    end
+                elseif k > 200 and k < 230 and SEX_QUEST == 0 then
+                    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print(string.format("onClear: skipping sex quest item %s", v[1]))
+                    end
+                elseif v[2] == "toggle" then
                     obj.Active = false
                 elseif v[2] == "progressive" then
                     obj.CurrentStage = 0
