@@ -414,10 +414,10 @@
         "codes": "MP"
     },
     {
-        "name": "Peachy Peach Upgrades",
+        "name": "Peachy Peach Charges",
         "type": "consumable",
         "img": "images/items/Peach.png",
-        "max_quantity": 12,
+        "max_quantity": 11,
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
@@ -770,5 +770,11 @@
         }
         
       ]
+    },
+    {
+      "name": "Auto-Tab Toggle",
+      "type": "toggle",
+      "img": "images/items/APBeads.png",
+      "codes": "AutoTab"
     }
 ]

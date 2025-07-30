@@ -11,6 +11,13 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 GACHA_COUNTS = {}
+TabMap = {
+  ["Witchy Woods"] = "Witchy Woods",
+  ["Spirit City"] = "Spirit City/Shady Sewers",
+  ["Jigoku"] = "Jigoku/Club Demon",
+  ["Angelic Hallway"] = "Tengoku/Angelic Hallway",
+  ["Fungal Forest"] = "Fungal Forest/Slime Citadel"
+}
 
 function Belle1()
     if Tracker:FindObjectForCode("B1").Active then
@@ -147,7 +154,35 @@ function MilkCream1()
 end
 ScriptHost:AddWatchForCode("MilkCream_Quest1", "MC1", MilkCream1)
 
+function SumStone1()
+    if Tracker:FindObjectForCode("SS1").Active then
+        Tracker:FindObjectForCode("@Slime Citadel/Silky Slime/Summoning Stone").AvailableChestCount = Tracker:FindObjectForCode("@Slime Citadel/Silky Slime/Summoning Stone").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("SS1").Active == false then
+        Tracker:FindObjectForCode("@Slime Citadel/Silky Slime/Summoning Stone").AvailableChestCount = Tracker:FindObjectForCode("@Slime Citadel/Silky Slime/Summoning Stone").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("SumStone_Quest1", "SS1", SumStone1)
+
+function SumStone2()
+    if Tracker:FindObjectForCode("SS2").Active then
+        Tracker:FindObjectForCode("@Slime Citadel/Secret Room Past Spring/Summoning Stone").AvailableChestCount = Tracker:FindObjectForCode("@Slime Citadel/Secret Room Past Spring/Summoning Stone").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("SS2").Active == false then
+        Tracker:FindObjectForCode("@Slime Citadel/Secret Room Past Spring/Summoning Stone").AvailableChestCount = Tracker:FindObjectForCode("@Slime Citadel/Secret Room Past Spring/Summoning Stone").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("SumStone_Quest2", "SS2", SumStone2)
+
+function SumStone3()
+    if Tracker:FindObjectForCode("SS3").Active then
+        Tracker:FindObjectForCode("@Slime Citadel/Slurp Stone/Summoning Stone").AvailableChestCount = Tracker:FindObjectForCode("@Slime Citadel/Slurp Stone/Summoning Stone").AvailableChestCount - 1
+    elseif Tracker:FindObjectForCode("SS3").Active == false then
+        Tracker:FindObjectForCode("@Slime Citadel/Slurp Stone/Summoning Stone").AvailableChestCount = Tracker:FindObjectForCode("@Slime Citadel/Slurp Stone/Summoning Stone").AvailableChestCount + 1
+    end
+end
+ScriptHost:AddWatchForCode("SumStone_Quest3", "SS3", SumStone3)
+
 function onClear(slot_data)
+  Tracker.BulkUpdate = true
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
@@ -157,6 +192,7 @@ function onClear(slot_data)
     GLOBAL_ITEMS = {}
 
     GACHAPON_SHUFFLE = slot_data['gachapon_shuffle'] or 0
+    SHOP_SHUFFLE = slot_data['shopsanity'] or 0
     CHAOS_SHUFFLE = slot_data['shuffle_chaos_pieces'] or 0
     STAT_SHUFFLE = slot_data['stat_shuffle'] or 0
     SEX_QUEST = slot_data['quest_for_sex'] or 0
@@ -169,11 +205,15 @@ function onClear(slot_data)
     for k, v in pairs(LOCATION_MAPPING) do
         if v[1] then
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: clearing location %s", v[1]))
+                print(string.format("onClear: processing location %s", v[1]))
             end
             local obj = Tracker:FindObjectForCode(v[1])
             if obj then
-                if v[1]:sub(1, 1) == "@" then
+                if k > 400 and k < 430 and SHOP_SHUFFLE == 0 then
+                    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print(string.format("onClear: skipping shop location %s", v[1]))
+                    end
+                elseif v[1]:sub(1, 1) == "@" then
                     obj.AvailableChestCount = obj.ChestCount
                 else
                     obj.Active = false
@@ -202,6 +242,10 @@ function onClear(slot_data)
                 elseif k > 100 and k < 150 and GACHAPON_SHUFFLE == 0 then
                     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                         print(string.format("onClear: skipping gacha item %s", v[1]))
+                    end
+                elseif k > 150 and k < 200 and SHOP_SHUFFLE == 0 then
+                    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print(string.format("onClear: skipping shop items %s", v[1]))
                     end
                 elseif k > 200 and k < 230 and SEX_QUEST == 0 then
                     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -266,9 +310,22 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
-
+    
+  Archipelago:SetNotify({"FlipwitchZone"})
+  Tracker.BulkUpdate = false
 
 end
+
+
+function onZoneUpdate(key, value, oldValue)
+    if Tracker:FindObjectForCode("AutoTab").Active then
+        if key == "FlipwitchZone" and value ~= nil then
+        Tracker:UiHint("ActivateTab", TabMap[value] or value)
+        --print(string.format("%s, %s, %s", key, value, oldValue))
+        end
+    end
+end
+Archipelago:AddSetReplyHandler("FlipwitchZone Handler", onZoneUpdate)
 -- called when an item gets collected
 function onItem(index, item_id, item_name, player_number)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -396,7 +453,6 @@ function onLocation(location_id, location_name)
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
 end
-
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then

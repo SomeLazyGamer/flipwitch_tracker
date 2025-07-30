@@ -134,20 +134,11 @@
                             }
                         },
                         {
-                            "title": "Fungal Forest",
+                            "title": "Fungal Forest/SlimeCitadel",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "FF"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Slime Citadel",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "SC2"
                                 ]
                             }
                         },

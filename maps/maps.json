@@ -35,13 +35,7 @@
         "location_size": 30,
         "location_border_thickness": 3,
         "img": "images/maps/FungalForest.png"
-    },    
-    {
-        "name": "SC2",
-        "location_size": 30,
-        "location_border_thickness": 3,
-        "img": "images/maps/SlimeCitadel.png"
-    },    
+        },  
     {
         "name": "UU",
         "location_size": 30,

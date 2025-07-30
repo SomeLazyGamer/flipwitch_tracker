@@ -12,8 +12,13 @@ The packs folder can be under `USER/Documents/PopTracker/packs`, `USER/PopTracke
 
 ## Future Updates
 
-Some of the things to expect with future updates of this tracker:
-* Improve Logic
-* Refining visuals
-* Keeping up-to-date with any new features added to the Flipwitch AP Mod.
-* Wack any bugs with muh magic wand
+Thankfully, I'm at a point with this tracker to where a lot of the main features I've wanted to add and most of the logic fixes (hopefully) are finished! At least, until the AP mod gets more updates of its own, possibly. Until then, if there ends up being enough logic fixes or new features added over a period of time, expeect more updates to be made.
+
+## Special Thanks
+
+Sure, why not?
+* Witchybun for making the AP Mod for Flipwitch, which is what got me to play the game in the first place. 
+* The fine folks who creadted the Archipelago software.
+* MomoGame and Critical Bliss for creating a 69/10 game
+* Anyone who's used the tracker and helped report bugs and give feedback in the AP After Dark server.
+* Lastly, MASSIVE thanks to my friend Benji for guiding me and carrying me through a lot of the trickier Lua coding in this pack. This is my first ever AP Autotracker, and it wouldn't have got anywhere close to the state it's in now without his support. Seriously dude, I owe you.

@@ -7,7 +7,7 @@
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 105,
+                        "x": 85,
                         "y": 145
                     }
                 ],
@@ -295,8 +295,8 @@
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 910,
-                        "y": 145
+                        "x": 905,
+                        "y": 150
                     }
                 ],
                 "sections": [
@@ -310,12 +310,12 @@
                 ]
             },
             {
-                "name": "Rundown House",
+                "name": "Rundown House Coin",
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 1050,
-                        "y": 80
+                        "x": 1029,
+                        "y": 72
                     }
                 ],
                 "sections": [
@@ -326,7 +326,19 @@
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Rundown House",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 1068,
+                        "y": 88
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Chest Behind Door",
                         "item_count": 1,
@@ -337,12 +349,12 @@
                 ]
             },
             {
-                "name": "Mimi",
+                "name": "Mimi's Room",
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 690,
-                        "y": 280
+                        "x": 665,
+                        "y": 270
                     }
                 ],
                 "sections": [
@@ -352,7 +364,20 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+                
+            },
+            {
+                "name": "Mimi",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 710,
+                        "y": 280
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Giant Chest Key",
                         "visibility_rules": [ "QuestItems", "QuestOn" ],
@@ -372,8 +397,8 @@
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 635,
-                        "y": 345
+                        "x": 550,
+                        "y": 350
                     }
                 ],
                 "sections": [
@@ -414,11 +439,11 @@
                 ]
             },
             {
-                "name": "Mimic Chest Key Room",
+                "name": "Waterfall Save",
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 1065,
+                        "x": 1038,
                         "y": 350
                     }
                 ],
@@ -429,7 +454,19 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall Save Key",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 1088,
+                        "y": 350
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Mimic Key",
                         "visibility_rules": [ "QuestItems", "QuestOn" ],
@@ -511,8 +548,31 @@
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 570,
+                        "x": 550,
                         "y": 215
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false
+                    }
+                ],
+                "access_rules":[
+                    "BBubbleMale",
+                    "BBubble"
+                ]
+            },
+            {
+                "name": "Secret Cave Coin",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 605,
+                        "y": 205
                     }
                 ],
                 "sections": [
@@ -522,13 +582,6 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Chest",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
                     }
                 ],
@@ -573,7 +626,7 @@
                     {
                         "map": "WW",
                         "x": 1165,
-                        "y": 415
+                        "y": 405
                     }
                 ],
                 "sections": [
@@ -591,7 +644,7 @@
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 1063,
+                        "x": 1100,
                         "y": 415
                     }
                 ],
@@ -611,7 +664,7 @@
                     {
                         "map": "WW",
                         "x": 790,
-                        "y": 485
+                        "y": 488
                     }
                 ],
                 "sections": [
@@ -652,8 +705,8 @@
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 1433,
-                        "y": 345
+                        "x": 1400,
+                        "y": 350
                     }
                 ],
                 "sections": [
@@ -675,8 +728,8 @@
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 455,
-                        "y": 625
+                        "x": 440,
+                        "y": 630
                     }
                 ],
                 "sections": [
@@ -694,8 +747,8 @@
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 570,
-                        "y": 550
+                        "x": 562,
+                        "y": 552
                     }
                 ],
                 "sections": [
@@ -712,7 +765,19 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Boss Key Room Upgrade",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 608,
+                        "y": 552
+                    }
+                ],
+                "sections": [
                     {
                         "name": "HP Upgrade",
                         "visibility_rules": [ "StatOn" ],
@@ -752,7 +817,7 @@
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 455,
+                        "x": 460,
                         "y": 490
                     }
                 ],
@@ -770,7 +835,22 @@
                         "access_rules":[
                             "FairyCos"
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Flying Fairy Room",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 420,
+                        "y": 493
+                    }
+                ],
+                "access_rules":[
+                    "BBubble"
+                ],
+                "sections": [
                     {
                         "name": "Chest",
                         "item_count": 1,
@@ -785,7 +865,7 @@
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 820,
+                        "x": 850,
                         "y": 690
                     }
                 ],
@@ -817,8 +897,8 @@
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 1065,
-                        "y": 763
+                        "x": 1025,
+                        "y": 760
                     }
                 ],
                 "sections": [
@@ -829,7 +909,22 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ],
+                    "access_rules":[
+                        "GQKey"
+                    ]
+            },
+            {
+                "name": "Goblin Queen Upgrade",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 1095,
+                        "y": 760
+                    }
+                ],
+                "sections": [
                     {
                         "name": "MP Upgrade",
                         "visibility_rules": [ "StatOn" ],
@@ -909,8 +1004,8 @@
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 190,
-                        "y": 180
+                        "x": 189,
+                        "y": 203
                     }
                 ],
                 "sections": [
@@ -935,7 +1030,19 @@
                         "access_rules": [
                             "BBubble"
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Above Toilets",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 170,
+                        "y": 143
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Gacha Coin",
                         "visibility_rules": [ "GachaOn", "GachaCoins" ],
@@ -960,7 +1067,7 @@
                     {
                         "map": "SC",
                         "x": 294,
-                        "y": 208
+                        "y": 217
                     }
                 ],
                 "sections": [
@@ -1615,17 +1722,16 @@
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 365,
-                        "y": 200
+                        "x": 338,
+                        "y": 187
                     }
                 ],
                 "sections": [
                     {
                         "name": "Fairy Bubble",
-                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/FairyB.png",
                         "clear_as_group": false
                     }
                 ]
@@ -1635,21 +1741,53 @@
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 460,
-                        "y": 200
+                        "x": 464,
+                        "y": 223
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Shop Items",
-                        "visibility_rules": [ "ShopOn" ],
-                        "item_count": 4,
+                        "name": "Shop Item 1",
+                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/FortuneCat.png",
                         "clear_as_group": false
                     },
                     {
-                        "name": "Roof Chest",
+                        "name": "Shop Item 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/NeckBarrier.png",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Shop Item 3",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/StarB.png",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Shop Item 4",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/FrillyP.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Rare Items Shop Roof",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 459,
+                        "y": 176
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -1668,11 +1806,17 @@
                 ],
                 "sections": [
                     {
-                        "name": "Thimble",
-                        "visibility_rules": [ "ShopOn" ],
-                        "item_count": 2,
+                        "name": "Store Item 1",
+                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/CatCos.png",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Store Item 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/GobCos.png",
                         "clear_as_group": false
                     }
                 ]
@@ -1682,8 +1826,8 @@
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 800,
-                        "y": 200
+                        "x": 798,
+                        "y": 172
                     }
                 ],
                 "sections": [
@@ -1727,12 +1871,12 @@
                 ]
             },
             {
-                "name": "Ancient Being",
+                "name": "Ancient Being Chest",
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 320,
-                        "y": 350
+                        "x": 303,
+                        "y": 353
                     }
                 ],
                 "sections": [
@@ -1742,7 +1886,19 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            }, 
+            {
+                "name": "Ancient Being",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 342,
+                        "y": 353
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Stop Democracy",
                         "visibility_rules": [ "QuestItems", "QuestOn" ],
@@ -1756,7 +1912,7 @@
                         ]
                     }
                 ]
-            },  
+            }, 
             {
                 "name": "Below Cemetary",
                 "map_locations": [
@@ -1894,7 +2050,7 @@
                     {
                         "map": "SC",
                         "x": 1200,
-                        "y": 340
+                        "y": 355
                     }
                 ],
                 "sections": [
@@ -1942,8 +2098,8 @@
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 1255,
-                        "y": 340
+                        "x": 1246,
+                        "y": 353
                     }
                 ],
                 "sections": [
@@ -1961,8 +2117,8 @@
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 1297,
-                        "y": 340
+                        "x": 1343,
+                        "y": 357
                     }
                 ],
                 "sections": [
@@ -1992,8 +2148,8 @@
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 1335,
-                        "y": 340
+                        "x": 1314,
+                        "y": 326    
                     }
                 ],
                 "sections": [
@@ -2052,8 +2208,8 @@
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 1445,
-                        "y": 335
+                        "x": 1443,
+                        "y": 357
                     }
                 ],
                 "sections": [
@@ -2094,12 +2250,12 @@
                 ]
             },
             {
-                "name": "Abandon Homes",
+                "name": "02 House",
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 1135,
-                        "y": 215
+                        "x": 1028,
+                        "y": 213
                     }
                 ],
                 "access_rules":[
@@ -2107,7 +2263,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "02 House Chest",
+                        "name": "Chest",
                         "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
@@ -2117,9 +2273,24 @@
                             "AFeather",
                             "DWings"
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "01 House",
+                "map_locations": [
                     {
-                        "name": "01 House Gacha Coin",
+                        "map": "SC",
+                        "x": 1088,
+                        "y": 213
+                    }
+                ],
+                "access_rules":[
+                    "CCB"
+                ],
+                "sections": [
+                    {
+                        "name": "Gacha Coin",
                         "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
@@ -2128,9 +2299,24 @@
                         "access_rules":[
                             "GForm"
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "6 House",
+                "map_locations": [
                     {
-                        "name": "6 House Gacha Coin",
+                        "map": "SC",
+                        "x": 1139,
+                        "y": 221
+                    }
+                ],
+                "access_rules":[
+                    "CCB"
+                ],
+                "sections": [
+                    {
+                        "name": "Gacha Coin",
                         "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
@@ -2139,9 +2325,24 @@
                         "access_rules":[
                             "MScale"
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Green House",
+                "map_locations": [
                     {
-                        "name": "Green House Chest",
+                        "map": "SC",
+                        "x": 1203,
+                        "y": 221
+                    }
+                ],
+                "access_rules":[
+                    "CCB"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -2229,7 +2430,7 @@
                     {
                         "map": "SC",
                         "x": 1165,
-                        "y": 145
+                        "y": 140
                     }
                 ],
                 "sections": [
@@ -2248,7 +2449,7 @@
     {
         "name": "Shady Sewers",
         "access_rules":[
-            "WCB, SForm, GForm"
+            "WCB, SForm, GForm, [HP:3], [Peach:3]"
         ],
         "children": [
             {
@@ -2271,11 +2472,11 @@
                 ]
             },
             {
-                "name": "Side Room",
+                "name": "Side Room Coin",
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 934,
+                        "x": 957,
                         "y": 688
                     }
                 ],
@@ -2287,7 +2488,19 @@
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Side Room",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 916,
+                        "y": 685
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Chest",
                         "item_count": 1,
@@ -2305,24 +2518,65 @@
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 1038,
-                        "y": 898
+                        "x": 1053,
+                        "y": 901
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Shop Items",
-                        "visibility_rules": [ "ShopOn" ],
-                        "item_count": 2,
+                        "name": "Shop Item 1",
+                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/CursedT.png",
                         "clear_as_group": false
                     },
+                    {
+                        "name": "Shop Item 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Elf Merchant Chest",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 1019,
+                        "y": 901
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Chest",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Shady Gauntlet Upgrade",
+                "access_rules":[
+                    "BBubble, [AFeather]"
+                ],
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 808,
+                        "y": 685
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "HP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GHP.png",
+                        "chest_unopened_img": "images/items/HP.png",
                         "clear_as_group": false
                     }
                 ]
@@ -2335,19 +2589,11 @@
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 818,
+                        "x": 843,
                         "y": 685
                     }
                 ],
                 "sections": [
-                    {
-                        "name": "HP Upgrade",
-                        "visibility_rules": [ "StatOn" ],
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GHP.png",
-                        "chest_unopened_img": "images/items/HP.png",
-                        "clear_as_group": false
-                    },
                     {
                         "name": "Chest",
                         "item_count": 1,
@@ -2377,12 +2623,12 @@
                 ]
             },
             {
-                "name": "Ratchel",
+                "name": "Ratchel Coin",
                 "map_locations": [
                     {
                         "map": "SC",
-                        "x": 1178,
-                        "y": 756
+                        "x": 1155,
+                        "y": 751
                     }
                 ],
                 "sections": [
@@ -2398,7 +2644,19 @@
                             "AFeather",
                             "BBubble"
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Ratchel",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 1205,
+                        "y": 764
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Cardio Day",
                         "visibility_rules": [ "QuestItems", "QuestOn" ],
@@ -2414,7 +2672,7 @@
                 ]
             },
             {
-                "name": "Dr. Witch Doctor",
+                "name": "Dr. Witch Doctor Upgrade",
                 "map_locations": [
                     {
                         "map": "SC",
@@ -2424,18 +2682,30 @@
                 ],
                 "sections": [
                     {
-                        "name": "Big Chest",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
-                    },
-                    {
                         "name": "MP Upgrade",
                         "visibility_rules": [ "StatOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Dr. Witch Doctor",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 1205,
+                        "y": 824
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Big Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
                     },
                     {
@@ -2455,7 +2725,7 @@
     {
         "name": "Early Ghost Castle",
         "access_rules":[
-            "WCB, CCB"
+            "WCB, CCB, [HP], [Peach]"
         ],
         "children": [
             {
@@ -2464,7 +2734,7 @@
                     {
                         "map": "GC",
                         "x": 550,
-                        "y": 825
+                        "y": 833
                     }
                 ],
                 "sections": [
@@ -2488,8 +2758,8 @@
                 "map_locations": [
                     {
                         "map": "GC",
-                        "x": 420,
-                        "y": 690
+                        "x": 417,
+                        "y": 695
                     }
                 ],
                 "sections": [
@@ -2519,7 +2789,7 @@
     {
         "name": "Ghost Castle",
         "access_rules":[
-            "WCB, CCB, GCKey"
+            "WCB, CCB, GCKey, [HP], [Peach]"
         ],
         "children": [
             {
@@ -2550,8 +2820,8 @@
                 "map_locations": [
                     {
                         "map": "GC",
-                        "x": 1030,
-                        "y": 575
+                        "x": 1034,
+                        "y": 579
                     }
                 ],
                 "sections": [
@@ -2617,10 +2887,10 @@
     {
         "name": "Ghost Castle Rose Garden",
         "access_rules":[
-            "WCB, CCB, GCKey, BBubble, RGKey",
-            "WCB, CCB, GCKey, AFeather, RGKey",
-            "WCB, CCB, GCKey, SGKey, GForm, AFeather",
-            "WCB, CCB, GCKey, SGKey, GForm, DWings"
+            "WCB, CCB, GCKey, BBubble, RGKey, [HP], [Peach]",
+            "WCB, CCB, GCKey, AFeather, RGKey, [HP], [Peach]",
+            "WCB, CCB, GCKey, SGKey, GForm, AFeather, [HP], [Peach]",
+            "WCB, CCB, GCKey, SGKey, GForm, DWings, [HP], [Peach]"
         ],
         "children": [
             {
@@ -2658,19 +2928,35 @@
                 "map_locations": [
                     {
                         "map": "GC",
-                        "x": 315,
-                        "y": 485
+                        "x": 305,
+                        "y": 487
                     }
                 ],
                 "sections": [
                     {
                         "name": "Shop Item",
-                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/DisarmB.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Elf Merchant Chest",
+                "access_rules": [
+                    "BBubble",
+                    "AFeather",
+                    "DWings"
+                ],
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 350,
+                        "y": 475
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Chest",
                         "item_count": 1,
@@ -2704,19 +2990,37 @@
                 "map_locations": [
                     {
                         "map": "GC",
-                        "x": 1060,
-                        "y": 350
+                        "x": 1070,
+                        "y": 354
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Shop Items",
-                        "visibility_rules": [ "ShopOn" ],
-                        "item_count": 2,
+                        "name": "Shop Item 1",
+                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/NunCos.png",
                         "clear_as_group": false
                     },
+                    {
+                        "name": "Shop Item 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/PriestCos.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Thimble Chest",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 1023,
+                        "y": 354
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Chest",
                         "item_count": 1,
@@ -2732,9 +3036,9 @@
     {
         "name": "Top of Ghost Castle",
         "access_rules":[
-            "WCB, CCB, GCKey, BBubble, GForm, RGKey",
-            "WCB, CCB, GCKey, BBubble, GForm, SGKey, AFeather",
-            "WCB, CCB, GCKey, BBubble, GForm, SGKey, DWings"
+            "WCB, CCB, GCKey, BBubble, GForm, RGKey, [HP], [Peach]",
+            "WCB, CCB, GCKey, BBubble, GForm, SGKey, AFeather, [HP], [Peach]",
+            "WCB, CCB, GCKey, BBubble, GForm, SGKey, DWings, [HP], [Peach]"
         ],
         "children": [  
             {
@@ -2769,6 +3073,7 @@
                 "sections": [
                     {
                         "name": "Bundle of Clothes",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -2781,8 +3086,8 @@
                 "map_locations": [
                     {
                         "map": "GC",
-                        "x": 735,
-                        "y": 285
+                        "x": 738,
+                        "y": 288
                     }
                 ],
                 "sections": [
@@ -2828,7 +3133,7 @@
                     {
                         "map": "GC",
                         "x": 557,
-                        "y": 415
+                        "y": 410
                     }
                 ],
                 "sections": [
@@ -2846,8 +3151,8 @@
                 "map_locations": [
                     {
                         "map": "GC",
-                        "x": 332,
-                        "y": 422
+                        "x": 334,
+                        "y": 427
                     }
                 ],
                 "sections": [
@@ -2908,8 +3213,8 @@
                 "map_locations": [
                     {
                         "map": "GC",
-                        "x": 455,
-                        "y": 619
+                        "x": 432,
+                        "y": 582
                     }
                 ],
                 "sections": [
@@ -2920,7 +3225,19 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Ghost Boss Upgrade",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 484,
+                        "y": 581
+                    }
+                ],
+                "sections": [
                     {
                         "name": "MP Upgrade",
                         "visibility_rules": [ "StatOn" ],
@@ -2960,7 +3277,7 @@
     {
         "name": "Jigoku",
         "access_rules":[
-            "WCB, GForm"
+            "WCB, GForm, [HP], [Peach]"
         ],
         "children": [ 
             {
@@ -3028,12 +3345,12 @@
                 ]
             },
             {
-                "name": "Secret Spring Room",
+                "name": "Secret Spring Room Coin",
                 "map_locations": [
                     {
                         "map": "CD",
-                        "x": 714,
-                        "y": 205
+                        "x": 686,
+                        "y": 211    
                     }
                 ],
                 "sections": [
@@ -3044,7 +3361,19 @@
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Secret Spring Room",
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 724,
+                        "y": 208
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Hidden Chest",
                         "item_count": 1,
@@ -3150,8 +3479,8 @@
                 "map_locations": [
                     {
                         "map": "CD",
-                        "x": 1202,
-                        "y": 477
+                        "x": 1174,
+                        "y": 480
                     }
                 ],
                 "sections": [
@@ -3166,7 +3495,19 @@
                             "FarmCos, BBubbleMale",
                             "FarmCos, BBubble"
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Across Annahell",
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 1217,
+                        "y": 477
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Chest",
                         "item_count": 1,
@@ -3227,11 +3568,17 @@
                 ],
                 "sections": [
                     {
-                        "name": "Shop Items",
-                        "visibility_rules": [ "ShopOn" ],
-                        "item_count": 2,
+                        "name": "Shop Item 1",
+                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/DemonC.png",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Shop Item 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/YellowT.png",
                         "clear_as_group": false
                     }
                 ]
@@ -3314,8 +3661,8 @@
                 "map_locations": [
                     {
                         "map": "CD",
-                        "x": 957,
-                        "y": 343
+                        "x": 918,
+                        "y": 339    
                     }
                 ],
                 "sections": [
@@ -3348,7 +3695,7 @@
                 "map_locations": [
                     {
                         "map": "CD",
-                        "x": 973,
+                        "x": 988,
                         "y": 275
                     }
                 ],
@@ -3364,14 +3711,48 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Northern Cat Shrine Chest",
+                "access_rules":[
+                    "CTKey",
+                    "AFeather",
+                    "DWings"
+                ],
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 1025,
+                        "y": 275
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Chest",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Northern Cat Shrine Coin",
+                "access_rules":[
+                    "CTKey",
+                    "AFeather",
+                    "DWings"
+                ],
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 950,
+                        "y": 275
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Gacha Coin",
                         "visibility_rules": [ "GachaOn", "GachaCoins" ],
@@ -3387,8 +3768,8 @@
     {
         "name": "Club Demon",
         "access_rules":[
-            "WCB, DWings, GForm",
-            "WCB, AFeather, GForm"
+            "WCB, DWings, GForm, [HP], [Peach]",
+            "WCB, AFeather, GForm, [HP], [Peach]"
         ],
         "children": [ 
             {
@@ -3533,11 +3914,17 @@
                 ],
                 "sections": [
                     {
-                        "name": "Shop Items",
-                        "visibility_rules": [ "ShopOn" ],
-                        "item_count": 2,
+                        "name": "Shop Item 1",
+                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/MikoCos.png",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Shop Item 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/FarmCos.png",
                         "clear_as_group": false
                     }
                 ]
@@ -3570,8 +3957,8 @@
                 "map_locations": [
                     {
                         "map": "CD",
-                        "x": 1102,
-                        "y": 879
+                        "x": 1060,
+                        "y": 884
                     }
                 ],
                 "sections": [
@@ -3581,7 +3968,19 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Club Key Room Coin",
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 1103,
+                        "y": 881
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Gacha Coin",
                         "visibility_rules": [ "GachaOn", "GachaCoins" ],
@@ -3646,8 +4045,8 @@
                 "map_locations": [
                     {
                         "map": "CD",
-                        "x": 958,
-                        "y": 677
+                        "x": 934,
+                        "y": 682
                     }
                 ],
                 "sections": [
@@ -3658,7 +4057,22 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Demon Boss Upgrade",
+                "access_rules":[
+                    "DBKey, BBubble"
+                ],
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 985,
+                        "y": 681
+                    }
+                ],
+                "sections": [
                     {
                         "name": "MP Upgrade",
                         "visibility_rules": [ "StatOn" ],
@@ -3674,8 +4088,8 @@
     {
         "name": "Tengoku",
         "access_rules":[
-            "WCB, CCB, GForm, AFeather",
-            "WCB, CCB, GForm, DWings"
+            "WCB, CCB, GForm, AFeather, [HP:2], [Peach:2]",
+            "WCB, CCB, GForm, DWings, [HP:2], [Peach:2]"
         ],
         "children": [
             {
@@ -3741,8 +4155,8 @@
     {
         "name": "Upper Tengoku",
         "access_rules":[
-            "WCB, CCB, GForm, AFeather",
-            "WCB, CCB, GForm, DWings, BBubble"
+            "WCB, CCB, GForm, AFeather, [HP:2], [Peach:2]",
+            "WCB, CCB, GForm, DWings, BBubble, [HP:2], [Peach:2]"
         ],
         "children": [
             {
@@ -3861,8 +4275,8 @@
     {
         "name": "Angelic Hallway",
         "access_rules":[
-            "WCB, CCB, GForm, AFeather",
-            "WCB, CCB, GForm, DWings, BBubble"
+            "WCB, CCB, GForm, AFeather, [HP:2], [Peach:2]",
+            "WCB, CCB, GForm, DWings, BBubble, [HP:2], [Peach:2]"
         ],
         "children": [ 
             {
@@ -3870,8 +4284,8 @@
                 "map_locations": [
                     {
                         "map": "TG",
-                        "x": 1450,
-                        "y": 417
+                        "x": 1479,
+                        "y": 407
                     }
                 ],
                 "sections": [
@@ -3932,21 +4346,39 @@
                 "map_locations": [
                     {
                         "map": "TG",
-                        "x": 1078,
+                        "x": 1064,
                         "y": 409
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Shop Items",
-                        "visibility_rules": [ "ShopOn" ],
-                        "item_count": 2,
+                        "name": "Shop Item 1",
+                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/MMush.png",
                         "clear_as_group": false
                     },
                     {
-                        "name": "Chests",
+                        "name": "Shop Item 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/RingM.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Elf Merchant Chest",
+                "map_locations": [
+                    {
+                        "map": "TG",
+                        "x": 1100,
+                        "y": 409
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -4011,15 +4443,36 @@
                 ],
                 "sections": [
                     {
-                        "name": "Shop Items",
-                        "visibility_rules": [ "ShopOn" ],
-                        "item_count": 2,
+                        "name": "Shop Item 1",
+                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/MailCos.png",
                         "clear_as_group": false
                     },
                     {
-                        "name": "Chests",
+                        "name": "Shop Item 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/NurseCos.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Thimble Chest",
+                "map_locations": [
+                    {
+                        "map": "TG",
+                        "x": 256,
+                        "y": 334
+                    }
+                ],
+                "access_rules":[
+                    "GForm"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
@@ -4055,7 +4508,7 @@
                 "map_locations": [
                     {
                         "map": "TG",
-                        "x": 709,
+                        "x": 684,
                         "y": 413
                     }
                 ],
@@ -4083,7 +4536,19 @@
                             "WCB, CCB, GForm, DLetter, ALetter, MailCos, BBubble, DWings",
                             "WCB, CCB, GForm, DLetter, ALetter, MailCos, BBubbleMale, AFeather"
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Across Gabrielle",
+                "map_locations": [
+                    {
+                        "map": "TG",
+                        "x": 731,
+                        "y": 413
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Chest",
                         "item_count": 1,
@@ -4171,7 +4636,7 @@
                 "map_locations": [
                     {
                         "map": "TG",
-                        "x": 1270,
+                        "x": 1292,
                         "y": 206
                     }
                 ],
@@ -4182,7 +4647,24 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Below Boss Room Coin",
+                "access_rules":[
+                    "AFeather, BBubbleFemale",
+                    "AFeather, BBubble",
+                    "AFeather, DWings"
+                ],
+                "map_locations": [
+                    {
+                        "map": "TG",
+                        "x": 1242,
+                        "y": 206
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Gacha Coin",
                         "visibility_rules": [ "GachaOn", "GachaCoins" ],
@@ -4203,7 +4685,7 @@
                 "map_locations": [
                     {
                         "map": "TG",
-                        "x": 1419,
+                        "x": 1480,
                         "y": 141
                     }
                 ],
@@ -4215,7 +4697,24 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Angelica Upgrade",
+                "access_rules":[
+                    "AFeather, BBubbleFemale",
+                    "AFeather, BBubble",
+                    "AFeather, DWings"
+                ],
+                "map_locations": [
+                    {
+                        "map": "TG",
+                        "x": 1413,
+                        "y": 141
+                    }
+                ],
+                "sections": [
                     {
                         "name": "MP Upgrade",
                         "visibility_rules": [ "StatOn" ],
@@ -4231,7 +4730,7 @@
     {
         "name": "Early Fungal Forest",
         "access_rules":[
-            "WCB, CCB, GForm"
+            "WCB, CCB, GForm, [HP], [Peach]"
         ],
         "children": [ 
             {
@@ -4239,17 +4738,23 @@
                 "map_locations": [
                     {
                         "map": "FF",
-                        "x": 115,
+                        "x": 120,
                         "y": 260
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Shop Items",
-                        "visibility_rules": [ "ShopOn" ],
-                        "item_count": 2,
+                        "name": "Shop Item 1",
+                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/MaidCos.png",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Shop Item 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/PigCos.png",
                         "clear_as_group": false
                     }
                 ]
@@ -4395,7 +4900,7 @@
     {
         "name": "Fungal Forest",
         "access_rules":[
-            "WCB, CCB, GForm, AFeather"
+            "WCB, CCB, GForm, AFeather, [HP:3], [Peach:3]"
         ],
         "children": [
             {
@@ -4437,11 +4942,11 @@
                 ]
             },
             {
-                "name": "Elf Merchant",
+                "name": "Elf Merchant Chest",
                 "map_locations": [
                     {
                         "map": "FF",
-                        "x": 1695,
+                        "x": 1725,
                         "y": 264
                     }
                 ],
@@ -4452,13 +4957,31 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Elf Merchant",
+                "map_locations": [
+                    {
+                        "map": "FF",
+                        "x": 1687,
+                        "y": 264
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Shop Item 1",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/MMush.png",
+                        "clear_as_group": false
                     },
                     {
-                        "name": "Shop Items",
-                        "visibility_rules": [ "ShopOn" ],
-                        "item_count": 2,
+                        "name": "Shop Item 2",
+                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/RingS.png",
                         "clear_as_group": false
                     }
                 ]
@@ -4630,16 +5153,16 @@
     {
         "name": "Slime Citadel",
         "access_rules":[
-            "WCB, CCB, GForm, AFeather, SForm, SCKey"
+            "WCB, CCB, GForm, AFeather, SForm, SCKey, [HP:3], [Peach:3]"
         ],
         "children": [
             {
                 "name": "Citadel Entrance",
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 1195,
-                        "y": 61
+                        "map": "FF",
+                        "x": 1908,
+                        "y": 471
                     }
                 ],
                 "sections": [
@@ -4656,9 +5179,9 @@
                 "name": "Secret Room",
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 360,
-                        "y": 137
+                        "map": "FF",
+                        "x": 1072,
+                        "y": 547
                     }
                 ],
                 "sections": [
@@ -4675,9 +5198,9 @@
                 "name": "Lone Room",
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 387,
-                        "y": 187
+                        "map": "FF",
+                        "x": 1099,
+                        "y": 597
                     }
                 ],
                 "sections": [
@@ -4695,9 +5218,9 @@
                 "visibility_rules": [ "QuestItems", "QuestOn" ],
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 231,
-                        "y": 328
+                        "map": "FF",
+                        "x": 943,
+                        "y": 738
                     }
                 ],
                 "sections": [
@@ -4726,9 +5249,9 @@
                 "name": "Small Detour",
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 355,
-                        "y": 328
+                        "map": "FF",
+                        "x": 1067,
+                        "y": 738
                     }
                 ],
                 "sections": [
@@ -4746,9 +5269,9 @@
                 "name": "Slimy Sub Boss Key",
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 696,
-                        "y": 333
+                        "map": "FF",
+                        "x": 1408,
+                        "y": 743
                     }
                 ],
                 "sections": [
@@ -4766,9 +5289,9 @@
                 "name": "Across the Key",
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 745,
-                        "y": 333
+                        "map": "FF",
+                        "x": 1457,
+                        "y": 743
                     }
                 ],
                 "sections": [
@@ -4786,18 +5309,24 @@
                 "name": "Thimble",
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 722,
-                        "y": 396
+                        "map": "FF",
+                        "x": 1434,
+                        "y": 806
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Shop Items",
-                        "visibility_rules": [ "ShopOn" ],
-                        "item_count": 2,
+                        "name": "Shop Item 1",
+                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/DomCos.png",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Shop Item 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/AlchCos.png",
                         "clear_as_group": false
                     }
                 ]
@@ -4806,9 +5335,9 @@
                 "name": "Slimey Gauntlet",
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 1229,
-                        "y": 265
+                        "map": "FF",
+                        "x": 1941,
+                        "y": 675
                     }
                 ],
                 "sections": [
@@ -4826,9 +5355,9 @@
                 "name": "Near Stone",
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 728,
-                        "y": 543
+                        "map": "FF",
+                        "x": 1440,
+                        "y": 953
                     }
                 ],
                 "sections": [
@@ -4842,12 +5371,12 @@
                 ]
             },
             {
-                "name": "Secret Room Past Spring",
+                "name": "Secret Room Past Spring Coin",
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 965,
-                        "y": 268
+                        "map": "FF",
+                        "x": 1677,
+                        "y": 678
                     }
                 ],
                 "sections": [
@@ -4858,7 +5387,19 @@
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Secret Room Past Spring",
+                "map_locations": [
+                    {
+                        "map": "FF",
+                        "x": 1715,
+                        "y": 678
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Summoning Stone",
                         "visibility_rules": [ "QuestItems", "QuestOn" ],
@@ -4866,7 +5407,7 @@
                         "hosted_item": "SS2",
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "AlchCos, BBubbleMale",
                             "AlchCos, BBubble"
@@ -4878,9 +5419,9 @@
                 "name": "Hidden Tunnel",
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 1176,
-                        "y": 476
+                        "map": "FF",
+                        "x": 1888,
+                        "y": 886
                     }
                 ],
                 "sections": [
@@ -4897,18 +5438,24 @@
                 "name": "Elf Merchant",
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 1488,
-                        "y": 463
+                        "map": "FF",
+                        "x": 2200,
+                        "y": 873
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Shop Items",
-                        "visibility_rules": [ "ShopOn" ],
-                        "item_count": 2,
+                        "name": "Shop Item 1",
+                        "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/SlimyS.png",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Shop Item 2",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/BlueT.png",
                         "clear_as_group": false
                     }
                 ]
@@ -4920,9 +5467,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 1454,
-                        "y": 534
+                        "map": "FF",
+                        "x": 2166,
+                        "y": 944
                     }
                 ],
                 "sections": [
@@ -4932,7 +5479,22 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Slurp Stone",
+                "access_rules":[
+                    "SSBKey"
+                ],
+                "map_locations": [
+                    {
+                        "map": "FF",
+                        "x": 2130,
+                        "y": 944
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Summoning Stone",
                         "visibility_rules": [ "QuestItems", "QuestOn" ],
@@ -4940,7 +5502,7 @@
                         "hosted_item": "SS3",
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
+                        "clear_as_group": true,
                         "access_rules":[
                             "AlchCos, BBubbleMale",
                             "AlchCos, BBubble"
@@ -4952,9 +5514,9 @@
                 "name": "Natasha",
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 833,
-                        "y": 531
+                        "map": "FF",
+                        "x": 1545,
+                        "y": 941
                     }
                 ],
                 "sections": [
@@ -4979,9 +5541,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "SC2",
-                        "x": 326,
-                        "y": 473
+                        "map": "FF",
+                        "x": 1094,
+                        "y": 880
                     }
                 ],
                 "sections": [
@@ -4992,7 +5554,22 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Slimey Princess Upgrade",
+                "access_rules":[
+                    "SBKey"
+                ],
+                "map_locations": [
+                    {
+                        "map": "FF",
+                        "x": 1042,
+                        "y": 880
+                    }
+                ],
+                "sections": [
                     {
                         "name": "MP Upgrade",
                         "visibility_rules": [ "StatOn" ],
@@ -5009,7 +5586,7 @@
     {
         "name": "Umi Umi",
         "access_rules":[
-            "WCB, CCB, GForm, MScale"
+            "WCB, CCB, GForm, MScale, [HP:3], [Peach:3]"
         ],
         "children": [
             {
@@ -5124,7 +5701,7 @@
                 "map_locations": [
                     {
                         "map": "UU",
-                        "x": 943,
+                        "x": 913,
                         "y": 213
                     }
                 ],
@@ -5166,9 +5743,9 @@
     {
         "name": "Umi Umi Depths",
         "access_rules":[
-            "WCB, CCB, GForm, MScale, AFeather",
-            "WCB, CCB, GForm, MScale, BBubbleMale",
-            "WCB, CCB, GForm, MScale, BBubble"
+            "WCB, CCB, GForm, MScale, AFeather, [HP:3], [Peach:3]",
+            "WCB, CCB, GForm, MScale, BBubbleMale, [HP:3], [Peach:3]",
+            "WCB, CCB, GForm, MScale, BBubble, [HP:3], [Peach:3]"
         ],
         "children": [
             
@@ -5235,8 +5812,8 @@
                 "map_locations": [
                     {
                         "map": "UU",
-                        "x": 350,
-                        "y": 353
+                        "x": 365,
+                        "y": 348
                     }
                 ],
                 "sections": [
@@ -5347,7 +5924,7 @@
                 "map_locations": [
                     {
                         "map": "UU",
-                        "x": 1285,
+                        "x": 1337,
                         "y": 619
                     }
                 ],
@@ -5359,7 +5936,22 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Frog Boss Upgrade",
+                "access_rules":[
+                    "FBKey"
+                ],
+                "map_locations": [
+                    {
+                        "map": "UU",
+                        "x": 1285,
+                        "y": 619
+                    }
+                ],
+                "sections": [
                     {
                         "name": "MP Upgrade",
                         "visibility_rules": [ "StatOn" ],
@@ -5406,7 +5998,7 @@
     {
         "name": "Castle Chaos",
         "access_rules":[
-            "WCB, ChaosK:6, BBubble"
+            "WCB, ChaosK:6, BBubble, [HP:4], [Peach:4]"
         ],
         "children": [
             {
@@ -5515,18 +6107,29 @@
                     {
                         "map": "CC",
                         "x": 228,
-                        "y": 629
+                        "y": 634
                     }
                 ],
                 "sections": [
                     {
                         "name": "Shop Item",
-                        "visibility_rules": [ "ShopOn" ],
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_unopened_img": "images/items/HauntedS.png",
                         "clear_as_group": false
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Elf Merchant Chest",
+                "map_locations": [
+                    {
+                        "map": "CC",
+                        "x": 220,
+                        "y": 600
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Chest",
                         "item_count": 1,
@@ -5586,6 +6189,28 @@
                 "map_locations": [
                     {
                         "map": "CC",
+                        "x": 107,
+                        "y": 611
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "AFeather, DWings"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Big Jump Upgrade",
+                "map_locations": [
+                    {
+                        "map": "CC",
                         "x": 67,
                         "y": 605
                     }
@@ -5597,16 +6222,6 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "AFeather, DWings"
-                        ]
-                    },
-                    {
-                        "name": "Chest",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
                             "AFeather, DWings"
@@ -5633,7 +6248,19 @@
                         "access_rules":[
                             "SForm"
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Pandora Upgrade",
+                "map_locations": [
+                    {
+                        "map": "CC",
+                        "x": 793,
+                        "y": 741
+                    }
+                ],
+                "sections": [
                     {
                         "name": "MP Upgrade",
                         "visibility_rules": [ "StatOn" ],
