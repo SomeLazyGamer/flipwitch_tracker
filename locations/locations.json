@@ -1,4 +1,4 @@
-[
+    [
     {
         "name": "Witchy Woods",
         "children": [
@@ -2244,7 +2244,8 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AAKey"
+                            "AAKey, BBubbleFemale",
+                            "AAKey, AFeather"
                         ]
                     }
                 ]
@@ -3646,7 +3647,7 @@
                         "clear_as_group": false,
                         "access_rules":[
                             "BBubble",
-                            "AFeather, DWings"
+                            "AFeather, DWings, BBubbleMale"
                         ]
                     }
                 ]
@@ -4629,9 +4630,7 @@
             {
                 "name": "Below Boss Room",
                 "access_rules":[
-                    "AFeather, BBubbleFemale",
-                    "AFeather, BBubble",
-                    "AFeather, DWings"
+                    "AFeather"
                 ],
                 "map_locations": [
                     {
@@ -4653,9 +4652,7 @@
             {
                 "name": "Below Boss Room Coin",
                 "access_rules":[
-                    "AFeather, BBubbleFemale",
-                    "AFeather, BBubble",
-                    "AFeather, DWings"
+                    "AFeather"
                 ],
                 "map_locations": [
                     {
@@ -4734,7 +4731,7 @@
         ],
         "children": [ 
             {
-                "name": "Thimble",
+                "name": "Fungal Thimble",
                 "map_locations": [
                     {
                         "map": "FF",
@@ -4797,7 +4794,8 @@
                         "clear_as_group": false,
                         "access_rules":[
                             "DWings",
-                            "BBubble"
+                            "BBubble",
+                            "AFeather"
                         ]
                     }
                 ]

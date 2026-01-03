@@ -177,7 +177,7 @@ LOCATION_MAPPING = {
     [376] = { "@Slime Citadel/Slimey Princess Upgrade/MP Upgrade" },
     [377] = { "@Umi Umi Depths/Watery Gauntlet/HP Upgrade" },
     [378] = { "@Umi Umi Depths/Frog Boss Upgrade/MP Upgrade" },
-    [379] = { "@Castle Chaos/Big Jump/HP Upgrade" },
+    [379] = { "@Castle Chaos/Big Jump Upgrade/HP Upgrade" },
     [380] = { "@Castle Chaos/Pandora Upgrade/MP Upgrade" },
 
 --Shops

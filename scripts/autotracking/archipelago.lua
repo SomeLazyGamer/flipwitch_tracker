@@ -311,17 +311,17 @@ function onClear(slot_data)
         end
     end
     
-  Archipelago:SetNotify({"FlipwitchZone"})
+  Archipelago:SetNotify({"FlipwitchZone_"..Archipelago.PlayerNumber})
   Tracker.BulkUpdate = false
 
 end
 
 
 function onZoneUpdate(key, value, oldValue)
+        print(string.format("%s, %s, %s", key, value, oldValue))
     if Tracker:FindObjectForCode("AutoTab").Active then
-        if key == "FlipwitchZone" and value ~= nil then
+        if key == "FlipwitchZone_"..Archipelago.PlayerNumber and value ~= nil then
         Tracker:UiHint("ActivateTab", TabMap[value] or value)
-        --print(string.format("%s, %s, %s", key, value, oldValue))
         end
     end
 end
