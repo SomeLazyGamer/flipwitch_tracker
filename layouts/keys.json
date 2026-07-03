@@ -18,47 +18,27 @@
                                 "RHKey",
                                 "SGKey",
                                 "SCDKey",
-                                "VIPKey"                 
+                                "VIPKey",
+                                "FBKey"                  
                             ],
                             [
                                 "AAKey",
                                 "TBKey",
-                                "FFDKey"
+                                "FFDKey",
+                                "GQKey",
+                                "CSKey"
                             ],
                             [
                                 "GCKey",
                                 "CTKey",
-                                "SCKey"
+                                "SCKey",
+                                "DBKey"
                             ],
                             [
                                 "RGKey",
                                 "CDKey",
-                                "SSBKey"
-                            ]
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "2,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "2, 2",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "GQKey",
-                                "SBKey"                
-                            ],
-                            [
-                                "DBKey",
-                                "FBKey"
-                            ],
-                            [
-                                "CSKey"
+                                "SSBKey",
+                                "SBKey"
                             ]
                         ]
                     }

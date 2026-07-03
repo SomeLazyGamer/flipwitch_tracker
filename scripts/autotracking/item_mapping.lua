@@ -107,22 +107,26 @@ ITEM_MAPPING = {
     [228] = { "AAKey", "toggle" },
 
     --Warps
-    [251] = {"Sensei Warp", "toggle"},
-    [252] = {"Witchy Warp", "toggle"},
-    [253] = {"Goblin Warp", "toggle"},
-    [254] = {"Spirit Warp", "toggle"},
-    [255] = {"Shady Warp", "toggle"},
-    [256] = {"Ghost Entrace Warp", "toggle"},
-    [257] = {"Ghost Castle Warp", "toggle"},
-    [258] = {"Jigoku Warp", "toggle"},
-    [259] = {"Club Demon Warp", "toggle"},
-    [260] = {"Tengoku Warp", "toggle"},
-    [261] = {"Angelic Hallway Warp", "toggle"},
-    [262] = {"Fungal Forest Warp", "toggle"},
-    [263] = {"Slime_Citadel Warp", "toggle"},
-    [264] = {"Slimy_Depths Warp", "toggle"},
-    [265] = {"Umi Umi Warp", "toggle"},
-    [266] = {"Chaos Castle Warp", "toggle"},
+    [251] = {"HomeWarp", "toggle"},
+    [252] = {"WWWarp", "toggle"},
+    [253] = {"GobWarp", "toggle"},
+    [254] = {"SCWarp", "toggle"},
+    [255] = {"SAWarp", "toggle"},
+    [256] = {"GEWarp", "toggle"},
+    [257] = {"GCWarp", "toggle"},
+    [258] = {"JiWarp", "toggle"},
+    [259] = {"CDWarp", "toggle"},
+    [260] = {"TenWarp", "toggle"},
+    [261] = {"AHWarp", "toggle"},
+    [262] = {"FFWarp", "toggle"},
+    [263] = {"SC2Warp", "toggle"},
+    [264] = {"SDWarp", "toggle"},
+    [265] = {"UUWarp", "toggle"},
+    --[266] = {"Chaos CastleWarp", "toggle"},
+
+    -- Abilities
+    [276] = {"RRibbon", "toggle"},
+    [277] = {"OrbAvoid", "toggle"},
 }
 
 

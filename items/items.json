@@ -135,6 +135,18 @@
         "codes": "FBubble"
     },
     {
+        "name": "Rose Ribbon",
+        "type": "toggle",
+        "img": "images/items/RRibbon.png",
+        "codes": "RRibbon"
+    },
+    {
+        "name": "Orb of Avoidance",
+        "type": "toggle",
+        "img": "images/items/OrbAvoid.png",
+        "codes": "OrbAvoid"
+    },
+    {
         "name": "Bewitched Bubble",
         "type": "toggle",
         "img": "images/items/Bewitched.png",
@@ -631,6 +643,96 @@
         "codes": "CSKey"
     },
     {
+        "name": "Sensei's Hut Teleport",
+        "type": "toggle",
+        "img": "images/items/Home.png",
+        "codes": "HomeWarp"
+    },
+    {
+        "name": "Witchy Woods Teleport",
+        "type": "toggle",
+        "img": "images/items/WW.png",
+        "codes": "WWWarp"
+    },
+    {
+        "name": "Goblin Caves Teleport",
+        "type": "toggle",
+        "img": "images/items/Gob.png",
+        "codes": "GobWarp"
+    },
+    {
+        "name": "Spirit City Teleport",
+        "type": "toggle",
+        "img": "images/items/SC.png",
+        "codes": "SCWarp"
+    },
+    {
+        "name": "Shady Alley Teleport",
+        "type": "toggle",
+        "img": "images/items/SA.png",
+        "codes": "SAWarp"
+    },
+    {
+        "name": "Ghost Castle Entrance Teleport",
+        "type": "toggle",
+        "img": "images/items/GE.png",
+        "codes": "GEWarp"
+    },
+    {
+        "name": "Ghost Castle Teleport",
+        "type": "toggle",
+        "img": "images/items/GC.png",
+        "codes": "GCWarp"
+    },
+    {
+        "name": "Jigoku Teleport",
+        "type": "toggle",
+        "img": "images/items/Ji.png",
+        "codes": "JiWarp"
+    },
+    {
+        "name": "Club Demon Teleport",
+        "type": "toggle",
+        "img": "images/items/CD.png",
+        "codes": "CDWarp"
+    },
+    {
+        "name": "Tengoku Teleport",
+        "type": "toggle",
+        "img": "images/items/Ten.png",
+        "codes": "TenWarp"
+    },
+    {
+        "name": "Angelic Hallway Teleport",
+        "type": "toggle",
+        "img": "images/items/AH.png",
+        "codes": "AHWarp"
+    },
+    {
+        "name": "Fungal Forest Teleport",
+        "type": "toggle",
+        "img": "images/items/FF.png",
+        "codes": "FFWarp"
+    },
+    {
+        "name": "Slime Citadel Teleport",
+        "type": "toggle",
+        "img": "images/items/SC2.png",
+        "codes": "SC2Warp"
+    },
+    {
+        "name": "Slimy Depths Teleport",
+        "type": "toggle",
+        "img": "images/items/SD.png",
+        "codes": "SDWarp"
+    },
+    {
+        "name": "Umi Umi Teleport",
+        "type": "toggle",
+        "img": "images/items/UU.png",
+        "codes": "UUWarp"
+    },
+    {
         "name": "Sex Experience",
         "type": "consumable",
         "img": "images/items/QReward.png",
@@ -678,6 +780,87 @@
       ]
     },
     {
+      "name": "PotSanity",
+      "type": "progressive",
+      "loop": true,
+      "allow_disabled": false,
+      "stages": [
+        {
+            "name": "PotSanity - Off",
+            "img": "images/items/GPot.png",
+            "codes": "PotSanity,PotOff"
+        },
+        {
+          "name": "PotSanity - On",
+          "codes": "PotSanity,PotOn",
+        "img": "images/items/Pot.png",
+          "inherit_codes": false
+        }
+        
+      ]
+    },
+    {
+      "name": "Crystal Teleports",
+      "type": "progressive",
+      "loop": true,
+      "allow_disabled": false,
+      "stages": [
+        {
+            "name": "Crystal Teleports - Off",
+            "img": "images/items/GPort.png",
+            "codes": "CTele,CTeleOff"
+        },
+        {
+            "name": "Crystal Teleports - On",
+            "codes": "CTele,CTeleOn",
+            "img": "images/items/PortPort.png",
+            "inherit_codes": false
+        }
+        
+      ]
+    },
+    {
+      "name": "ShuffleDouble",
+      "type": "progressive",
+      "loop": true,
+      "allow_disabled": false,
+      "stages": [
+        {
+            "img": "images/items/GRRibbon.png",
+            "name": "Shuffled Double Jump - Off",
+            "codes": "ShuffleDouble,RRibbon"
+        },
+        {
+          "img": "images/items/RRibbon.png",
+          "name": "Shuffled Double Jump - On",
+          "codes": "ShuffleDouble,DubOn",
+          "inherit_codes": false
+        }
+        
+      ]
+    },
+    {
+      "name": "ShuffleDodge",
+      "type": "progressive",
+      "loop": true,
+      "allow_disabled": false,
+      "stages": [
+        {
+            "img": "images/items/GOrbAvoid.png",
+            "name": "Shuffled Dodge - Off",
+            "codes": "ShuffleDodge,OrbAvoid",
+          "inherit_codes": false
+        },
+        {
+          "img": "images/items/OrbAvoid.png",
+          "name": "Shuffled Dodge - On",
+          "codes": "ShuffleDodge,DodgeOn",
+          "inherit_codes": false
+        }
+        
+      ]
+    },
+    {
       "name": "Stat Shuffle",
       "type": "progressive",
       "loop": true,
@@ -686,7 +869,8 @@
         {
             "img": "images/items/GStat.png",
             "name": "Stat Shuffle - Off",
-            "codes": "StatShuffle,StatOff"
+            "codes": "StatShuffle,StatOff",
+          "inherit_codes": false
         },
         {
           "img": "images/items/Stat.png",
@@ -769,6 +953,68 @@
           "codes": "QuestShuffle,QuestOn"
         }
         
+      ]
+    },
+    {
+      "name": "StartingArea",
+      "type": "progressive",
+      "loop": false,
+      "allow_disabled": false,
+      "stages": [
+        {
+            "name": "Starting Area - Sensei's Hut",
+          "inherit_codes": false,
+            "codes": "StartingArea,HomeWarp",
+            "img": "images/items/Home.png"
+        },
+        {
+            "name": "Starting Area - Goblin Caves",
+          "inherit_codes": false,
+          "codes": "StartingArea,GobWarp",
+        "img": "images/items/Gob.png"
+        },
+        {
+            "name": "Starting Area - Spirit City",
+          "inherit_codes": false,
+          "codes": "StartingArea,SCWarp",
+        "img": "images/items/SC.png"
+        },
+        {
+            "name": "Starting Area - Ghost Castle",
+          "inherit_codes": false,
+          "codes": "StartingArea,GCWarp",
+        "img": "images/items/GC.png"
+        },
+        {
+            "name": "Starting Area - Jigoku",
+          "inherit_codes": false,
+            "codes": "StartingArea,JiWarp",
+        "img": "images/items/Ji.png"
+        },
+        {
+            "name": "Starting Area - Club Demon",
+          "inherit_codes": false,
+          "codes": "StartingArea,CDWarp",
+        "img": "images/items/CD.png"
+        },
+        {
+            "name": "Starting Area - Tengoku",
+          "inherit_codes": false,
+          "codes": "StartingArea,TenWarp",
+        "img": "images/items/Ten.png"
+        },
+        {
+            "name": "Starting Area - Slime Citadel",
+          "inherit_codes": false,
+          "codes": "StartingArea,SC2Warp",
+        "img": "images/items/SC2.png"
+        },
+        {
+            "name": "Starting Area - Umi Umi",
+          "inherit_codes": false,
+          "codes": "StartingArea,UUWarp",
+        "img": "images/items/UU.png"
+        }
       ]
     },
     {

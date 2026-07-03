@@ -21,9 +21,9 @@ TabMap = {
 
 function Belle1()
     if Tracker:FindObjectForCode("B1").Active then
-        Tracker:FindObjectForCode("@Witchy Woods/Belle/Need My Cowbell").AvailableChestCount = Tracker:FindObjectForCode("@Witchy Woods/Belle/Need My Cowbell").AvailableChestCount - 1
+        Tracker:FindObjectForCode("@Above the Goblin Camp/Belle/Need My Cowbell").AvailableChestCount = Tracker:FindObjectForCode("@Above the Goblin Camp/Belle/Need My Cowbell").AvailableChestCount - 1
     elseif Tracker:FindObjectForCode("B1").Active == false then
-        Tracker:FindObjectForCode("@Witchy Woods/Belle/Need My Cowbell").AvailableChestCount = Tracker:FindObjectForCode("@Witchy Woods/Belle/Need My Cowbell").AvailableChestCount + 1
+        Tracker:FindObjectForCode("@Above the Goblin Camp/Belle/Need My Cowbell").AvailableChestCount = Tracker:FindObjectForCode("@Above the Goblin Camp/Belle/Need My Cowbell").AvailableChestCount + 1
     end
 end
 ScriptHost:AddWatchForCode("Belle_Quest1", "B1", Belle1)
@@ -147,9 +147,9 @@ ScriptHost:AddWatchForCode("Kyoni_Quest1", "K1", Kyoni1)
 
 function MilkCream1()
     if Tracker:FindObjectForCode("MC1").Active then
-        Tracker:FindObjectForCode("@Ghost Castle Rose Garden/Milk & Cream/Panty Raid").AvailableChestCount = Tracker:FindObjectForCode("@Ghost Castle Rose Garden/Milk & Cream/Panty Raid").AvailableChestCount - 1
+        Tracker:FindObjectForCode("@Rose Garden/Milk & Cream/Panty Raid").AvailableChestCount = Tracker:FindObjectForCode("@Rose Garden/Milk & Cream/Panty Raid").AvailableChestCount - 1
     elseif Tracker:FindObjectForCode("MC1").Active == false then
-        Tracker:FindObjectForCode("@Ghost Castle Rose Garden/Milk & Cream/Panty Raid").AvailableChestCount = Tracker:FindObjectForCode("@Ghost Castle Rose Garden/Milk & Cream/Panty Raid").AvailableChestCount + 1
+        Tracker:FindObjectForCode("@Rose Garden/Milk & Cream/Panty Raid").AvailableChestCount = Tracker:FindObjectForCode("@Rose Garden/Milk & Cream/Panty Raid").AvailableChestCount + 1
     end
 end
 ScriptHost:AddWatchForCode("MilkCream_Quest1", "MC1", MilkCream1)
@@ -196,6 +196,7 @@ function onClear(slot_data)
     CHAOS_SHUFFLE = slot_data['shuffle_chaos_pieces'] or 0
     STAT_SHUFFLE = slot_data['stat_shuffle'] or 0
     SEX_QUEST = slot_data['quest_for_sex'] or 0
+    CRYSTAL_TELEPORT = slot_data['crystal_teleports'] or 0
 
     GACHA_COUNTS = {}
     for i=652,691 do
@@ -251,6 +252,10 @@ function onClear(slot_data)
                     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                         print(string.format("onClear: skipping sex quest item %s", v[1]))
                     end
+                elseif k > 250 and k < 270 and CRYSTAL_TELEPORT == 0 then
+                    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print(string.format("onClear: skipping teleport item %s", v[1]))
+                    end
                 elseif v[2] == "toggle" then
                     obj.Active = false
                 elseif v[2] == "progressive" then
@@ -274,9 +279,37 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
+    if slot_data['starting_area'] then
+        local obj = Tracker:FindObjectForCode("StartingArea")
+        local stage = slot_data['starting_area']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['shuffle_double_jump'] then
+        local obj = Tracker:FindObjectForCode("ShuffleDouble")
+        local stage = slot_data['shuffle_double_jump']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['shuffle_dodge'] then
+        local obj = Tracker:FindObjectForCode("ShuffleDodge")
+        local stage = slot_data['shuffle_dodge']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
     if slot_data['shopsanity'] then
         local obj = Tracker:FindObjectForCode("Shopsanity")
         local stage = slot_data['shopsanity']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['pottery_lottery'] then
+        local obj = Tracker:FindObjectForCode("PotSanity")
+        local stage = slot_data['pottery_lottery']
         if obj then
             obj.CurrentStage = stage
         end
@@ -288,7 +321,13 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
-    
+    if slot_data['crystal_teleports'] then
+        local obj = Tracker:FindObjectForCode("CTele")
+        local stage = slot_data['crystal_teleports']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end    
     if slot_data['shuffle_chaos_pieces'] then
         local obj = Tracker:FindObjectForCode("ChaosShuffle")
         local stage = slot_data['shuffle_chaos_pieces']

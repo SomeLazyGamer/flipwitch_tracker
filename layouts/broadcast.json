@@ -20,6 +20,10 @@
                     {
                         "type": "layout",
                         "key": "miscgrid"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "settingsgrid"
                     }
                 ]
             },
@@ -35,6 +39,10 @@
                     {
                         "type": "layout",
                         "key": "keygrid"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "warpgrid"
                     }
                 ]
             }

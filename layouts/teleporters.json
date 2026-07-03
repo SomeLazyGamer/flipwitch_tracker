@@ -1,5 +1,5 @@
 {
-    "settingsgrid": {
+    "warpgrid": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -16,23 +16,27 @@
                         "item_h_alignment": "center",
                         "rows": [
                             [
-                                "StartingGender",
-                                "GachaShuffle" ,
-                                "PotSanity"              
+                                "HomeWarp",
+                                "WWWarp",
+                                "GobWarp",
+                                "SCWarp"                                  
                             ],
                             [
-                                "Shopsanity",
-                                "QuestShuffle",
-                                "CTele"                     
+                                "SAWarp",
+                                "GEWarp",
+                                "GCWarp",
+                                "JiWarp"
                             ],
                             [
-                                "StatShuffle",
-                                "ChaosShuffle",
-                                "StartingArea"           
+                                "CDWarp",
+                                "TenWarp",
+                                "AHWarp",
+                                "FFWarp"
                             ],
                             [
-                                "ShuffleDouble",
-                                "ShuffleDodge"              
+                                "SC2Warp",
+                                "SDWarp",
+                                "UUWarp"
                             ]
                         ]
                     }

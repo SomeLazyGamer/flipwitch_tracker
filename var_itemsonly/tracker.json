@@ -48,18 +48,6 @@
                 "key": "shared_item_grid"
               }
             },
-            /*{
-              "type": "group",
-              "header": "Doors",
-              "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "doors_item_grid"
-              }
-            },*/
             {
               "type": "group",
               "header": "Transitions",

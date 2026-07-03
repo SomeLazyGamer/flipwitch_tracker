@@ -1,13 +1,56 @@
-    [
+[
     {
-        "name": "Witchy Woods",
+        "name": "Sensei's Hut",
+        "access_rules": [ 
+            "HomeWarp",
+            "WWWarp, WCB, RHKey",
+            "WWWarp, WCB, RRibbon",
+            "WWWarp, WCB, AFeather",
+            "GobWarp, RHKey",
+            "GobWarp, RRibbon",
+            "GobWarp, AFeather",
+            "SCWarp, WCB, RHKey",
+            "SCWarp, WCB, RRibbon",
+            "SCWarp, WCB, AFeather",
+            "SAWarp, WCB, RHKey",
+            "SAWarp, WCB, RRibbon",
+            "SAWarp, WCB, AFeather",
+            "GEWarp, CCB, WCB, RHKey",
+            "GEWarp, CCB, WCB, RRibbon",
+            "GEWarp, CCB, WCB, AFeather",
+            "GCWarp, GCKey, CCB, WCB, RHKey",
+            "GCWarp, GCKey, CCB, WCB, RRibbon",
+            "GCWarp, GCKey, CCB, WCB, AFeather",
+            "JiWarp, GForm, OrbAvoid, WCB, RRibbon",
+            "JiWarp, GForm, OrbAvoid, WCB, AFeather",
+            "CDWarp, GForm, OrbAvoid, WCB, RRibbon, BBubble",
+            "CDWarp, GForm, OrbAvoid, WCB, AFeather, BBubble",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "FFWarp, GForm, OrbAvoid, CCB, WCB, RRibbon",
+            "FFWarp, GForm, OrbAvoid, CCB, WCB, AFeather",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, CCB, WCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, WCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather, GForm, CCB, WCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, DWings, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "SDWarp, SForm, SCKey, RRibbon, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "SDWarp, SForm, SCKey, AFeather, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "UUWarp, MScale, GForm, CCB, WCB, OrbAvoid, RRibbon",
+            "UUWarp, MScale, GForm, CCB, WCB, OrbAvoid, AFeather"        
+        ],
         "children": [
             {
                 "name": "Sensei's Hut",
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 85,
+                        "x": 65,
                         "y": 145
                     }
                 ],
@@ -29,6 +72,14 @@
                             "BBubbleMale",
                             "BBubble"
                         ]
+                    },
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -236,6 +287,104 @@
                 ]
             },
             {
+                "name": "Secret Cave",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 550,
+                        "y": 215
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false
+                    }
+                ],
+                "access_rules":[
+                    "BBubbleMale",
+                    "BBubble"
+                ]
+            },
+            {
+                "name": "Secret Cave Coin",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 605,
+                        "y": 205
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GCoin.png",
+                        "chest_unopened_img": "images/items/GachaCoin.png",
+                        "clear_as_group": false
+                    }
+                ],
+                "access_rules":[
+                    "BBubbleMale",
+                    "BBubble"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Above the Goblin Camp",
+        "access_rules": [ 
+            "HomeWarp, DWings", 
+            "HomeWarp, OrbAvoid",
+            "HomeWarp, RRibbon",
+            "HomeWarp, AFeather",
+            "WWWarp, WCB, RHKey",
+            "WWWarp, WCB, RRibbon",
+            "WWWarp, WCB, AFeather",
+            "GobWarp, RHKey",
+            "GobWarp, RRibbon",
+            "GobWarp, AFeather",
+            "SCWarp, WCB, RHKey",
+            "SCWarp, WCB, RRibbon",
+            "SCWarp, WCB, AFeather",
+            "SAWarp, WCB, RHKey",
+            "SAWarp, WCB, RRibbon",
+            "SAWarp, WCB, AFeather",
+            "GEWarp, CCB, WCB, RHKey",
+            "GEWarp, CCB, WCB, RRibbon",
+            "GEWarp, CCB, WCB, AFeather",
+            "GCWarp, GCKey, CCB, WCB, RHKey",
+            "GCWarp, GCKey, CCB, WCB, RRibbon",
+            "GCWarp, GCKey, CCB, WCB, AFeather",
+            "JiWarp, GForm, OrbAvoid, WCB, RRibbon",
+            "JiWarp, GForm, OrbAvoid, WCB, AFeather",
+            "CDWarp, GForm, OrbAvoid, WCB, RRibbon, BBubble",
+            "CDWarp, GForm, OrbAvoid, WCB, AFeather, BBubble",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "FFWarp, GForm, OrbAvoid, CCB, WCB, RRibbon",
+            "FFWarp, GForm, OrbAvoid, CCB, WCB, AFeather",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, CCB, WCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, WCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather, GForm, CCB, WCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, DWings, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "SDWarp, SForm, SCKey, RRibbon, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "SDWarp, SForm, SCKey, AFeather, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "UUWarp, MScale, GForm, CCB, WCB, OrbAvoid, RRibbon",
+            "UUWarp, MScale, GForm, CCB, WCB, OrbAvoid, AFeather"
+        ],
+        "children": [
+            {
                 "name": "Belle",
                 "map_locations": [
                     {
@@ -330,24 +479,68 @@
                 ]
             },
             {
-                "name": "Rundown House",
+                "name": "Goblin Camp Pots",
                 "map_locations": [
                     {
                         "map": "WW",
-                        "x": 1068,
-                        "y": 88
+                        "x": 975,
+                        "y": 219
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Chest Behind Door",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 2,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
                         "clear_as_group": false
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Goblin Camp Middle",
+        "access_rules": [ 
+            "HomeWarp, RRibbon",
+            "HomeWarp, AFeather",
+            "WWWarp, WCB, RRibbon",
+            "WWWarp, WCB, AFeather",
+            "GobWarp, RRibbon",
+            "GobWarp, AFeather",
+            "SCWarp, WCB, RRibbon",
+            "SCWarp, WCB, AFeather",
+            "SAWarp, WCB, RRibbon",
+            "SAWarp, WCB, AFeather",
+            "GEWarp, CCB, WCB, RRibbon",
+            "GEWarp, CCB, WCB, AFeather",
+            "GCWarp, GCKey, CCB, WCB, RRibbon",
+            "GCWarp, GCKey, CCB, WCB, AFeather",
+            "JiWarp, GForm, OrbAvoid, WCB, RRibbon",
+            "JiWarp, GForm, OrbAvoid, WCB, AFeather",
+            "CDWarp, GForm, OrbAvoid, WCB, RRibbon, BBubble",
+            "CDWarp, GForm, OrbAvoid, WCB, AFeather, BBubble",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "FFWarp, GForm, OrbAvoid, CCB, WCB, RRibbon",
+            "FFWarp, GForm, OrbAvoid, CCB, WCB, AFeather",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, CCB, WCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, WCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather, GForm, CCB, WCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, DWings, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "SDWarp, SForm, SCKey, RRibbon, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "SDWarp, SForm, SCKey, AFeather, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "UUWarp, MScale, GForm, CCB, WCB, OrbAvoid, RRibbon",
+            "UUWarp, MScale, GForm, CCB, WCB, OrbAvoid, AFeather"
+        ],
+        "children": [
             {
                 "name": "Mimi's Room",
                 "map_locations": [
@@ -391,9 +584,64 @@
                     }
                 ]
                 
+            }
+        ]
+    },
+    {
+        "name": "Goblin Tower",
+        "access_rules": [ 
+            "HomeWarp, DWings, RHKey", 
+            "HomeWarp, OrbAvoid, RHKey",
+            "HomeWarp, RRibbon",
+            "HomeWarp, AFeather",
+            "WWWarp, WCB",
+            "GobWarp",
+            "SCWarp, WCB",
+            "SAWarp, WCB",
+            "GEWarp, CCB, WCB",
+            "GCWarp, GCKey, CCB, WCB",
+            "JiWarp, GForm, OrbAvoid, WCB",
+            "CDWarp, GForm, OrbAvoid, WCB, BBubble",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "FFWarp, GForm, OrbAvoid, CCB, WCB",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, CCB, WCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, WCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather, GForm, CCB, WCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, DWings, GForm, CCB, WCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, WCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, AFeather, GForm, CCB, WCB, OrbAvoid",
+            "UUWarp, MScale, GForm, CCB, WCB, OrbAvoid"    
+        ],
+        "children": [
+            {
+                "name": "Rundown House",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 1068,
+                        "y": 88
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chest Behind Door",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false
+                    }
+                ]
             },
             {
                 "name": "Goblin Apartment",
+                "access_rules": ["GAKey"],
                 "map_locations": [
                     {
                         "map": "WW",
@@ -410,9 +658,6 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
                     }
-                ],
-                "access_rules": [
-                    "GAKey"
                 ]
             },
             {
@@ -433,7 +678,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather"
+                            "AFeather", "RRibbon"
                         ]
                     }
                 ]
@@ -480,6 +725,7 @@
             {
                 "name": "Belle's Cowbell",
                 "visibility_rules": [ "QuestItems", "QuestOn" ],
+                "access_rules": [ "RRibbon", "AFeather" ],
                 "map_locations": [
                     {
                         "map": "WW",
@@ -515,7 +761,7 @@
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather"
+                            "AFeather", "RRibbon"
                         ]
                     }
                 ]
@@ -544,53 +790,6 @@
                 ]
             },
             {
-                "name": "Secret Cave",
-                "map_locations": [
-                    {
-                        "map": "WW",
-                        "x": 550,
-                        "y": 215
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Chest",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
-                    }
-                ],
-                "access_rules":[
-                    "BBubbleMale",
-                    "BBubble"
-                ]
-            },
-            {
-                "name": "Secret Cave Coin",
-                "map_locations": [
-                    {
-                        "map": "WW",
-                        "x": 605,
-                        "y": 205
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gacha Coin",
-                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GCoin.png",
-                        "chest_unopened_img": "images/items/GachaCoin.png",
-                        "clear_as_group": false
-                    }
-                ],
-                "access_rules":[
-                    "BBubbleMale",
-                    "BBubble"
-                ]
-            },
-            {
                 "name": "Secret Alcove",
                 "map_locations": [
                     {
@@ -609,15 +808,151 @@
                         "clear_as_group": false
                     }
                 ]
+            },
+            {
+                "name": "Goblin Tower Pots",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 1188,
+                        "y": 226
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 4,
+                        "chest_opened_img": "images/items/GPot.png",
+                        "chest_unopened_img": "images/items/Pot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Goblin Camp Lower Pots",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 787,
+                        "y": 319
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 3,
+                        "chest_opened_img": "images/items/GPot.png",
+                        "chest_unopened_img": "images/items/Pot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Entrance Pots",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 1399,
+                        "y": 152
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 4,
+                        "chest_opened_img": "images/items/GPot.png",
+                        "chest_unopened_img": "images/items/Pot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Goblin Stairwell Pots",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 1268,
+                        "y": 290
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 3,
+                        "chest_opened_img": "images/items/GPot.png",
+                        "chest_unopened_img": "images/items/Pot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Man Cave Entrance Pots",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 1090,
+                        "y": 145
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 2,
+                        "chest_opened_img": "images/items/GPot.png",
+                        "chest_unopened_img": "images/items/Pot.png",
+                        "clear_as_group": false
+                    }
+                ]
             }
-                     
         ]
     },
     {
         "name": "Goblin Caves",
-        "access_rules":[
-            "BBubbleMale",
-            "BBubble"
+        "access_rules": [ 
+            "HomeWarp, DWings, RHKey, BBubble", 
+            "HomeWarp, OrbAvoid, RHKey, BBubble",
+            "HomeWarp, RRibbon, BBubble",
+            "HomeWarp, AFeather, BBubble",
+            "HomeWarp, DWings, RHKey, BBubbleMale", 
+            "HomeWarp, OrbAvoid, RHKey, BBubbleMale",
+            "HomeWarp, RRibbon, BBubbleMale",
+            "HomeWarp, AFeather, BBubbleMale",
+            "WWWarp, WCB, BBubbleMale",
+            "WWWarp, WCB, BBubble",
+            "GobWarp",
+            "SCWarp, WCB, BBubbleMale",
+            "SCWarp, WCB, BBubble",
+            "SAWarp, WCB, BBubbleMale",
+            "SAWarp, WCB, BBubble",
+            "GEWarp, CCB, WCB, BBubbleMale",
+            "GEWarp, CCB, WCB, BBubble",
+            "GCWarp, GCKey, CCB, WCB, BBubbleMale",
+            "GCWarp, GCKey, CCB, WCB, BBubble",
+            "JiWarp, GForm, OrbAvoid, WCB, BBubbleMale",
+            "JiWarp, GForm, OrbAvoid, WCB, BBubble",
+            "CDWarp, GForm, OrbAvoid, WCB, BBubble",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubble, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, WCB",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, WCB",
+            "SC2Warp, SForm, SCKey, DWings, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "SC2Warp, SForm, SCKey, RRibbon, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "SC2Warp, SForm, SCKey, AFeather, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "SDWarp, SForm, SCKey, DWings, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "SDWarp, SForm, SCKey, RRibbon, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "SDWarp, SForm, SCKey, AFeather, GForm, CCB, WCB, OrbAvoid, BBubble",
+            "UUWarp, MScale, GForm, CCB, WCB, OrbAvoid, BBubbleMale",
+            "UUWarp, MScale, GForm, CCB, WCB, OrbAvoid, BBubble"     
         ],
         "children": [
             {
@@ -744,6 +1079,7 @@
             },
             {
                 "name": "Boss Key Room",
+                "access_rules": ["RRibbon", "AFeather"],
                 "map_locations": [
                     {
                         "map": "WW",
@@ -805,10 +1141,7 @@
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "BBubbleFemale",
-                            "BBubble"
-                        ]
+                        "access_rules":[ "BBubble, RRibbon", "BBubble, AFeather" ]
                     }
                 ]
             },
@@ -821,9 +1154,7 @@
                         "y": 490
                     }
                 ],
-                "access_rules":[
-                    "BBubble"
-                ],
+                "access_rules":[ "BBubble, RRibbon", "BBubble, AFeather" ],
                 "sections": [
                     {
                         "name": "Fairy Mushrooms",
@@ -990,15 +1321,222 @@
                 "access_rules":[
                     "GQKey"
                 ]
+            },
+            {
+                "name": "Ramp Pots",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 424,
+                        "y": 556
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 4,
+                        "chest_opened_img": "images/items/GPot.png",
+                        "chest_unopened_img": "images/items/Pot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Descent Pots",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 693,
+                        "y": 745
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 6,
+                        "chest_opened_img": "images/items/GPot.png",
+                        "chest_unopened_img": "images/items/Pot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Goblin Queen Pots",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 910,
+                        "y": 759
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 4,
+                        "chest_opened_img": "images/items/GPot.png",
+                        "chest_unopened_img": "images/items/Pot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Cavern Stairs Pots",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 841,
+                        "y": 489    
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 6,
+                        "chest_opened_img": "images/items/GPot.png",
+                        "chest_unopened_img": "images/items/Pot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Goblin Caves",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 1186,
+                        "y": 486   
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
             }
         ]
     },
     {
         "name": "Spirit City",
         "access_rules":[
-            "WCB"
+            "HomeWarp, DWings, RHKey, WCB", 
+            "HomeWarp, OrbAvoid, RHKey, WCB",
+            "HomeWarp, RRibbon, WCB",
+            "HomeWarp, AFeather, WCB",
+            "WWWarp",
+            "GobWarp",
+            "SCWarp",
+            "SAWarp",
+            "GEWarp, CCB",
+            "GCWarp, GCKey, CCB",
+            "JiWarp, GForm, OrbAvoid",
+            "CDWarp, GForm, OrbAvoid, BBubble",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, CCB",
+            "FFWarp, GForm, OrbAvoid, CCB",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, AFeather, GForm, CCB, OrbAvoid",
+            "UUWarp, MScale, GForm, CCB, WCB, OrbAvoid"    
         ],
         "children": [
+            {
+                "name": "Spirit City Bridge Pots",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 1701,
+                        "y": 88    
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 3,
+                        "chest_opened_img": "images/items/GPot.png",
+                        "chest_unopened_img": "images/items/Pot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Witchy Woods",
+                "map_locations": [
+                    {
+                        "map": "WW",
+                        "x": 1767,
+                        "y": 88  
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Spirit City",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 320,
+                        "y": 285 
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Shady Alley",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 1200,
+                        "y": 315  
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
             {
                 "name": "Toilets",
                 "map_locations": [
@@ -1051,8 +1589,8 @@
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "AFeather",
-                            "DWings"
+                            "AFeather, RRibbon",
+                            "DWings, RRibbon", "DWings, AFeather"
                         ]
                     }
                 ]
@@ -1060,8 +1598,8 @@
             {
                 "name": "Cabaret Cafe",
                 "access_rules": [
-                    "WCB, CCB, GCKey, RGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell",
-                    "WCB, CCB, GCKey, SGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell"
+                    "R1, B1, MC1, BClothes, BBell",
+                    "R1, B1, MC1, BClothes, BBell"
                 ],
                 "map_locations": [
                     {
@@ -1176,6 +1714,14 @@
                         ]
                     },
                     {
+                        "name": "Wizard Toilet Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 3,
+                        "chest_opened_img": "images/items/GPot.png",
+                        "chest_unopened_img": "images/items/Pot.png",
+                        "clear_as_group": false
+                    },
+                    {
                         "name": "Jelly Mushroom",
                         "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "hosted_item": "M1",
@@ -1228,8 +1774,8 @@
             {
                 "name": "Animal Gacha - Cabaret Cafe",
                 "access_rules": [
-                    "WCB, CCB, GCKey, RGKey, R1, B1, MC1, GForm, BBubble, BClothes",
-                    "WCB, CCB, GCKey, SGKey, R1, B1, MC1, GForm, BBubble, BClothes"
+                    "R1, B1, MC1",
+                    "R1, B1, MC1"
                 ],
                 "map_locations": [
                     {
@@ -1778,6 +2324,7 @@
             },
             {
                 "name": "Rare Items Shop Roof",
+                "access_rules": ["AFeather", "RRibbon"],
                 "map_locations": [
                     {
                         "map": "SC",
@@ -1929,9 +2476,28 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "MScale, CCB"
-                        ]
+                        "access_rules":[ "MScale, CCB" ]
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall Tomb Pots",
+                "map_locations": [
+                    {
+                        "map": "SC",
+                        "x": 540,
+                        "y": 355   
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "access_rules":[ "CCB" ],
+                        "item_count": 4,
+                        "chest_opened_img": "images/items/GPot.png",
+                        "chest_unopened_img": "images/items/Pot.png",
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -1951,9 +2517,7 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "BBubble, CCB"
-                        ]
+                        "access_rules":[ "BBubble" ]
                     }
                 ]
             },
@@ -1995,6 +2559,7 @@
             },
             {
                 "name": "Leg's Office",
+                "access_rules": [ "BBubble", "BBubbleMale" ],
                 "map_locations": [
                     {
                         "map": "SC",
@@ -2036,10 +2601,43 @@
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
-                        "access_rules":[
-                            "CCB, GForm, AFeather, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
-                            "CCB, GForm, AFeather, BBubbleMale, G2, GLug, GAKey, G1, GCard, GHead",
-                            "CCB, GForm, DWings, BBubble, G2, GLug, GAKey, G1, GCard, GHead"
+                        "access_rules":[  
+            "HomeWarp, DWings, RHKey, WCB, CCB, GForm, OrbAvoid, BBubble, G2, GLug, GAKey, G1, GCard, GHead", 
+            "HomeWarp, AFeather, RRibbon, WCB, CCB, GForm, OrbAvoid, G2, GLug, GAKey, G1, GCard, GHead",
+            "WWWarp, CCB, GForm, OrbAvoid, DWings, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+            "WWWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "GobWarp, CCB, GForm, OrbAvoid, DWings, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+            "GobWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "SCWarp, CCB, GForm, OrbAvoid, DWings, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+            "SCWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "SAWarp, CCB, GForm, OrbAvoid, DWings, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+            "SAWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "GEWarp, GForm, OrbAvoid, DWings, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+            "GEWarp, GForm, OrbAvoid, RRibbon, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "GCWarp, GCKey, GForm, OrbAvoid, DWings, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+            "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "JiWarp, GForm, OrbAvoid, DWings, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+            "TenWarp, RRibbon, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "TenWarp, BBubble, DWings, G2, GLug, GAKey, G1, GCard, GHead",
+            "TenWarp, BBubble, RRibbon, G2, GLug, GAKey, G1, GCard, GHead",
+            "TenWarp, BBubble, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "TenWarp, BBubbleFemale, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "TenWarp, BBubbleFemale, RRibbon, G2, GLug, GAKey, G1, GCard, GHead",
+            "AHWarp, AFeather, RRibbon, G2, GLug, GAKey, G1, GCard, GHead",
+            "AHWarp, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+            "AHWarp, BBubbleFemale, G2, GLug, GAKey, G1, GCard, GHead",
+            "FFWarp, DWings, BBubble, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "FFWarp, DWings, BBubble, RRibbon, G2, GLug, GAKey, G1, GCard, GHead",
+            "FFWarp, RRibbon, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "SC2Warp, SForm, SCKey, DWings, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "SDWarp, SForm, SCKey, DWings, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, AFeather, G2, GLug, GAKey, G1, GCard, GHead",
+            "UUWarp, MScale, DWings, BBubble, G2, GLug, GAKey, G1, GCard, GHead",
+            "UUWarp, MScale, RRibbon, AFeather, G2, GLug, GAKey, G1, GCard, GHead"
                         ]
                     }
                 ]
@@ -2075,8 +2673,8 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "WCB, CCB, GCKey, RGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell, DMilk, BMilk, B2, HDango",
-                            "WCB, CCB, GCKey, SGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell, DMilk, BMilk, B2, HDango"
+                            "R1, B1, MC1, BClothes, BBell, DMilk, BMilk, B2, HDango",
+                            "R1, B1, MC1, BClothes, BBell, DMilk, BMilk, B2, HDango"
                         ]
                     },
                     {
@@ -2087,8 +2685,8 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "WCB, CCB, GCKey, RGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell, DMilk, BMilk, B2, HDango, K1, HDaikon",
-                            "WCB, CCB, GCKey, SGKey, R1, B1, MC1, GForm, BBubble, BClothes, BBell, DMilk, BMilk, B2, HDango, K1, HDaikon"
+                            "R1, B1, MC1, BClothes, BBell, DMilk, BMilk, B2, HDango, K1, HDaikon",
+                            "R1, B1, MC1, BClothes, BBell, DMilk, BMilk, B2, HDango, K1, HDaikon"
                         ]
                     }
                 ]
@@ -2197,8 +2795,8 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "BBubbleMale, AFeather, DWings",
-                            "BBubble, AFeather"
+                            "BBubbleMale, AFeather, RRibbon, DWings",
+                            "BBubble, AFeather, RRibbon"
                         ]
                     }
                 ]
@@ -2245,11 +2843,47 @@
                         "clear_as_group": false,
                         "access_rules":[
                             "AAKey, BBubbleFemale",
-                            "AAKey, AFeather"
+                            "AAKey, AFeather, RRibbon"
                         ]
                     }
                 ]
-            },
+            }
+
+        ]
+    },
+    {
+        "name": "East Spirit City",
+        "access_rules": [ 
+            "HomeWarp, DWings, RHKey, WCB, CCB", 
+            "HomeWarp, OrbAvoid, RHKey, WCB, CCB",
+            "HomeWarp, RRibbon, WCB, CCB",
+            "HomeWarp, AFeather, WCB, CCB",
+            "WWWarp, CCB",
+            "GobWarp, CCB",
+            "SCWarp, CCB",
+            "SAWarp, CCB",
+            "GEWarp",
+            "GCWarp, GCKey",
+            "JiWarp, GForm, OrbAvoid",
+            "CDWarp, GForm, OrbAvoid, BBubble",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid",
+            "FFWarp, GForm, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, GForm, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather, GForm, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, DWings, GForm, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, GForm, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, AFeather, GForm, OrbAvoid",
+            "UUWarp, MScale, GForm, CCB, WCB, OrbAvoid"    
+        ],
+        "children": [
             {
                 "name": "02 House",
                 "map_locations": [
@@ -2271,7 +2905,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather",
+                            "AFeather, RRibbon",
                             "DWings"
                         ]
                     }
@@ -2298,7 +2932,7 @@
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "GForm"
+                            "GForm, OrbAvoid"
                         ]
                     }
                 ]
@@ -2351,6 +2985,14 @@
                         "access_rules":[
                             "SForm"
                         ]
+                    },
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 4,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -2358,7 +3000,7 @@
                 "name": "Pig Mansion",
                 "access_rules":[
                     "CCB, BBubble",
-                    "CCB, BBubbleFemale, AFeather"
+                    "CCB, BBubbleFemale, AFeather, RRibbon"
                 ],
                 "map_locations": [
                     {
@@ -2388,8 +3030,8 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "FKey, FDeed, PigCos, BBubbleMale, GForm",
-                            "FKey, FDeed, PigCos, BBubble, GForm"
+                            "FKey, FDeed, PigCos, BBubbleMale",
+                            "FKey, FDeed, PigCos, BBubble"
                         ]
                     },
                     {
@@ -2424,8 +3066,8 @@
             {
                 "name": "Lone House",
                 "access_rules":[
-                    "CCB, BBubbleFemale, AFeather",
-                    "CCB, BBubble, AFeather"
+                    "CCB, BBubbleFemale, AFeather, RRibbon",
+                    "CCB, BBubble, AFeather, RRibbon"
                 ],
                 "map_locations": [
                     {
@@ -2443,14 +3085,101 @@
                         "clear_as_group": false
                     }
                 ]
+            },
+            {
+                "name": "Below Entrance",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 550,
+                        "y": 833
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "GForm"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ghost Castle Entrance",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 297,
+                        "y": 766   
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Crypt Pots",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 610,
+                        "y": 834
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 3,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    }
+                ]
             }
-
         ]
     },
     {
         "name": "Shady Sewers",
         "access_rules":[
-            "WCB, SForm, GForm, [HP:3], [Peach:3]"
+            "HomeWarp, RHKey, WCB, SForm, GForm, OrbAvoid",
+            "HomeWarp, RRibbon, WCB, SForm, GForm, OrbAvoid",
+            "HomeWarp, AFeather, WCB, SForm, GForm, OrbAvoid",
+            "WWWarp, SForm, GForm, OrbAvoid",
+            "GobWarp, SForm, GForm, OrbAvoid",
+            "SCWarp, SForm, GForm, OrbAvoid",
+            "SAWarp, SForm, GForm, OrbAvoid",
+            "GEWarp, CCB, SForm, GForm, OrbAvoid",
+            "GCWarp, GCKey, CCB, SForm, GForm, OrbAvoid",
+            "JiWarp, SForm",
+            "CDWarp, SForm, BBubble",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB, SForm",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB, SForm",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, SForm",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, SForm",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, SForm",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, SForm",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, SForm",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, SForm",
+            "FFWarp, GForm, OrbAvoid, CCB, SForm",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, AFeather, GForm, CCB, OrbAvoid",
+            "UUWarp, MScale, GForm, CCB, OrbAvoid, SForm"
         ],
         "children": [
             {
@@ -2509,7 +3238,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather"
+                            "AFeather, RRibbon"
                         ]
                     }
                 ]
@@ -2584,9 +3313,7 @@
             },
             {
                 "name": "Shady Gauntlet",
-                "access_rules":[
-                    "BBubble, [AFeather]"
-                ],
+                "access_rules":[ "BBubble, RRibbon, [AFeather]", "BBubble, AFeather, [RRibbon]" ],
                 "map_locations": [
                     {
                         "map": "SC",
@@ -2606,6 +3333,7 @@
             },
             {
                 "name": "Rat Costume Room",
+                "access_rules":[ "RRibbon", "AFeather" ],
                 "map_locations": [
                     {
                         "map": "SC",
@@ -2642,7 +3370,7 @@
                         "clear_as_group": false,
                         "access_rules":[
                             "BBubbleMale",
-                            "AFeather",
+                            "AFeather, RRibbon",
                             "BBubble"
                         ]
                     }
@@ -2726,28 +3454,53 @@
     {
         "name": "Early Ghost Castle",
         "access_rules":[
-            "WCB, CCB, [HP], [Peach]"
+            "HomeWarp, DWings, RHKey, WCB, CCB, GCKey", 
+            "HomeWarp, OrbAvoid, RHKey, WCB, CCB, GCKey",
+            "HomeWarp, RRibbon, WCB, CCB, GCKey",
+            "HomeWarp, AFeather, WCB, CCB, GCKey",
+            "WWWarp, CCB, GCKey",
+            "GobWarp, CCB, GCKey",
+            "SCWarp, CCB, GCKey",
+            "SAWarp, CCB, GCKey",
+            "GEWarp, GCKey",
+            "GCWarp",
+            "JiWarp, GForm, OrbAvoid, GCKey",
+            "CDWarp, GForm, OrbAvoid, GCKey, BBubble",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, GCKey",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, GCKey",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, GCKey",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, GCKey",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid, GCKey",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid, GCKey",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, GCKey",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, GCKey",
+            "FFWarp, GForm, OrbAvoid, GCKey",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, OrbAvoid, GCKey",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, GForm, OrbAvoid, GCKey",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather, GForm, OrbAvoid, GCKey",
+            "SDWarp, SForm, SCKey, BBubble, DWings, GForm, OrbAvoid, GCKey",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, GForm, OrbAvoid, GCKey",
+            "SDWarp, SForm, SCKey, BBubble, AFeather, GForm, OrbAvoid, GCKey",
+            "UUWarp, MScale, GForm, OrbAvoid, GCKey"
         ],
         "children": [
             {
-                "name": "Below Entrance",
+                "name": "Three Gardens Pots",
                 "map_locations": [
                     {
                         "map": "GC",
-                        "x": 550,
-                        "y": 833
+                        "x": 584,
+                        "y": 646
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Chest",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "GForm"
-                        ]
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 2,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -2778,21 +3531,13 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "BBubbleMale",
-                            "AFeather",
-                            "BBubble"
+                            "BBubbleMale, RRibbon",
+                            "BBubbleMale, AFeather",
+                            "AFeather, RRibbon"
                         ]
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Ghost Castle",
-        "access_rules":[
-            "WCB, CCB, GCKey, [HP], [Peach]"
-        ],
-        "children": [
+            },
             {
                 "name": "Up the Ladder",
                 "map_locations": [
@@ -2811,7 +3556,7 @@
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather"
+                            "AFeather, RRibbon"
                         ]
                     }
                 ]
@@ -2833,8 +3578,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "GCKey, BBubble",
-                            "GCKey, AFeather"
+                            "AFeather, RRibbon", "GCWarp", "BBubble AFeather", "BBubble RRibbon"
                         ]
                     }
                 ]
@@ -2854,44 +3598,91 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "AFeather, RRibbon", "GCWarp"
+                        ]
                     }
                 ]
             },
-            
             {
-                "name": "Ghost Form",
+                "name": "Ghost Stairwell Lower Pots",
                 "map_locations": [
                     {
                         "map": "GC",
-                        "x": 1313,
-                        "y": 427
+                        "x": 1075,
+                        "y": 576
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Big Chest",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 2,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "BBubble, RGKey, GForm",
-                            "AFeather, RGKey, GForm",
-                            "SGKey"
-                        ]
+                        "access_rules":[ "BBubble, AFeather", "BBubble, RRibbon", "BBubble, GCWarp" ]
                     }
                 ]
-            }            
+            },
+            {
+                "name": "Ghost Stairwell Mid Pots",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 1198,
+                        "y": 521
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 5,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false,
+                        "access_rules":[ "BBubble, AFeather", "BBubble, RRibbon", "BBubble, GCWarp" ]
+                    }
+                ]
+            }
         ]
     },
     {
-        "name": "Ghost Castle Rose Garden",
-        "access_rules":[
-            "WCB, CCB, GCKey, BBubble, RGKey, [HP], [Peach]",
-            "WCB, CCB, GCKey, AFeather, RGKey, [HP], [Peach]",
-            "WCB, CCB, GCKey, SGKey, GForm, AFeather, [HP], [Peach]",
-            "WCB, CCB, GCKey, SGKey, GForm, DWings, [HP], [Peach]"
+        "name": "Rose Garden",
+        "access_rules": [ 
+            "HomeWarp, RRibbon, WCB, CCB, GCKey, RGKey, BBubble",
+            "HomeWarp, AFeather, WCB, CCB, GCKey, RGKey, BBubble",
+            "WWWarp, CCB, GCKey, RGKey, BBubble, RRibbon",
+            "WWWarp, CCB, GCKey, RGKey, BBubble, AFeather",
+            "GobWarp, CCB, GCKey, RGKey, BBubble, RRibbon",
+            "GobWarp, CCB, GCKey, RGKey, BBubble, AFeather",
+            "SCWarp, CCB, GCKey, RGKey, BBubble, RRibbon",
+            "SCWarp, CCB, GCKey, RGKey, BBubble, AFeather",
+            "SAWarp, CCB, GCKey, RGKey, BBubble, RRibbon",
+            "SAWarp, CCB, GCKey, RGKey, BBubble, AFeather",
+            "GEWarp, GCKey, AFeather, RGKey, BBubble",
+            "GEWarp, GCKey, RRibbon, RGKey, BBubble",
+            "GCWarp, BBubble",
+            "GCWarp, RRibbon",
+            "GCWarp, AFeather",
+            "JiWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, RRibbon",
+            "JiWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, AFeather",
+            "CDWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, RRibbon",
+            "CDWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, AFeather",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, GCKey, RGKey",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, GCKey, RGKey",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, GCKey, RGKey",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, GCKey, RGKey",
+            "FFWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, RRibbon",
+            "FFWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, AFeather",
+            "SC2Warp, SForm, SCKey, RRibbon, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "SC2Warp, SForm, SCKey, AFeather, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "SDWarp, SForm, SCKey, RRibbon, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "SDWarp, SForm, SCKey, AFeather, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "UUWarp, MScale, GForm, OrbAvoid, RRibbon, GCKey, RGKey, BBubble",
+            "UUWarp, MScale, GForm, OrbAvoid, AFeather, GCKey, RGKey, BBubble"            
         ],
         "children": [
             {
@@ -2912,20 +3703,12 @@
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
-                        "access_rules":[
-                            "BClothes, BBubbleMale",
-                            "BClothes, BBubble"
-                        ]
+                        "access_rules":[ "BClothes, BBubbleMale", "BClothes, BBubble"]
                     }
                 ]
             },
             {
                 "name": "Elf Merchant",
-                "access_rules": [
-                    "BBubble",
-                    "AFeather",
-                    "DWings"
-                ],
                 "map_locations": [
                     {
                         "map": "GC",
@@ -2945,11 +3728,6 @@
             },
             {
                 "name": "Elf Merchant Chest",
-                "access_rules": [
-                    "BBubble",
-                    "AFeather",
-                    "DWings"
-                ],
                 "map_locations": [
                     {
                         "map": "GC",
@@ -2986,6 +3764,111 @@
                     }
                 ]
             },
+            {
+                "name": "Large Garden Pots",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 582,
+                        "y": 646
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 2,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "High Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 4,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false,
+                        "access_rules":[ "AFeather", "RRibbon" ]
+                    }
+                ]
+            },
+            {
+                "name": "Ladder Room Pots",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 692,
+                        "y": 393
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 3,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Drop Down Lower Pots",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 614,
+                        "y": 355
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 3,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Thimble Ghost Castle",
+        "access_rules": [  
+            "HomeWarp, RRibbon, WCB, CCB, GCKey, RGKey, BBubble",
+            "HomeWarp, AFeather, WCB, CCB, GCKey, RGKey, BBubble",
+            "WWWarp, CCB, GCKey, RGKey, BBubble, RRibbon",
+            "WWWarp, CCB, GCKey, RGKey, BBubble, AFeather",
+            "GobWarp, CCB, GCKey, RGKey, BBubble, RRibbon",
+            "GobWarp, CCB, GCKey, RGKey, BBubble, AFeather",
+            "SCWarp, CCB, GCKey, RGKey, BBubble, RRibbon",
+            "SCWarp, CCB, GCKey, RGKey, BBubble, AFeather",
+            "SAWarp, CCB, GCKey, RGKey, BBubble, RRibbon",
+            "SAWarp, CCB, GCKey, RGKey, BBubble, AFeather",
+            "GEWarp, GCKey, AFeather, RGKey, BBubble",
+            "GEWarp, GCKey, RRibbon, RGKey, BBubble",
+            "GCWarp",
+            "JiWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, RRibbon",
+            "JiWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, AFeather",
+            "CDWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, RRibbon",
+            "CDWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, AFeather",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, GCKey, RGKey",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, GCKey, RGKey",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, GCKey, RGKey",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, GCKey, RGKey",
+            "FFWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, RRibbon",
+            "FFWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, AFeather",
+            "SC2Warp, SForm, SCKey, RRibbon, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "SC2Warp, SForm, SCKey, AFeather, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "SDWarp, SForm, SCKey, RRibbon, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "SDWarp, SForm, SCKey, AFeather, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "UUWarp, MScale, GForm, OrbAvoid, RRibbon, GCKey, RGKey, BBubble",
+            "UUWarp, MScale, GForm, OrbAvoid, AFeather, GCKey, RGKey, BBubble"            
+        ],
+        "children": [
             {
                 "name": "Thimble",
                 "map_locations": [
@@ -3030,18 +3913,200 @@
                         "clear_as_group": false
                     }
                 ]
+            },
+            {
+                "name": "Large Hallway Pots",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 1230,
+                        "y": 296
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 2,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Ghost Castle",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 1067,
+                        "y": 283   
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
             }
 
         ]
     },
     {
-        "name": "Top of Ghost Castle",
+        "name": "Tall Tower",
         "access_rules":[
-            "WCB, CCB, GCKey, BBubble, GForm, RGKey, [HP], [Peach]",
-            "WCB, CCB, GCKey, BBubble, GForm, SGKey, AFeather, [HP], [Peach]",
-            "WCB, CCB, GCKey, BBubble, GForm, SGKey, DWings, [HP], [Peach]"
+            "HomeWarp, RRibbon, WCB, CCB, GCKey, RGKey, BBubble",
+            "HomeWarp, AFeather, WCB, CCB, GCKey, RGKey, BBubble",
+            "WWWarp, CCB, GCKey, RGKey, BBubble, RRibbon",
+            "WWWarp, CCB, GCKey, RGKey, BBubble, AFeather",
+            "GobWarp, CCB, GCKey, RGKey, BBubble, RRibbon",
+            "GobWarp, CCB, GCKey, RGKey, BBubble, AFeather",
+            "SCWarp, CCB, GCKey, RGKey, BBubble, RRibbon",
+            "SCWarp, CCB, GCKey, RGKey, BBubble, AFeather",
+            "SAWarp, CCB, GCKey, RGKey, BBubble, RRibbon",
+            "SAWarp, CCB, GCKey, RGKey, BBubble, AFeather",
+            "GEWarp, GCKey",
+            "GCWarp",
+            "JiWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, RRibbon",
+            "JiWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, AFeather",
+            "CDWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, RRibbon",
+            "CDWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, AFeather",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, GCKey, RGKey",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, GCKey, RGKey",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, GCKey, RGKey",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, GCKey, RGKey",
+            "FFWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, RRibbon",
+            "FFWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, AFeather",
+            "SC2Warp, SForm, SCKey, RRibbon, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "SC2Warp, SForm, SCKey, AFeather, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "SDWarp, SForm, SCKey, RRibbon, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "SDWarp, SForm, SCKey, AFeather, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "UUWarp, MScale, GForm, OrbAvoid, RRibbon, GCKey, RGKey, BBubble",
+            "UUWarp, MScale, GForm, OrbAvoid, AFeather, GCKey, RGKey, BBubble"
+        ],
+        "children": [
+            
+            {
+                "name": "Ghost Form",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 1313,
+                        "y": 427
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Big Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules":[ "SGKey", "GCWarp, GForm, OrbAvoid", "RRibbon, RGKey, BBubble, GForm, OrbAvoid", "AFeather, RGKey, BBubble, GForm, OrbAvoid" ]
+                    }
+                ]
+            },
+            {
+                "name": "Tall Tower Pots",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 1300,
+                        "y": 700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 4,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            }       
+        ]
+    },
+    {
+        "name": "Top of Ghost Castle",
+        "access_rules":[  
+            "HomeWarp, RRibbon, WCB, CCB, GCKey, RGKey, BBubble, GForm, OrbAvoid",
+            "HomeWarp, AFeather, WCB, CCB, GCKey, RGKey, BBubble, GForm, OrbAvoid",
+            "WWWarp, CCB, GCKey, RGKey, BBubble, RRibbon, GForm, OrbAvoid",
+            "WWWarp, CCB, GCKey, RGKey, BBubble, AFeather, GForm, OrbAvoid",
+            "GobWarp, CCB, GCKey, RGKey, BBubble, RRibbon, GForm, OrbAvoid",
+            "GobWarp, CCB, GCKey, RGKey, BBubble, AFeather, GForm, OrbAvoid",
+            "SCWarp, CCB, GCKey, RGKey, BBubble, RRibbon, GForm, OrbAvoid",
+            "SCWarp, CCB, GCKey, RGKey, BBubble, AFeather, GForm, OrbAvoid",
+            "SAWarp, CCB, GCKey, RGKey, BBubble, RRibbon, GForm, OrbAvoid",
+            "SAWarp, CCB, GCKey, RGKey, BBubble, AFeather, GForm, OrbAvoid",
+            "GEWarp, GCKey, AFeather, RGKey, BBubble, GForm, OrbAvoid",
+            "GEWarp, GCKey, RRibbon, RGKey, BBubble, GForm, OrbAvoid",
+            "GCWarp, GForm, OrbAvoid, BBubble",
+            "JiWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, RRibbon",
+            "JiWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, AFeather",
+            "CDWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, RRibbon",
+            "CDWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, AFeather",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, GCKey, RGKey",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, GCKey, RGKey",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, GCKey, RGKey",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, GCKey, RGKey",
+            "FFWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, RRibbon",
+            "FFWarp, GForm, OrbAvoid, GCKey, RGKey, BBubble, AFeather",
+            "SC2Warp, SForm, SCKey, RRibbon, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "SC2Warp, SForm, SCKey, AFeather, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "SDWarp, SForm, SCKey, RRibbon, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "SDWarp, SForm, SCKey, AFeather, GForm, OrbAvoid, GCKey, RGKey, BBubble",
+            "UUWarp, MScale, GForm, OrbAvoid, RRibbon, GCKey, RGKey, BBubble",
+            "UUWarp, MScale, GForm, OrbAvoid, AFeather, GCKey, RGKey, BBubble"
         ],
         "children": [  
+            {
+                "name": "Crumbling Room Pots",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 1097,
+                        "y": 231
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 2,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Willow the Whiff Room Pots",
+                "map_locations": [
+                    {
+                        "map": "GC",
+                        "x": 824,
+                        "y": 85
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 6,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
             {
                 "name": "Blind Jump",
                 "map_locations": [
@@ -3120,11 +4185,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "BBubbleMale",
-                            "BBubble"
-                        ]
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -3201,11 +4262,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "BBubbleMale, GForm",
-                            "BBubble, GForm"
-                        ]
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -3266,9 +4323,7 @@
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "DWings", "AFeather"
-                        ]
+                        "access_rules":[ "DWings", "AFeather, RRibbon" ]
                     }
                 ]
             }
@@ -3276,11 +4331,78 @@
         ]
     },
     {
-        "name": "Jigoku",
+        "name": "Early Jigoku",
         "access_rules":[
-            "WCB, GForm, [HP], [Peach]"
+            "HomeWarp, RHKey, WCB, GForm, OrbAvoid",
+            "HomeWarp, RRibbon, WCB, GForm, OrbAvoid",
+            "HomeWarp, AFeather, WCB, GForm, OrbAvoid",
+            "WWWarp, GForm, OrbAvoid",
+            "GobWarp, GForm, OrbAvoid",
+            "SCWarp, GForm, OrbAvoid",
+            "SAWarp, GForm, OrbAvoid",
+            "GEWarp, CCB, GForm, OrbAvoid",
+            "GCWarp, GCKey, CCB, GForm, OrbAvoid",
+            "JiWarp",
+            "CDWarp, BBubble",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, CCB",
+            "FFWarp, GForm, OrbAvoid, CCB",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, AFeather, GForm, CCB, OrbAvoid",
+            "UUWarp, MScale, GForm, CCB, OrbAvoid"
         ],
-        "children": [ 
+        "children": [
+            {
+                "name": "Jigoku",
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 960,
+                        "y": 141   
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "First Drop Higher Pots",
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 594,
+                        "y": 269
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 3,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false,
+                        "access_rules":[  "ORbAvoid", "RRibbon", "AFeather", "DWings" ]
+                    }
+                ]
+            },
             {
                 "name": "Hidden Flip Magic Room",
                 "map_locations": [
@@ -3341,7 +4463,8 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "AFeather", "RRibbon", "DWings"  ]
                     }
                 ]
             },
@@ -3383,14 +4506,182 @@
                         "clear_as_group": false
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "East Jigoku",
+        "access_rules": [ 
+            "HomeWarp, RHKey, WCB, GForm, OrbAvoid",
+            "HomeWarp, RRibbon, WCB, GForm, OrbAvoid",
+            "HomeWarp, AFeather, WCB, GForm, OrbAvoid",
+            "WWWarp, GForm, OrbAvoid, RRibbon",
+            "WWWarp, GForm, OrbAvoid, AFeather",
+            "GobWarp, GForm, OrbAvoid, RRibbon",
+            "GobWarp, GForm, OrbAvoid, AFeather",
+            "SCWarp, GForm, OrbAvoid, RRibbon",
+            "SCWarp, GForm, OrbAvoid, AFeather",
+            "SAWarp, GForm, OrbAvoid, RRibbon",
+            "SAWarp, GForm, OrbAvoid, AFeather",
+            "GEWarp, CCB, GForm, OrbAvoid, RRibbon",
+            "GEWarp, CCB, GForm, OrbAvoid, AFeather",
+            "GCWarp, GCKey, CCB, GForm, OrbAvoid, RRibbon",
+            "GCWarp, GCKey, CCB, GForm, OrbAvoid, AFeather",
+            "JiWarp, RRibbon",
+            "JiWarp, AFeather",
+            "CDWarp, RRibbon",
+            "CDWarp, AFeather",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, CCB",
+            "FFWarp, GForm, OrbAvoid, CCB, AFeather",
+            "FFWarp, GForm, OrbAvoid, CCB, RRibbon",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, AFeather, GForm, CCB, OrbAvoid",
+            "UUWarp, MScale, GForm, CCB, OrbAvoid, RRibbon",
+            "UUWarp, MScale, GForm, CCB, OrbAvoid, AFeather"            
+        ],
+        "children": [
             {
-                "name": "Nearby Cat Shrine",
+                "name": "The Mound Pots",
                 "map_locations": [
                     {
                         "map": "CD",
-                        "x": 590,
-                        "y": 475
+                        "x": 1337,
+                        "y": 224
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 5,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "TBKey, BBubbleFemale",
+                            "TBKey, BBubble",
+                            "TBKey, AFeather, RRibbon"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Long Hallway Pots",
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 1434,
+                        "y": 139
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 7,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "TBKey, BBubbleFemale",
+                            "TBKey, BBubble",
+                            "TBKey, AFeather, RRibbon"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Flip Magic Ledge",
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 947,
+                        "y": 194
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "BBubble",
+                            "AFeather, RRibbon, DWings, BBubbleMale"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Far Ledge",
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 1255,
+                        "y": 195
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules":[ "AFeather, RRibbon",  "DWings, BBubble, OrdAvoid", "DWings, BBubble, AFeather", "DWings, BBubble, RRibbon" ]
+                    }
+                ]
+            },
+            {
+                "name": "Demon Wings Room",
+                "access_rules": [  "CTKey, BBubble", "AFeather", "DWings" ],
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 918,
+                        "y": 339    
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Big Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Tutorial Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "DWings"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Northern Cat Shrine",
+                "access_rules": [  "CTKey, BBubble", "AFeather", "DWings" ],
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 988,
+                        "y": 275
                     }
                 ],
                 "sections": [
@@ -3399,7 +4690,7 @@
                         "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "access_rules":[
-                            "MikoCos, BBubbleFemale",
+                            "MikoCos, BBubbleFemale ",
                             "MikoCos, BBubble"
                         ],
                         "chest_opened_img": "images/items/GreyChest.png",
@@ -3409,36 +4700,13 @@
                 ]
             },
             {
-                "name": "Unlucky Cat",
+                "name": "Northern Cat Shrine Chest",
+                "access_rules": [  "CTKey, BBubble", "AFeather", "DWings" ],
                 "map_locations": [
                     {
                         "map": "CD",
-                        "x": 715,
-                        "y": 475
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Unlucky Cat Statue",
-                        "visibility_rules": [ "QuestItems", "QuestOn" ],
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GPeach.png",
-                        "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": true,
-                        "access_rules":[
-                            "SFrag:3, MikoCos, BBubbleFemale",
-                            "SFrag:3, MikoCos, BBubble"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Beast's Key Chest",
-                "map_locations": [
-                    {
-                        "map": "CD",
-                        "x": 686,
-                        "y": 408
+                        "x": 1025,
+                        "y": 275
                     }
                 ],
                 "sections": [
@@ -3452,50 +4720,23 @@
                 ]
             },
             {
-                "name": "Hidden Ledge",
+                "name": "Northern Cat Shrine Coin",
+                "access_rules": [  "CTKey, BBubble", "AFeather", "DWings" ],
                 "map_locations": [
                     {
                         "map": "CD",
-                        "x": 782,
-                        "y": 327
+                        "x": 950,
+                        "y": 275
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Chest",
-                        "access_rules":[
-                            "BBubbleMale",
-                            "BBubble",
-                            "AFeather"
-                        ],
+                        "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
                         "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "chest_opened_img": "images/items/GCoin.png",
+                        "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false
-                    }
-                ]
-            },
-            {
-                "name": "Annahell",
-                "map_locations": [
-                    {
-                        "map": "CD",
-                        "x": 1174,
-                        "y": 480
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Harvest Season",
-                        "visibility_rules": [ "QuestItems", "QuestOn" ],
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GPeach.png",
-                        "chest_unopened_img": "images/items/Peach.png",
-                        "clear_as_group": true,
-                        "access_rules":[
-                            "FarmCos, BBubbleMale",
-                            "FarmCos, BBubble"
-                        ]
                     }
                 ]
             },
@@ -3601,103 +4842,94 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "TBKey"
+                            "TBKey, BBubbleFemale",
+                            "TBKey, BBubble",
+                            "TBKey, AFeather, RRibbon"
                         ]
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Lower Jigoku",
+        "access_rules": [
+            "HomeWarp, RHKey, WCB, GForm, OrbAvoid", 
+            "HomeWarp, RRibbon, WCB, GForm, OrbAvoid",
+            "HomeWarp, AFeather, WCB, GForm, OrbAvoid",
+            "WWWarp, GForm, OrbAvoid",
+            "GobWarp, GForm, OrbAvoid",
+            "SCWarp, GForm, OrbAvoid",
+            "SAWarp, GForm, OrbAvoid",
+            "GEWarp, CCB, GForm, OrbAvoid",
+            "GCWarp, GCKey, CCB, GForm, OrbAvoid",
+            "JiWarp",
+            "CDWarp",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, CCB",
+            "FFWarp, GForm, OrbAvoid, CCB",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, AFeather, GForm, CCB, OrbAvoid",
+            "UUWarp, MScale, GForm, CCB, OrbAvoid"   
+        ],
+        "children": [
             {
-                "name": "Far Ledge",
+                "name": "First Drop Lower Pots",
                 "map_locations": [
                     {
                         "map": "CD",
-                        "x": 1255,
-                        "y": 195
+                        "x": 594,
+                        "y": 327
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Chest",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "AFeather",
-                            "DWings, BBubble"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Hidden Flip Magic Ledge",
-                "map_locations": [
-                    {
-                        "map": "CD",
-                        "x": 947,
-                        "y": 194
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Chest",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "BBubble",
-                            "AFeather, DWings, BBubbleMale"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Demon Wings Room",
-                "access_rules":[
-                    "CTKey",
-                    "AFeather",
-                    "DWings"
-                ],
-                "map_locations": [
-                    {
-                        "map": "CD",
-                        "x": 918,
-                        "y": 339    
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Big Chest",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 3,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
                         "clear_as_group": false
-                    },
-                    {
-                        "name": "Tutorial Chest",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "DWings"
-                        ]
                     }
                 ]
             },
             {
-                "name": "Northern Cat Shrine",
-                "access_rules":[
-                    "CTKey",
-                    "AFeather",
-                    "DWings"
-                ],
+                "name": "Boxy Drop Pots",
                 "map_locations": [
                     {
                         "map": "CD",
-                        "x": 988,
-                        "y": 275
+                        "x": 608,
+                        "y": 430
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 2,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Nearby Cat Shrine",
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 590,
+                        "y": 475
                     }
                 ],
                 "sections": [
@@ -3706,7 +4938,7 @@
                         "visibility_rules": [ "QuestItems", "QuestOn" ],
                         "item_count": 1,
                         "access_rules":[
-                            "MikoCos, BBubbleFemale ",
+                            "MikoCos, BBubbleFemale",
                             "MikoCos, BBubble"
                         ],
                         "chest_opened_img": "images/items/GreyChest.png",
@@ -3716,17 +4948,36 @@
                 ]
             },
             {
-                "name": "Northern Cat Shrine Chest",
-                "access_rules":[
-                    "CTKey",
-                    "AFeather",
-                    "DWings"
-                ],
+                "name": "Unlucky Cat",
                 "map_locations": [
                     {
                         "map": "CD",
-                        "x": 1025,
-                        "y": 275
+                        "x": 715,
+                        "y": 475
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Unlucky Cat Statue",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPeach.png",
+                        "chest_unopened_img": "images/items/Peach.png",
+                        "clear_as_group": true,
+                        "access_rules":[
+                            "SFrag:3, MikoCos, BBubbleFemale",
+                            "SFrag:3, MikoCos, BBubble"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Beast's Key Chest",
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 686,
+                        "y": 408
                     }
                 ],
                 "sections": [
@@ -3740,27 +4991,51 @@
                 ]
             },
             {
-                "name": "Northern Cat Shrine Coin",
-                "access_rules":[
-                    "CTKey",
-                    "AFeather",
-                    "DWings"
-                ],
+                "name": "Hidden Ledge",
                 "map_locations": [
                     {
                         "map": "CD",
-                        "x": 950,
-                        "y": 275
+                        "x": 782,
+                        "y": 327
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Gacha Coin",
-                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
+                        "name": "Chest",
+                        "access_rules":[
+                            "BBubbleMale, RRibbon",
+                            "BBubbleMale, AFeather",
+                            "BBubble",
+                            "AFeather"
+                        ],
                         "item_count": 1,
-                        "chest_opened_img": "images/items/GCoin.png",
-                        "chest_unopened_img": "images/items/GachaCoin.png",
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Annahell",
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 1174,
+                        "y": 480
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Harvest Season",
+                        "visibility_rules": [ "QuestItems", "QuestOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPeach.png",
+                        "chest_unopened_img": "images/items/Peach.png",
+                        "clear_as_group": true,
+                        "access_rules":[
+                            "FarmCos, BBubbleMale",
+                            "FarmCos, BBubble"
+                        ]
                     }
                 ]
             }
@@ -3769,10 +5044,61 @@
     {
         "name": "Club Demon",
         "access_rules":[
-            "WCB, DWings, GForm, [HP], [Peach]",
-            "WCB, AFeather, GForm, [HP], [Peach]"
+            "HomeWarp, DWings, RHKey, WCB, GForm, OrbAvoid", 
+            "HomeWarp, RRibbon, AFeather WCB, GForm, OrbAvoid",
+            "WWWarp, GForm, OrbAvoid, DWings",
+            "WWWarp, GForm, OrbAvoid, AFeather, RRibbon",
+            "GobWarp, GForm, OrbAvoid, DWings",
+            "GobWarp, GForm, OrbAvoid, AFeather, RRibbon",
+            "SCWarp, GForm, OrbAvoid, DWings",
+            "SCWarp, GForm, OrbAvoid, AFeather, RRibbon",
+            "SAWarp, GForm, OrbAvoid, DWings",
+            "SAWarp, GForm, OrbAvoid, AFeather, RRibbon",
+            "GEWarp, CCB, GForm, OrbAvoid, DWings",
+            "GEWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "GCWarp, GCKey, CCB, GForm, OrbAvoid, DWings",
+            "GCWarp, GCKey, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "JiWarp, DWings",
+            "JiWarp, AFeather, RRibbon",
+            "CDWarp",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB, DWings",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB, DWings",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, DWings",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, DWings",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, DWings",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, DWings",
+            "FFWarp, GForm, OrbAvoid, CCB",
+            "FFWarp, GForm, OrbAvoid, CCB",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, AFeather, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, AFeather, GForm, CCB, OrbAvoid",
+            "UUWarp, MScale, GForm, CCB, OrbAvoid, DWings",
+            "UUWarp, MScale, GForm, CCB, OrbAvoid, AFeather, RRibbon" 
         ],
         "children": [ 
+            {
+                "name": "Club Demon",
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 957,
+                        "y": 616   
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
             {
                 "name": "Club Demon Entrance",
                 "map_locations": [
@@ -3813,6 +5139,7 @@
             },
             {
                 "name": "Bad Boy",
+                "access_rules":[ "ALetter, MailCos, BBubble", "ALetter, MailCos, BBubbleMale" ],
                 "map_locations": [
                     {
                         "map": "CD",
@@ -3828,9 +5155,41 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "CCB, ALetter, MailCos, BBubbleMale",
-                            "CCB, ALetter, MailCos, BBubble"
+                        "access_rules":[   
+            "HomeWarp, DWings, RHKey, WCB, CCB, GForm, OrbAvoid, BBubble", 
+            "HomeWarp, AFeather, RRibbon, WCB, CCB, GForm, OrbAvoid",
+            "WWWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "WWWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GobWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "GobWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SCWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "SCWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SAWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "SAWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GEWarp, GForm, OrbAvoid, DWings, BBubble",
+            "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "GCWarp, GCKey, GForm, OrbAvoid, DWings, BBubble",
+            "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
+            "JiWarp, GForm, OrbAvoid, DWings, BBubble",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "TenWarp, RRibbon, AFeather",
+            "TenWarp, BBubble, DWings",
+            "TenWarp, BBubble, RRibbon",
+            "TenWarp, BBubble, AFeather",
+            "TenWarp, BBubbleFemale, AFeather",
+            "TenWarp, BBubbleFemale, RRibbon",
+            "AHWarp",
+            "FFWarp, DWings, BBubble, AFeather",
+            "FFWarp, DWings, BBubble, RRibbon",
+            "FFWarp, RRibbon, AFeather",
+            "SC2Warp, SForm, SCKey, DWings, BBubble",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "SDWarp, SForm, SCKey, DWings, BBubble",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "UUWarp, MScale, DWings, BBubble",
+            "UUWarp, MScale, RRibbon, AFeather"
                         ]
                     }
                 ]
@@ -3851,9 +5210,27 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "BBubble, CDKey"
-                        ]
+                        "access_rules":[ "RRibbon, AFeeather, BBubble, CDKey", "DWings, RRibbon, BBubble, CDKey", "DWings, AFeather, BBubble, CDKey" ]
+                    }
+                ]
+            },
+            {
+                "name": "Green Stairwell Pots",
+                "map_locations": [
+                    {
+                        "map": "CD",
+                        "x": 1356,
+                        "y": 682
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 3,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -3874,9 +5251,11 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "BBubbleFemale", 
-                            "AFeather",
-                            "BBubble"
+                            "BBubbleFemale, RRibbon",
+                            "BBubbleFemale, AFeather", 
+                            "AFeather, RRibbon",
+                            "BBubble, RRibbon",
+                            "BBubble, AFeather"
                         ]
                     }
                 ]
@@ -3899,7 +5278,9 @@
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "BBubble"
+                            "BBubbleMale, DWings, AFeather, RRibbon",
+                            "BBubble, RRibbon, AFeather",
+                            "BBubble, DWings"
                         ]
                     }
                 ]
@@ -3947,9 +5328,7 @@
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "BBubble"
-                        ]
+                        "access_rules":[ "BBubble, RRibbon", "BBubble, AFeather" ]
                     }
                 ]
             },
@@ -4033,7 +5412,10 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "SCDKey"
+                            "BBubbleMale, RRibbon, SCDKey",
+                            "BBubble, AFeather, SCDKey",
+                            "BBubbleMale, RRibbon, SCDKey",
+                            "BBubble, AFeather, SCDKey"
                         ]
                     }
                 ]
@@ -4087,10 +5469,44 @@
         ]
     },
     {
-        "name": "Tengoku",
-        "access_rules":[
-            "WCB, CCB, GForm, AFeather, [HP:2], [Peach:2]",
-            "WCB, CCB, GForm, DWings, [HP:2], [Peach:2]"
+        "name": "Early Tengoku",
+        "access_rules": [
+            "HomeWarp, DWings, WCB, CCB, GForm, OrbAvoid, RRibbon", 
+            "HomeWarp, DWings, WCB, CCB, GForm, OrbAvoid, AFeather", 
+            "HomeWarp, AFeather, RRibbon, WCB, CCB, GForm, OrbAvoid",
+            "WWWarp, CCB, GForm, OrbAvoid, DWings",
+            "WWWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GobWarp, CCB, GForm, OrbAvoid, DWings",
+            "GobWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SCWarp, CCB, GForm, OrbAvoid, DWings",
+            "SCWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SAWarp, CCB, GForm, OrbAvoid, DWings",
+            "SAWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GEWarp, GForm, OrbAvoid, DWings",
+            "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "GCWarp, GCKey, GForm, OrbAvoid, DWings",
+            "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
+            "JiWarp, GForm, OrbAvoid, DWings",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "TenWarp, BBubbleMale, AFeathers",
+            "TenWarp, BBubbleMale, RRibbon",
+            "TenWarp, BBubble, AFeather",
+            "TenWarp, BBubble, RRibbon",
+            "TenWarp, AFeather, RRibbon",
+            "AHWarp, AFeather, RRibbon",
+            "AHWarp, BBubble, RRibbon",
+            "AHWarp, BBubble, AFeather",
+            "FFWarp, DWings, RRibbon",
+            "FFWarp, DWings, AFeather",
+            "FFWarp, RRibbon, AFeather",
+            "SC2Warp, SForm, SCKey, BBubble, DWings",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "SDWarp, SForm, SCKey, BBubble, DWings",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "UUWarp, MScale, DWings",
+            "UUWarp, MScale, RRibbon, AFeather"            
         ],
         "children": [
             {
@@ -4154,18 +5570,49 @@
         ]
     },
     {
-        "name": "Upper Tengoku",
+        "name": "Mid Tengoku",
         "access_rules":[
-            "WCB, CCB, GForm, AFeather, [HP:2], [Peach:2]",
-            "WCB, CCB, GForm, DWings, BBubble, [HP:2], [Peach:2]"
+            "HomeWarp, DWings, WCB, CCB, GForm, OrbAvoid, RRibbon, BBubble", 
+            "HomeWarp, DWings, WCB, CCB, GForm, OrbAvoid, AFeather, BBubble",  
+            "HomeWarp, AFeather, RRibbon, WCB, CCB, GForm, OrbAvoid",
+            "WWWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "WWWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GobWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "GobWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SCWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "SCWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SAWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "SAWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GEWarp, GForm, OrbAvoid, DWings, BBubble",
+            "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "GCWarp, GCKey, GForm, OrbAvoid, DWings, BBubble",
+            "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
+            "JiWarp, GForm, OrbAvoid, DWings, BBubble",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "TenWarp, BBubbleMale, AFeathers",
+            "TenWarp, BBubbleMale, RRibbon",
+            "TenWarp, BBubble, AFeather",
+            "TenWarp, BBubble, RRibbon",
+            "TenWarp, AFeather, RRibbon",
+            "AHWarp, AFeather, RRibbon",
+            "AHWarp, BBubble, RRibbon",
+            "AHWarp, BBubble, AFeather",
+            "FFWarp, DWings, BBubble, AFeather",
+            "FFWarp, DWings, BBubble, RRibbon",
+            "FFWarp, RRibbon, AFeather",
+            "SC2Warp, SForm, SCKey, DWings, BBubble",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "SDWarp, SForm, SCKey, DWings, BBubble",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "UUWarp, MScale, DWings, BBubble",
+            "UUWarp, MScale, RRibbon, AFeather"
         ],
         "children": [
             {
                 "name": "Hidden Flip Magic Spring",
-                "access_rules":[
-                    "BBubbleFemale",
-                    "BBubble"
-                ],
+                "access_rules":[ "AFeather", "RRIbbon" ],
                 "map_locations": [
                     {
                         "map": "TG",
@@ -4246,7 +5693,46 @@
                         ]
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Tengoku",
+        "access_rules":[
+            "HomeWarp, DWings, WCB, CCB, GForm, OrbAvoid, RRibbon, BBubble", 
+            "HomeWarp, DWings, WCB, CCB, GForm, OrbAvoid, AFeather, BBubble", 
+            "HomeWarp, AFeather, RRibbon, WCB, CCB, GForm, OrbAvoid",
+            "WWWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "WWWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GobWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "GobWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SCWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "SCWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SAWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "SAWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GEWarp, GForm, OrbAvoid, DWings, BBubble",
+            "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "GCWarp, GCKey, GForm, OrbAvoid, DWings, BBubble",
+            "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
+            "JiWarp, GForm, OrbAvoid, DWings, BBubble",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "TenWarp",
+            "AHWarp, AFeather, RRibbon",
+            "AHWarp, BBubble",
+            "AHWarp, BBubbleFemale",
+            "FFWarp, DWings, BBubble, AFeather",
+            "FFWarp, DWings, BBubble, RRibbon",
+            "FFWarp, RRibbon, AFeather",
+            "SC2Warp, SForm, SCKey, DWings, BBubble",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "SDWarp, SForm, SCKey, DWings, BBubble",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "UUWarp, MScale, DWings, BBubble",
+            "UUWarp, MScale, RRibbon, AFeather"
+        ],
+        "children": [
             {
                 "name": "Secret Alcove",
                 "map_locations": [
@@ -4270,16 +5756,7 @@
                         ]
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Angelic Hallway",
-        "access_rules":[
-            "WCB, CCB, GForm, AFeather, [HP:2], [Peach:2]",
-            "WCB, CCB, GForm, DWings, BBubble, [HP:2], [Peach:2]"
-        ],
-        "children": [ 
+            },
             {
                 "name": "Starting Coins",
                 "map_locations": [
@@ -4300,6 +5777,68 @@
                 ]
             },
             {
+                "name": "Tengoku",
+                "map_locations": [
+                    {
+                        "map": "TG",
+                        "x": 1321,
+                        "y": 480   
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Early Angelic",
+        "access_rules": [ 
+            "HomeWarp, DWings, WCB, CCB, GForm, OrbAvoid, RRibbon, BBubble", 
+            "HomeWarp, DWings, WCB, CCB, GForm, OrbAvoid, AFeather, BBubble", 
+            "HomeWarp, AFeather, RRibbon, WCB, CCB, GForm, OrbAvoid",
+            "WWWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "WWWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GobWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "GobWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SCWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "SCWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SAWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "SAWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GEWarp, GForm, OrbAvoid, DWings, BBubble",
+            "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "GCWarp, GCKey, GForm, OrbAvoid, DWings, BBubble",
+            "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
+            "JiWarp, GForm, OrbAvoid, DWings, BBubble",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "TenWarp, RRibbon, AFeather",
+            "TenWarp, BBubble,",
+            "TenWarp, BBubbleFemale, AFeather",
+            "TenWarp, BBubbleFemale, RRibbon",
+            "AHWarp, AFeather, RRibbon",
+            "AHWarp, BBubble",
+            "AHWarp, BBubbleFemale",
+            "FFWarp, DWings, BBubble, AFeather",
+            "FFWarp, DWings, BBubble, RRibbon",
+            "FFWarp, RRibbon, AFeather",
+            "SC2Warp, SForm, SCKey, DWings, BBubble",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "SDWarp, SForm, SCKey, DWings, BBubble",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "UUWarp, MScale, DWings, BBubble",
+            "UUWarp, MScale, RRibbon, AFeather"            
+        ],
+        "children": [
+            {
                 "name": "Hidden Foliage 1",
                 "map_locations": [
                     {
@@ -4315,33 +5854,54 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
-                        "clear_as_group": false
-                    }
-                ]
-            },
-            {
-                "name": "Hidden Foliage 2",
-                "map_locations": [
-                    {
-                        "map": "TG",
-                        "x": 465,
-                        "y": 265
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gacha Coin",
-                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GCoin.png",
-                        "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "AFeather"
-                        ]
+                        "access_rules":[ "AFeather", "DWings, RRibbon", "DWings, AFeather" ]
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Merchant Angelic",
+        "access_rules": [  
+            "HomeWarp, DWings, RHKey, WCB, CCB, GForm, OrbAvoid, BBubble", 
+            "HomeWarp, AFeather, RRibbon, WCB, CCB, GForm, OrbAvoid",
+            "WWWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "WWWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GobWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "GobWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SCWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "SCWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SAWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "SAWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GEWarp, GForm, OrbAvoid, DWings, BBubble",
+            "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "GCWarp, GCKey, GForm, OrbAvoid, DWings, BBubble",
+            "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
+            "JiWarp, GForm, OrbAvoid, DWings, BBubble",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "TenWarp, RRibbon, AFeather",
+            "TenWarp, BBubble, DWings",
+            "TenWarp, BBubble, RRibbon",
+            "TenWarp, BBubble, AFeather",
+            "TenWarp, BBubbleFemale, AFeather",
+            "TenWarp, BBubbleFemale, RRibbon",
+            "AHWarp, AFeather, RRibbon",
+            "AHWarp, BBubble",
+            "AHWarp, BBubbleFemale",
+            "FFWarp, DWings, BBubble, AFeather",
+            "FFWarp, DWings, BBubble, RRibbon",
+            "FFWarp, RRibbon, AFeather",
+            "SC2Warp, SForm, SCKey, DWings, BBubble",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "SDWarp, SForm, SCKey, DWings, BBubble",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "UUWarp, MScale, DWings, BBubble",
+            "UUWarp, MScale, RRibbon, AFeather"            
+        ],
+        "children": [
             {
                 "name": "Elf Merchant",
                 "map_locations": [
@@ -4386,7 +5946,48 @@
                         "clear_as_group": false
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Angelic Hallway",
+        "access_rules":[   
+            "HomeWarp, DWings, RHKey, WCB, CCB, GForm, OrbAvoid, BBubble", 
+            "HomeWarp, AFeather, RRibbon, WCB, CCB, GForm, OrbAvoid",
+            "WWWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "WWWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GobWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "GobWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SCWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "SCWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SAWarp, CCB, GForm, OrbAvoid, DWings, BBubble",
+            "SAWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GEWarp, GForm, OrbAvoid, DWings, BBubble",
+            "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "GCWarp, GCKey, GForm, OrbAvoid, DWings, BBubble",
+            "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
+            "JiWarp, GForm, OrbAvoid, DWings, BBubble",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "TenWarp, RRibbon, AFeather",
+            "TenWarp, BBubble, DWings",
+            "TenWarp, BBubble, RRibbon",
+            "TenWarp, BBubble, AFeather",
+            "TenWarp, BBubbleFemale, AFeather",
+            "TenWarp, BBubbleFemale, RRibbon",
+            "AHWarp",
+            "FFWarp, DWings, BBubble, AFeather",
+            "FFWarp, DWings, BBubble, RRibbon",
+            "FFWarp, RRibbon, AFeather",
+            "SC2Warp, SForm, SCKey, DWings, BBubble",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "SDWarp, SForm, SCKey, DWings, BBubble",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "UUWarp, MScale, DWings, BBubble",
+            "UUWarp, MScale, RRibbon, AFeather"
+        ],
+        "children": [ 
             {
                 "name": "Cloudia",
                 "map_locations": [
@@ -4403,6 +6004,46 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Cloudia Entrance Pots",
+                "map_locations": [
+                    {
+                        "map": "TG",
+                        "x": 952,
+                        "y": 548
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 7,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Angelic Hallway",
+                "map_locations": [
+                    {
+                        "map": "TG",
+                        "x": 437,
+                        "y": 482   
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
                         "clear_as_group": false
                     }
                 ]
@@ -4440,7 +6081,7 @@
                     }
                 ],
                 "access_rules":[
-                    "GForm"
+                    "GForm, OrbAvoid, BBubble"
                 ],
                 "sections": [
                     {
@@ -4469,7 +6110,7 @@
                     }
                 ],
                 "access_rules":[
-                    "GForm"
+                    "GForm, OrbAvoid, BBubble"
                 ],
                 "sections": [
                     {
@@ -4491,8 +6132,7 @@
                     }
                 ],
                 "access_rules":[
-                    "BBubbleMale, AFeather",
-                    "BBubble"
+                    "GForm, OrbAvoid, BBubble", "GForm, OrbAvoid, BBubbleFemale", "GForm, OrbAvoid, RRibbon, AFeather"
                 ],  
                 "sections": [
                     {
@@ -4506,6 +6146,12 @@
             },
             {
                 "name": "Gabrielle",
+                "access_rules":[
+                    "MailCos, BBubbleMale, DWings, AFeather, RRibbon",
+                    "MailCos, BBubbleMale, OrbAvoid, AFeather, RRibbon",
+                    "MailCos, BBubble, RRibbon",
+                    "MailCos, BBubble, AFeather"
+                ],
                 "map_locations": [
                     {
                         "map": "TG",
@@ -4520,11 +6166,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "MailCos, BBubbleMale",
-                            "MailCos, BBubble"
-                        ]
+                        "clear_as_group": false
                     },
                     {
                         "name": "Long Distance Relationship", 
@@ -4534,8 +6176,39 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-                            "WCB, CCB, GForm, DLetter, ALetter, MailCos, BBubble, DWings",
-                            "WCB, CCB, GForm, DLetter, ALetter, MailCos, BBubbleMale, AFeather"
+            "HomeWarp, DWings, RHKey, WCB, GForm, OrbAvoid, DLetter, ALetter", 
+            "HomeWarp, RRibbon, AFeather WCB, GForm, OrbAvoid, DLetter, ALetter",
+            "WWWarp, GForm, OrbAvoid, DWings, DLetter, ALetter",
+            "WWWarp, GForm, OrbAvoid, AFeather, RRibbon, DLetter, ALetter",
+            "GobWarp, GForm, OrbAvoid, DWings, DLetter, ALetter",
+            "GobWarp, GForm, OrbAvoid, AFeather, RRibbon, DLetter, ALetter",
+            "SCWarp, GForm, OrbAvoid, DWings, DLetter, ALetter",
+            "SCWarp, GForm, OrbAvoid, AFeather, RRibbon, DLetter, ALetter",
+            "SAWarp, GForm, OrbAvoid, DWings, DLetter, ALetter",
+            "SAWarp, GForm, OrbAvoid, AFeather, RRibbon, DLetter, ALetter",
+            "GEWarp, CCB, GForm, OrbAvoid, DWings, DLetter, ALetter",
+            "GEWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon, DLetter, ALetter",
+            "GCWarp, GCKey, CCB, GForm, OrbAvoid, DWings, DLetter, ALetter",
+            "GCWarp, GCKey, CCB, GForm, OrbAvoid, AFeather, RRibbon, DLetter, ALetter",
+            "JiWarp, DWings, DLetter, ALetter",
+            "JiWarp, AFeather, RRibbon, DLetter, ALetter",
+            "CDWarp, DLetter, ALetter",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB, DWings, DLetter, ALetter",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB, DWings, DLetter, ALetter",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, DWings, DLetter, ALetter",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, DWings, DLetter, ALetter",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, DLetter, ALetter",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, DLetter, ALetter",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, DWings, DLetter, ALetter",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, DWings, DLetter, ALetter",
+            "FFWarp, GForm, OrbAvoid, CCB, DLetter, ALetter",
+            "FFWarp, GForm, OrbAvoid, CCB, DLetter, ALetter",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid, DLetter, ALetter",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, AFeather, GForm, CCB, OrbAvoid, DLetter, ALetter",
+            "SDWarp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid, DLetter, ALetter",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, AFeather, GForm, CCB, OrbAvoid, DLetter, ALetter",
+            "UUWarp, MScale, GForm, CCB, OrbAvoid, DWings, DLetter, ALetter",
+            "UUWarp, MScale, GForm, CCB, OrbAvoid, AFeather, RRibbon, DLetter, ALetter"
                         ]
                     }
                 ]
@@ -4555,7 +6228,12 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "AFeather, RRibbon",
+                            "BBubble, RRibbon",
+                            "BBubble, AFeather"
+                        ]
                     }
                 ]
             },
@@ -4576,9 +6254,9 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "GForm, BBubbleMale",
-                            "GForm, AFeather",
-                            "GForm, BBubble"
+                            "AFeather, RRibbon, GForm, OrbAvoid",
+                            "BBubble, RRibbon, GForm, OrbAvoid",
+                            "BBubble, AFeather, GForm, OrbAvoid"
                         ]
                     }
                 ]
@@ -4599,7 +6277,35 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "AFeather, RRibbon",
+                            "BBubble, RRibbon, DWings",
+                            "BBubble, AFeather, DWings"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Foliage 2",
+                "map_locations": [
+                    {
+                        "map": "TG",
+                        "x": 465,
+                        "y": 265
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gacha Coin",
+                        "visibility_rules": [ "GachaOn", "GachaCoins" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GCoin.png",
+                        "chest_unopened_img": "images/items/GachaCoin.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "AFeather, RRibbon"
+                        ]
                     }
                 ]
             },
@@ -4620,13 +6326,59 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "BBubbleMale",
-                            "AFeather",
-                            "BBubble"
+                            "AFeather, RRibbon",
+                            "BBubble, RRibbon, DWings",
+                            "BBubble, AFeather, DWings"
                         ]
                     }
                 ]
             },
+            {
+                "name": "Cloud Ramp Pots",
+                "map_locations": [
+                    {
+                        "map": "TG",
+                        "x": 806,
+                        "y": 147
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 5,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "AFeather, RRibbon, BBubble",
+                            "AFeather, RRibbon, BBubbleFemale"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },      
+    {
+        "name": "Angelica Angelic",
+        "access_rules": [    
+            "HomeWarp, AFeather, RRibbon, WCB, CCB, GForm, OrbAvoid",
+            "WWWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GobWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SCWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "SAWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
+            "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "TenWarp, RRibbon, AFeather",
+            "AHWarp, RRibbon, AFeather",
+            "FFWarp, RRibbon, AFeather",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, AFeather",
+            "UUWarp, MScale, RRibbon, AFeather"            
+        ],
+        "children": [
             {
                 "name": "Below Boss Room",
                 "access_rules":[
@@ -4673,12 +6425,27 @@
                 ]
             },
             {
-                "name": "Angelica",
-                "access_rules":[
-                    "AFeather, BBubbleFemale",
-                    "AFeather, BBubble",
-                    "AFeather, DWings"
+                "name": "Flower Garden Pots",
+                "map_locations": [
+                    {
+                        "map": "TG",
+                        "x": 1342,
+                        "y": 206
+                    }
                 ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 6,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Angelica",
                 "map_locations": [
                     {
                         "map": "TG",
@@ -4699,11 +6466,6 @@
             },
             {
                 "name": "Angelica Upgrade",
-                "access_rules":[
-                    "AFeather, BBubbleFemale",
-                    "AFeather, BBubble",
-                    "AFeather, DWings"
-                ],
                 "map_locations": [
                     {
                         "map": "TG",
@@ -4723,13 +6485,59 @@
                 ]
             }
         ]
-    },          
+    },    
     {
         "name": "Early Fungal Forest",
         "access_rules":[
-            "WCB, CCB, GForm, [HP], [Peach]"
+            "HomeWarp, OrbAvoid, RHKey, WCB, CCB, GForm",
+            "HomeWarp, RRibbon, WCB, CCB, GForm, OrbAvoid",
+            "HomeWarp, AFeather, WCB, CCB, GForm, OrbAvoid",
+            "WWWarp, CCB, GForm, OrbAvoid",
+            "GobWarp, CCB, GForm, OrbAvoid",
+            "SCWarp, CCB, GForm, OrbAvoid",
+            "SAWarp, CCB, GForm, OrbAvoid",
+            "GEWarp, GForm, OrbAvoid",
+            "GCWarp, GCKey, GForm, OrbAvoid",
+            "JiWarp, GForm, OrbAvoid",
+            "CDWarp, GForm, OrbAvoid, BBubble",
+            "TenWarp, BBubbleMale, AFeather",
+            "TenWarp, BBubbleMale, RRibbon",
+            "TenWarp, BBubble, AFeather",
+            "TenWarp, BBubble, RRibbon",
+            "TenWarp, AFeather, RRibbon",
+            "AHWarp, AFeather, RRibbon",
+            "AHWarp, BBubble, RRibbon",
+            "AHWarp, BBubble, AFeather",
+            "FFWarp",
+            "SC2Warp, SForm, SCKey, BBubble, DWings",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather",
+            "SDWarp, SForm, SCKey, BBubble, DWings",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon",
+            "SDWarp, SForm, SCKey, BBubble, AFeather",
+            "UUWarp, MScale"
         ],
         "children": [ 
+            {
+                "name": "Fungal Forest",
+                "map_locations": [
+                    {
+                        "map": "FF",
+                        "x": 157,
+                        "y": 200   
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
             {
                 "name": "Fungal Thimble",
                 "map_locations": [
@@ -4793,9 +6601,9 @@
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "DWings",
-                            "BBubble",
-                            "AFeather"
+                            "DWings, RRibbon", "DWings, AFeather",
+                            "BBubble, RRibbon", "BBubble, AFeather",
+                            "AFeather, RRibbon"
                         ]
                     }
                 ]
@@ -4864,13 +6672,36 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather, BBubble",
-                            "AFeather, BBubbleMale, DWings",
-                            "AFeather, BBubbleFemale, DWings"
+                            "AFeather, RRibbon, BBubble",
+                            "AFeather, RRibbon, DWings"
                         ]
                     }
                 ]
-            },
+            }
+        ]        
+    },
+    {
+        "name": "Chaos Fungal",
+        "access_rules": [
+            "HomeWarp, AFeather, RRibbon, WCB, CCB, GForm, OrbAvoid",
+            "WWWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "GobWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "SCWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "SAWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "GEWarp, GForm, OrbAvoid, AFeather, RRibbon",
+            "GCWarp, GCKey, GForm, OrbAvoid, AFeather, RRibbon",
+            "JiWarp, GForm, OrbAvoid, AFeather, RRibbon",
+            "CDWarp, GForm, OrbAvoid, BBubble, AFeather, RRibbon",
+            "TenWarp, AFeather, RRibbon",
+            "AHWarp, AFeather, RRibbon",
+            "FFWarp, RRibbon, AFeather",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather",
+            "SDWarp, SForm, SCKey, RRibbon, BBubble",
+            "SDWarp, SForm, SCKey, AFeather, BBubble",
+            "UUWarp, MScale, AFeather, RRibbon"            
+        ],
+        "children": [
             {
                 "name": "Past Chaos Fight",
                 "map_locations": [
@@ -4887,18 +6718,33 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "ChaosK:1, GForm, AFeather"
-                        ]
+                        "access_rules": [ "RRibbon, AFeather", "BBubble, AFeather", "BBubble, RRibbon"]
                     }
                 ]
             }
-        ]        
+        ]
     },
     {
         "name": "Fungal Forest",
         "access_rules":[
-            "WCB, CCB, GForm, AFeather, [HP:3], [Peach:3]"
+            "HomeWarp, AFeather, RRibbon, WCB, CCB, GForm, OrbAvoid",
+            "WWWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "GobWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "SCWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "SAWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "GEWarp, GForm, OrbAvoid, AFeather, RRibbon",
+            "GCWarp, GCKey, GForm, OrbAvoid, AFeather, RRibbon",
+            "JiWarp, GForm, OrbAvoid, AFeather, RRibbon",
+            "CDWarp, GForm, OrbAvoid, BBubble, AFeather, RRibbon",
+            "TenWarp, AFeather, RRibbon",
+            "AHWarp, AFeather, RRibbon",
+            "FFWarp, RRibbon, AFeather",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather",
+            "SDWarp, SForm, SCKey, BBubble, DWings",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon",
+            "SDWarp, SForm, SCKey, BBubble, AFeather",
+            "UUWarp, MScale, AFeather, RRibbon"
         ],
         "children": [
             {
@@ -4920,6 +6766,76 @@
                     }
                 ]
             },
+            {
+                "name": "Fungal Gauntlet",
+                "map_locations": [
+                    {
+                        "map": "FF",
+                        "x": 1044,
+                        "y": 329
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "HP Upgrade",
+                        "visibility_rules": [ "StatOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GHP.png",
+                        "chest_unopened_img": "images/items/HP.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "AFeather, RRibbon",
+                            "BBubble, AFeather", "BBubble, RRibbon", "BBubble, DWings", "BBubbleMale DWings"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Blue Jelly Mushroom",
+                "visibility_rules": [ "QuestItems", "QuestOn" ],
+                "map_locations": [
+                    {
+                        "map": "FF",
+                        "x": 962,
+                        "y": 469
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GreyChest.png",
+                        "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "AFeather, RRibbon",
+                            "BBubble, AFeather", "BBubbleMale, AFeather", "BBubble, RRibbon", "BBubblemale, RRibbon", "BBubble, DWings", "BBubbleMale DWings"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Deep Fungal",
+        "access_rules": [
+            "HomeWarp, AFeather, RRibbon, WCB, CCB, GForm, OrbAvoid",
+            "WWWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "GobWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "SCWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "SAWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
+            "GEWarp, GForm, OrbAvoid, AFeather, RRibbon",
+            "GCWarp, GCKey, GForm, OrbAvoid, AFeather, RRibbon",
+            "JiWarp, GForm, OrbAvoid, AFeather, RRibbon",
+            "CDWarp, GForm, OrbAvoid, BBubble, AFeather, RRibbon",
+            "TenWarp, AFeather, RRibbon",
+            "AHWarp, AFeather, RRibbon",
+            "FFWarp, RRibbon, AFeather",
+            "SC2Warp, SForm, SCKey",
+            "SDWarp, SForm, SCKey",
+            "UUWarp, MScale, AFeather, RRibbon"            
+        ],
+        "children": [
             {
                 "name": "Between the Thorns",
                 "map_locations": [
@@ -5004,54 +6920,6 @@
                 ]
             },
             {
-                "name": "Fungal Gauntlet",
-                "map_locations": [
-                    {
-                        "map": "FF",
-                        "x": 1044,
-                        "y": 329
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "HP Upgrade",
-                        "visibility_rules": [ "StatOn" ],
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GHP.png",
-                        "chest_unopened_img": "images/items/HP.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "BBubbleMale",
-                            "BBubble"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Blue Jelly Mushroom",
-                "visibility_rules": [ "QuestItems", "QuestOn" ],
-                "map_locations": [
-                    {
-                        "map": "FF",
-                        "x": 962,
-                        "y": 469
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Chest",
-                        "item_count": 1,
-                        "chest_opened_img": "images/items/GreyChest.png",
-                        "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules":[
-                            "BBubbleMale",
-                            "BBubble"
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "Forgotten Fungal Door Key",
                 "map_locations": [
                     {
@@ -5107,8 +6975,9 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "FFDKey, BBubbleMale",
-                            "FFDKey, BBubble"
+                            "FFDKey, BBubbleMale, RRibbon, AFeather",
+                            "FFDKey, BBubble, RRibbon",
+                            "FFDKey, BBubble, AFeather"
                         ]
                     },
                     {
@@ -5118,8 +6987,10 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "FFDKey, BBubbleMale, SForm",
-                            "FFDKey, BBubble, SForm"
+                            "FFDKey, BBubbleMale, SForm, RRibbon",
+                            "FFDKey, BBubbleMale, SForm, AFeather",
+                            "FFDKey, BBubble, SForm, RRibbon",
+                            "FFDKey, BBubble, SForm, AFeather"
                         ]
                     }
                 ]
@@ -5151,9 +7022,63 @@
     {
         "name": "Slime Citadel",
         "access_rules":[
-            "WCB, CCB, GForm, AFeather, SForm, SCKey, [HP:3], [Peach:3]"
+            "HomeWarp, AFeather, RRibbon, WCB, CCB, GForm, OrbAvoid, SForm, SCKey",
+            "WWWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon, SForm, SCKey",
+            "GobWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon, SForm, SCKey",
+            "SCWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon, SForm, SCKey",
+            "SAWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon, SForm, SCKey",
+            "GEWarp, GForm, OrbAvoid, AFeather, RRibbon, SForm, SCKey",
+            "GCWarp, GCKey, GForm, OrbAvoid, AFeather, RRibbon, SForm, SCKey",
+            "JiWarp, GForm, OrbAvoid, AFeather, RRibbon, SForm, SCKey",
+            "CDWarp, GForm, OrbAvoid, BBubble, AFeather, RRibbon, SForm, SCKey",
+            "TenWarp, AFeather, RRibbon, SForm, SCKey",
+            "AHWarp, AFeather, RRibbon, SForm, SCKey",
+            "FFWarp, RRibbon, AFeathe, SForm, SCKeyr",
+            "SC2Warp",
+            "SDWarp",
+            "UUWarp, MScale, AFeather, RRibbon, SForm, SCKey"
         ],
-        "children": [
+        "children": [ 
+            {
+                "name": "Slime Citadel",
+                "map_locations": [
+                    {
+                        "map": "FF",
+                        "x": 1828,
+                        "y": 546   
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Slimy Depths",
+                "map_locations": [
+                    {
+                        "map": "FF",
+                        "x": 1359,
+                        "y": 881   
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
             {
                 "name": "Citadel Entrance",
                 "map_locations": [
@@ -5169,7 +7094,8 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "SForm" ]
                     }
                 ]
             },
@@ -5207,17 +7133,19 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "SForm" ]
                     }
                 ]
             },
             {
                 "name": "Silky Slime",
                 "visibility_rules": [ "QuestItems", "QuestOn" ],
+                "access_rules":[ "SForm" ],
                 "map_locations": [
                     {
                         "map": "FF",
-                        "x": 943,
+                        "x": 927,
                         "y": 738
                     }
                 ],
@@ -5244,6 +7172,66 @@
                 ]
             },
             {
+                "name": "Double Bananas Pots",
+                "map_locations": [
+                    {
+                        "map": "FF",
+                        "x": 832,
+                        "y": 676
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 2,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Pillars Pots",
+                "map_locations": [
+                    {
+                        "map": "FF",
+                        "x": 807,
+                        "y": 747
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 3,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Reward Pots",
+                "map_locations": [
+                    {
+                        "map": "FF",
+                        "x": 976,
+                        "y": 744
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 8,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
                 "name": "Small Detour",
                 "map_locations": [
                     {
@@ -5259,12 +7247,14 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "BBubbleFemale", "BBubble", "RRibbon", "AFeather" ]
                     }
                 ]
             },
             {
                 "name": "Slimy Sub Boss Key",
+                "access_rules":[ "SForm" ],
                 "map_locations": [
                     {
                         "map": "FF",
@@ -5278,7 +7268,8 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "BBubbleFemale", "BBubble", "RRibbon", "AFeather" ]
                     }
                 ]
             },
@@ -5305,6 +7296,7 @@
             },
             {
                 "name": "Thimble",
+                "access_rules":[ "SForm" ],
                 "map_locations": [
                     {
                         "map": "FF",
@@ -5318,14 +7310,16 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/DomCos.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "BBubbleFemale", "BBubble", "RRibbon", "AFeather" ]
                     },
                     {
                         "name": "Shop Item 2",
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/AlchCos.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "BBubbleFemale", "BBubble", "RRibbon", "AFeather" ]
                     }
                 ]
             },
@@ -5584,9 +7578,55 @@
     {
         "name": "Umi Umi",
         "access_rules":[
-            "WCB, CCB, GForm, MScale, [HP:3], [Peach:3]"
+            "HomeWarp, OrbAvoid, RHKey, WCB, CCB, GForm, MScale",
+            "HomeWarp, RRibbon, WCB, CCB, GForm, OrbAvoid, MScale",
+            "HomeWarp, AFeather, WCB, CCB, GForm, OrbAvoid, MScale",
+            "WWWarp, CCB, GForm, OrbAvoid, MScale",
+            "GobWarp, CCB, GForm, OrbAvoid, MScale",
+            "SCWarp, CCB, GForm, OrbAvoid, MScale",
+            "SAWarp, CCB, GForm, OrbAvoid, MScale",
+            "GEWarp, GForm, OrbAvoid, MScale",
+            "GCWarp, GCKey, GForm, OrbAvoid, MScale",
+            "JiWarp, GForm, OrbAvoid, MScale",
+            "CDWarp, GForm, OrbAvoid, BBubble, MScale",
+            "TenWarp, BBubbleMale, AFeather, MScale",
+            "TenWarp, BBubbleMale, RRibbon, MScale",
+            "TenWarp, BBubble, AFeather, MScale",
+            "TenWarp, BBubble, RRibbon, MScale",
+            "TenWarp, AFeather, RRibbon, MScale",
+            "AHWarp, AFeather, RRibbon, MScale",
+            "AHWarp, BBubble, RRibbon, MScale",
+            "AHWarp, BBubble, AFeather, MScale",
+            "FFWarp, MScale",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, MScale",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, MScale",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather, MScale",
+            "SDWarp, SForm, SCKey, BBubble, DWings, MScale",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, MScale",
+            "SDWarp, SForm, SCKey, BBubble, AFeather, MScale",
+            "UUWarp"
         ],
         "children": [
+            {
+                "name": "Umi Umi",
+                "map_locations": [
+                    {
+                        "map": "UU",
+                        "x": 1095,
+                        "y": 78   
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Teleporter",
+                        "visibility_rules": [ "CTeleOn" ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/items/GPort.png",
+                        "chest_unopened_img": "images/items/PortPort.png",
+                        "clear_as_group": false
+                    }
+                ]
+            },
             {
                 "name": "Early Gacha Coin",
                 "map_locations": [
@@ -5605,7 +7645,7 @@
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather",
+                            "AFeather, RRibbon",
                             "Dwings"
                         ]
                     }
@@ -5628,7 +7668,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather"
+                            "AFeather, RRibbon"
                         ]
                     }
                 ]
@@ -5669,7 +7709,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather"
+                            "AFeather, RRibbon"
                         ]
                     }
                 ]
@@ -5730,24 +7770,10 @@
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "AFeather"
-                        ]
+                        "access_rules":[ "AFeather, RRibbon", "BBubbleMale AFeather", "BBubble AFeather", "BBubbleMale RRibbon", "BBubble RRibbon" ]
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Umi Umi Depths",
-        "access_rules":[
-            "WCB, CCB, GForm, MScale, AFeather, [HP:3], [Peach:3]",
-            "WCB, CCB, GForm, MScale, BBubbleMale, [HP:3], [Peach:3]",
-            "WCB, CCB, GForm, MScale, BBubble, [HP:3], [Peach:3]"
-        ],
-        "children": [
-            
-            {
+            },{
                 "name": "Mermaid's Chest",
                 "map_locations": [
                     {
@@ -5762,6 +7788,14 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Diving Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 2,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
                         "clear_as_group": false
                     }
                 ]
@@ -5781,7 +7815,8 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "AFeather, RRibbon", "BBubbleMale AFeather, OrbAvoid", "BBubble AFeather, OrbAvoid", "BBubbleMale RRibbon, OrbAvoid", "BBubble RRibbon, OrbAvoid", "BBubbleMale AFeather, DWings", "BBubble AFeather, DWings", "BBubbleMale RRibbon, DWings", "BBubble RRibbon, DWings" ]
                     }
                 ]
             },
@@ -5801,7 +7836,8 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "AFeather, RRibbon", "BBubbleMale AFeather", "BBubble AFeather", "BBubbleMale RRibbon", "BBubble RRibbon" ]
                     }
                 ]
             },
@@ -5820,7 +7856,8 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "AFeather, RRibbon", "BBubbleMale AFeather", "BBubble AFeather", "BBubbleMale RRibbon", "BBubble RRibbon" ]
                     }
                 ]
             },
@@ -5841,7 +7878,31 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "BBubble, AFeather"
+                            "BBubble, AFeather, RRibbon"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Diving Deeper Pots",
+                "map_locations": [
+                    {
+                        "map": "UU",
+                        "x": 474,
+                        "y": 493
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 4,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false,
+                        "access_rules":[
+                            "AFeather",
+                            "RRibbon"
                         ]
                     }
                 ]
@@ -5864,10 +7925,33 @@
                         "chest_unopened_img": "images/items/HP.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "BBubbleFemale",
-                            "BBubble",
-                            "AFeather"
+                            "BBubbleFemale, AFeather",
+                            "BBubbleFemale, RRibbon",
+                            "BBubble, AFeather",
+                            "BBubble, RRibbon",
+                            "AFeather, RRibbon"
                         ]
+                    }
+                ]
+            },
+            {
+                "name": "Surfacing Pots",
+                "map_locations": [
+                    {
+                        "map": "UU",
+                        "x": 677,
+                        "y": 417
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "visibility_rules": [ "PotOn" ],
+                        "item_count": 2,
+                        "chest_opened_img": "images/items/Pot.png",
+                        "chest_unopened_img": "images/items/GPot.png",
+                        "clear_as_group": false,
+                        "access_rules":[ "AFeather, RRibbon", "BBubbleMale AFeather", "BBubble AFeather", "BBubbleMale RRibbon", "BBubble RRibbon" ]
                     }
                 ]
             },
@@ -5887,7 +7971,8 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "AFeather, RRibbon", "BBubbleMale AFeather", "BBubble AFeather", "BBubbleMale RRibbon", "BBubble RRibbon" ]
                     }
                 ]
             },
@@ -5908,9 +7993,7 @@
                         "chest_opened_img": "images/items/GPeach.png",
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
-                        "access_rules":[
-                            "FishCos, FBKey"
-                        ]
+                        "access_rules":[ "AFeather, RRibbon, FishCos, FBKey", "BBubbleMale AFeather, FishCos, FBKey", "BBubble AFeather, FishCos, FBKey", "BBubbleMale RRibbon, FishCos, FBKey", "BBubble RRibbon, FishCos, FBKey" ]
                     }
                 ]
             },
@@ -5933,7 +8016,8 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "AFeather, RRibbon", "BBubbleMale AFeather", "BBubble AFeather", "BBubbleMale RRibbon", "BBubble RRibbon" ]
                     }
                 ]
             },
@@ -5956,16 +8040,44 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "AFeather, RRibbon", "BBubbleMale AFeather", "BBubble AFeather", "BBubbleMale RRibbon", "BBubble RRibbon" ]
                     }
                 ]
             }
         ]
     },
     {
-        "name": "Outside Castle Chaos",
+        "name": "Castle Chaos",
         "access_rules":[
-            "WCB, ChaosK:6"
+            "HomeWarp, DWings, RHKey, WCB, ChaosK:6", 
+            "HomeWarp, OrbAvoid, RHKey, WCB, ChaosK:6",
+            "HomeWarp, RRibbon, WCB, ChaosK:6",
+            "HomeWarp, AFeather, WCB, ChaosK:6",
+            "WWWarp, ChaosK:6",
+            "GobWarp, ChaosK:6",
+            "SCWarp, ChaosK:6",
+            "SAWarp, ChaosK:6",
+            "GEWarp, CCB, ChaosK:6",
+            "GCWarp, GCKey, CCB, ChaosK:6",
+            "JiWarp, GForm, OrbAvoid, ChaosK:6",
+            "CDWarp, GForm, OrbAvoid, BBubble, ChaosK:6",
+            "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB, ChaosK:6",
+            "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB, ChaosK:6",
+            "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, ChaosK:6",
+            "TenWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, ChaosK:6",
+            "TenWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, ChaosK:6",
+            "AHWarp, AFeather, RRibbon, GForm, OrbAvoid, CCB, ChaosK:6",
+            "AHWarp, BBubble, RRibbon, GForm, OrbAvoid, CCB, ChaosK:6",
+            "AHWarp, BBubble, AFeather, GForm, OrbAvoid, CCB, ChaosK:6",
+            "FFWarp, GForm, OrbAvoid, CCB, ChaosK:6",
+            "SC2Warp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid, ChaosK:6",
+            "SC2Warp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, OrbAvoid, ChaosK:6",
+            "SC2Warp, SForm, SCKey, BBubble, AFeather, GForm, CCB, OrbAvoid, ChaosK:6",
+            "SDWarp, SForm, SCKey, BBubble, DWings, GForm, CCB, OrbAvoid, ChaosK:6",
+            "SDWarp, SForm, SCKey, BBubble, RRibbon, GForm, CCB, OrbAvoid, ChaosK:6",
+            "SDWarp, SForm, SCKey, BBubble, AFeather, GForm, CCB, OrbAvoid, ChaosK:6",
+            "UUWarp, MScale, GForm, CCB, WCB, OrbAvoid, ChaosK:6"
         ],
         "children": [
             {
@@ -5985,20 +8097,10 @@
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "AFeather, DWings"
-                        ]
+                        "access_rules":[ "AFeather, RRibbon, DWings" ]
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Castle Chaos",
-        "access_rules":[
-            "WCB, ChaosK:6, BBubble, [HP:4], [Peach:4]"
-        ],
-        "children": [
+            },
             {
                 "name": "Early Coins",
                 "map_locations": [
@@ -6034,7 +8136,8 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "BBubble" ]
                     }
                 ]
             },
@@ -6055,9 +8158,7 @@
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "GForm"
-                        ]
+                        "access_rules":[ "BBubble, GForm" ]
                     }
                 ]
             },
@@ -6076,7 +8177,8 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "BBubble" ]
                     }
                 ]
             },
@@ -6095,7 +8197,8 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "BBubble" ]
                     }
                 ]
             },
@@ -6114,7 +8217,8 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/HauntedS.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "BBubble" ]
                     }
                 ]
             },
@@ -6133,7 +8237,8 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "access_rules":[ "BBubble" ]
                     }
                 ]
             },
@@ -6153,9 +8258,7 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "SForm"
-                        ]
+                        "access_rules":[ "BBubble, SForm" ]
                     }
                 ]
             },
@@ -6176,9 +8279,7 @@
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "SForm"
-                        ]
+                        "access_rules":[ "BBubble, SForm" ]
                     }
                 ]
             },
@@ -6198,9 +8299,7 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "AFeather, DWings"
-                        ]
+                        "access_rules":[ "BBUbble, AFeather RRibbon, DWings" ]
                     }
                 ]
             },
@@ -6221,9 +8320,7 @@
                         "chest_opened_img": "images/items/GHP.png",
                         "chest_unopened_img": "images/items/HP.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "AFeather, DWings"
-                        ]
+                        "access_rules":[ "BBUbble, AFeather RRibbon, DWings" ]
                     }
                 ]
             },
@@ -6243,9 +8340,7 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "SForm"
-                        ]
+                        "access_rules":[ "BBubble, SForm, RRibbon", "BBubble, SForm, AFeather" ]
                     }
                 ]
             },
@@ -6266,9 +8361,7 @@
                         "chest_opened_img": "images/items/GMP.png",
                         "chest_unopened_img": "images/items/MP.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "SForm"
-                        ]
+                        "access_rules":[ "BBubble, SForm, RRibbon", "BBubble, SForm, AFeather" ]
                     }
                 ]
             },
@@ -6288,9 +8381,7 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
-                        "access_rules":[
-                            "AFeather, CSKey    "
-                        ]
+                        "access_rules":[ "BBubble, RRibbon, AFeather, CSKey" ]
                     }
                 ]
             }
