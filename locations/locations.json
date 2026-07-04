@@ -678,7 +678,7 @@
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather", "RRibbon"
+                            "AFeather, RRibbon"
                         ]
                     }
                 ]
@@ -761,7 +761,7 @@
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
                         "access_rules":[
-                            "AFeather", "RRibbon"
+                            "AFeather, RRibbon"
                         ]
                     }
                 ]
@@ -1598,8 +1598,7 @@
             {
                 "name": "Cabaret Cafe",
                 "access_rules": [
-                    "R1, B1, MC1, BClothes, BBell",
-                    "R1, B1, MC1, BClothes, BBell"
+                    "R1, B1, MC1, BClothes, BBell, GForm, OrbAvoid, BBubble"
                 ],
                 "map_locations": [
                     {
@@ -3507,7 +3506,7 @@
             {
                 "name": "Slime Form Coins",
                 "access_rules":[
-                    "GCKey, SForm"
+                    "SForm"
                 ],
                 "map_locations": [
                     {
@@ -5170,10 +5169,10 @@
             "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
             "GCWarp, GCKey, GForm, OrbAvoid, DWings, BBubble",
             "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
-            "JiWarp, GForm, OrbAvoid, DWings, BBubble",
-            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
-            "CDWarp, GForm, OrbAvoid, DWings, BBubble",
-            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "JiWarp, GForm, OrbAvoid, DWings, BBubble, CCB",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather, CCB",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble, CCB",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble, CCB",
             "TenWarp, RRibbon, AFeather",
             "TenWarp, BBubble, DWings",
             "TenWarp, BBubble, RRibbon",
@@ -5587,10 +5586,10 @@
             "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
             "GCWarp, GCKey, GForm, OrbAvoid, DWings, BBubble",
             "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
-            "JiWarp, GForm, OrbAvoid, DWings, BBubble",
-            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
-            "CDWarp, GForm, OrbAvoid, DWings, BBubble",
-            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "JiWarp, GForm, OrbAvoid, DWings, BBubble, CCB",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather, CCB",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble, CCB",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble, CCB",
             "TenWarp, BBubbleMale, AFeathers",
             "TenWarp, BBubbleMale, RRibbon",
             "TenWarp, BBubble, AFeather",
@@ -5714,10 +5713,10 @@
             "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
             "GCWarp, GCKey, GForm, OrbAvoid, DWings, BBubble",
             "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
-            "JiWarp, GForm, OrbAvoid, DWings, BBubble",
-            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
-            "CDWarp, GForm, OrbAvoid, DWings, BBubble",
-            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "JiWarp, GForm, OrbAvoid, DWings, BBubble, CCB",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather, CCB",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble, CCB",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble, CCB",
             "TenWarp",
             "AHWarp, AFeather, RRibbon",
             "AHWarp, BBubble",
@@ -5748,12 +5747,7 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "AFeather",
-                            "BBubbleMale",
-                            "BBubble"
-                        ]
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -5816,10 +5810,10 @@
             "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
             "GCWarp, GCKey, GForm, OrbAvoid, DWings, BBubble",
             "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
-            "JiWarp, GForm, OrbAvoid, DWings, BBubble",
-            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
-            "CDWarp, GForm, OrbAvoid, DWings, BBubble",
-            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "JiWarp, GForm, OrbAvoid, DWings, BBubble, CCB",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather, CCB",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble, CCB",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble, CCB",
             "TenWarp, RRibbon, AFeather",
             "TenWarp, BBubble,",
             "TenWarp, BBubbleFemale, AFeather",
@@ -5855,7 +5849,7 @@
                         "chest_opened_img": "images/items/GCoin.png",
                         "chest_unopened_img": "images/items/GachaCoin.png",
                         "clear_as_group": false,
-                        "access_rules":[ "AFeather", "DWings, RRibbon", "DWings, AFeather" ]
+                        "access_rules":[ "AFeather, RRibbon", "DWings, RRibbon", "DWings, AFeather" ]
                     }
                 ]
             }
@@ -5878,10 +5872,10 @@
             "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
             "GCWarp, GCKey, GForm, OrbAvoid, DWings, BBubble",
             "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
-            "JiWarp, GForm, OrbAvoid, DWings, BBubble",
-            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
-            "CDWarp, GForm, OrbAvoid, DWings, BBubble",
-            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "JiWarp, GForm, OrbAvoid, DWings, BBubble, CCB",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather, CCB",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble, CCB",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble, CCB",
             "TenWarp, RRibbon, AFeather",
             "TenWarp, BBubble, DWings",
             "TenWarp, BBubble, RRibbon",
@@ -5966,10 +5960,10 @@
             "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
             "GCWarp, GCKey, GForm, OrbAvoid, DWings, BBubble",
             "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
-            "JiWarp, GForm, OrbAvoid, DWings, BBubble",
-            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
-            "CDWarp, GForm, OrbAvoid, DWings, BBubble",
-            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "JiWarp, GForm, OrbAvoid, DWings, BBubble, CCB",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather, CCB",
+            "CDWarp, GForm, OrbAvoid, DWings, BBubble, CCB",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble, CCB",
             "TenWarp, RRibbon, AFeather",
             "TenWarp, BBubble, DWings",
             "TenWarp, BBubble, RRibbon",
@@ -6081,7 +6075,9 @@
                     }
                 ],
                 "access_rules":[
-                    "GForm, OrbAvoid, BBubble"
+                    "GForm, OrbAvoid, BBubble",
+                    "GForm, OrbAvoid, BBubbleFemale, RRibbon",
+                    "GForm, OrbAvoid, BBubbleFemale, AFeather"
                 ],
                 "sections": [
                     {
@@ -6110,7 +6106,9 @@
                     }
                 ],
                 "access_rules":[
-                    "GForm, OrbAvoid, BBubble"
+                    "GForm, OrbAvoid, BBubble",
+                    "GForm, OrbAvoid, BBubbleFemale, RRibbon",
+                    "GForm, OrbAvoid, BBubbleFemale, AFeather"
                 ],
                 "sections": [
                     {
@@ -6369,8 +6367,8 @@
             "SAWarp, CCB, GForm, OrbAvoid, RRibbon, AFeather",
             "GEWarp, GForm, OrbAvoid, RRibbon, AFeather",
             "GCWarp, GCKey, GForm, OrbAvoid, RRibbon, AFeather",
-            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather",
-            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble",
+            "JiWarp, GForm, OrbAvoid, RRibbon, AFeather, CCB",
+            "CDWarp, GForm, OrbAvoid, RRibbon, AFeather, BBubble, CCB",
             "TenWarp, RRibbon, AFeather",
             "AHWarp, RRibbon, AFeather",
             "FFWarp, RRibbon, AFeather",
@@ -6498,8 +6496,8 @@
             "SAWarp, CCB, GForm, OrbAvoid",
             "GEWarp, GForm, OrbAvoid",
             "GCWarp, GCKey, GForm, OrbAvoid",
-            "JiWarp, GForm, OrbAvoid",
-            "CDWarp, GForm, OrbAvoid, BBubble",
+            "JiWarp, GForm, OrbAvoid, CCB",
+            "CDWarp, GForm, OrbAvoid, BBubble, CCB",
             "TenWarp, BBubbleMale, AFeather",
             "TenWarp, BBubbleMale, RRibbon",
             "TenWarp, BBubble, AFeather",
@@ -6690,8 +6688,8 @@
             "SAWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
             "GEWarp, GForm, OrbAvoid, AFeather, RRibbon",
             "GCWarp, GCKey, GForm, OrbAvoid, AFeather, RRibbon",
-            "JiWarp, GForm, OrbAvoid, AFeather, RRibbon",
-            "CDWarp, GForm, OrbAvoid, BBubble, AFeather, RRibbon",
+            "JiWarp, GForm, OrbAvoid, AFeather, RRibbon, CCB",
+            "CDWarp, GForm, OrbAvoid, BBubble, AFeather, RRibbon, CCB",
             "TenWarp, AFeather, RRibbon",
             "AHWarp, AFeather, RRibbon",
             "FFWarp, RRibbon, AFeather",
@@ -6734,8 +6732,8 @@
             "SAWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
             "GEWarp, GForm, OrbAvoid, AFeather, RRibbon",
             "GCWarp, GCKey, GForm, OrbAvoid, AFeather, RRibbon",
-            "JiWarp, GForm, OrbAvoid, AFeather, RRibbon",
-            "CDWarp, GForm, OrbAvoid, BBubble, AFeather, RRibbon",
+            "JiWarp, GForm, OrbAvoid, AFeather, RRibbon, CCB",
+            "CDWarp, GForm, OrbAvoid, BBubble, AFeather, RRibbon, CCB",
             "TenWarp, AFeather, RRibbon",
             "AHWarp, AFeather, RRibbon",
             "FFWarp, RRibbon, AFeather",
@@ -6826,8 +6824,8 @@
             "SAWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon",
             "GEWarp, GForm, OrbAvoid, AFeather, RRibbon",
             "GCWarp, GCKey, GForm, OrbAvoid, AFeather, RRibbon",
-            "JiWarp, GForm, OrbAvoid, AFeather, RRibbon",
-            "CDWarp, GForm, OrbAvoid, BBubble, AFeather, RRibbon",
+            "JiWarp, GForm, OrbAvoid, AFeather, RRibbon, CCB",
+            "CDWarp, GForm, OrbAvoid, BBubble, AFeather, RRibbon, CCB",
             "TenWarp, AFeather, RRibbon",
             "AHWarp, AFeather, RRibbon",
             "FFWarp, RRibbon, AFeather",
@@ -7029,8 +7027,8 @@
             "SAWarp, CCB, GForm, OrbAvoid, AFeather, RRibbon, SForm, SCKey",
             "GEWarp, GForm, OrbAvoid, AFeather, RRibbon, SForm, SCKey",
             "GCWarp, GCKey, GForm, OrbAvoid, AFeather, RRibbon, SForm, SCKey",
-            "JiWarp, GForm, OrbAvoid, AFeather, RRibbon, SForm, SCKey",
-            "CDWarp, GForm, OrbAvoid, BBubble, AFeather, RRibbon, SForm, SCKey",
+            "JiWarp, GForm, OrbAvoid, AFeather, RRibbon, SForm, SCKey, CCB",
+            "CDWarp, GForm, OrbAvoid, BBubble, AFeather, RRibbon, SForm, SCKey, CCB",
             "TenWarp, AFeather, RRibbon, SForm, SCKey",
             "AHWarp, AFeather, RRibbon, SForm, SCKey",
             "FFWarp, RRibbon, AFeathe, SForm, SCKeyr",
@@ -7587,8 +7585,8 @@
             "SAWarp, CCB, GForm, OrbAvoid, MScale",
             "GEWarp, GForm, OrbAvoid, MScale",
             "GCWarp, GCKey, GForm, OrbAvoid, MScale",
-            "JiWarp, GForm, OrbAvoid, MScale",
-            "CDWarp, GForm, OrbAvoid, BBubble, MScale",
+            "JiWarp, GForm, OrbAvoid, MScale, CCB",
+            "CDWarp, GForm, OrbAvoid, BBubble, MScale, CCB",
             "TenWarp, BBubbleMale, AFeather, MScale",
             "TenWarp, BBubbleMale, RRibbon, MScale",
             "TenWarp, BBubble, AFeather, MScale",

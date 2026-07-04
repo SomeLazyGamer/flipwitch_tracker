@@ -32,7 +32,8 @@
                             ],
                             [
                                 "ShuffleDouble",
-                                "ShuffleDodge"              
+                                "ShuffleDodge",
+                                "AutoTab"             
                             ]
                         ]
                     }
