@@ -1000,7 +1000,7 @@
         {
             "name": "Starting Area - Tengoku",
           "inherit_codes": false,
-          "codes": "StartingArea,TenWarp",
+          "codes": "StartingArea,StartTenWarp",
         "img": "images/items/Ten.png"
         },
         {
