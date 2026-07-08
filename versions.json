@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "2.0.6",
+			"download_url": "https://github.com/SomeLazyGamer/flipwitch_tracker/releases/download/2.0.6/FlipWitch_Tracker_SLG_2.0.6.zip",
+			"sha256": "d99fa9326d66a14f8298befb87c5242aae814f1d522d5576373628c69509ac00",
+			"changelog": ["Logic Fixes in UU and AH"]
+		},
+		{
 			"package_version": "2.0.5",
 			"download_url": "https://github.com/SomeLazyGamer/flipwitch_tracker/releases/download/2.0.5/FlipWitch_Tracker_SLG_2.0.5.zip",
 			"sha256": "f8df4e70733cf915f7c65dcd2826eb982d5bb7567bec54b78f25df1e487f2aa3",
