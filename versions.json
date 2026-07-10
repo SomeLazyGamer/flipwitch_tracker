@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "2.0.7",
+			"download_url": "https://github.com/SomeLazyGamer/flipwitch_tracker/releases/download/2.0.7/FlipWitch_Tracker_SLG_2.0.7.zip",
+			"sha256": "0400dffa86f72b39097f0be875538572d2ff75e8cc9dc2ebdfd1beb993c8a3ae",
+			"changelog": ["SpC TG and AH logic fixes"]
+		},
+		{
 			"package_version": "2.0.6",
 			"download_url": "https://github.com/SomeLazyGamer/flipwitch_tracker/releases/download/2.0.6/FlipWitch_Tracker_SLG_2.0.6.zip",
 			"sha256": "d99fa9326d66a14f8298befb87c5242aae814f1d522d5576373628c69509ac00",
