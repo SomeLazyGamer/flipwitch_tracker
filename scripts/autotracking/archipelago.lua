@@ -15,8 +15,8 @@ TabMap = {
   ["Witchy Woods"] = "Witchy Woods",
   ["Spirit City"] = "Spirit City/Shady Sewers",
   ["Jigoku"] = "Jigoku/Club Demon",
-  ["Angelic Hallway"] = "Tengoku/Angelic Hallway",
-  ["Fungal Forest"] = "Fungal Forest/Slime Citadel"
+  ["Angelic Hallway"] = "Angelic Hallway",
+  ["Fungal Forest"] = "Tengoku/Fungal Forest/Slime Citadel"
 }
 
 function Belle1()
