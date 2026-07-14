@@ -1047,7 +1047,7 @@
         "children": [
             {
                 "name": "Past Man Cave",
-                "access_rules": ["RRibbon", "AFeather", "DWing"],
+                "access_rules": ["RRibbon", "AFeather", "DWings"],
                 "map_locations": [
                     {
                         "map": "WW",
@@ -1170,7 +1170,7 @@
             },
             {
                 "name": "Boss Key Room",
-                "access_rules": ["RRibbon", "AFeather", "DWing"],
+                "access_rules": ["RRibbon", "AFeather", "DWings"],
                 "map_locations": [
                     {
                         "map": "WW",
@@ -1197,7 +1197,7 @@
             },
             {
                 "name": "Boss Key Room Upgrade",
-                "access_rules": ["RRibbon", "AFeather", "DWing"],
+                "access_rules": ["RRibbon", "AFeather", "DWings"],
                 "map_locations": [
                     {
                         "map": "WW",
@@ -1358,9 +1358,7 @@
                         "clear_as_group": false
                     }
                 ],
-                    "access_rules":[
-                        "GQKey"
-                    ]
+                    "access_rules":[ "GQKey" ]
             },
             {
                 "name": "Goblin Princess",
@@ -1457,6 +1455,7 @@
             },
             {
                 "name": "Goblin Queen Pots",
+                "access_rules":[ "GQKey" ],
                 "map_locations": [
                     {
                         "map": "WW",
@@ -4629,7 +4628,8 @@
             "GEWarp, CCB, GForm, OrbAvoid",
             "GCWarp, GCKey, CCB, GForm, OrbAvoid",
             "JiWarp",
-            "CDWarp, BBubble",
+            "CDWarp, BBubble, AFeather",
+            "CDWarp, BBubble, RRibbon",
             "TenWarp, BBubbleMale, AFeather, GForm, OrbAvoid, CCB",
             "TenWarp, BBubbleMale, RRibbon, GForm, OrbAvoid, CCB",
             "TenWarp, BBubble, AFeather, GForm, OrbAvoid, CCB",
@@ -5438,8 +5438,8 @@
     {
         "name": "Club Demon",
         "access_rules":[
-            "HomeWarp, DWings, RHKey, WCB, GForm, AFeather", 
-            "HomeWarp, DWings, RHKey, WCB, GForm",
+            "HomeWarp, DWings, WCB, GForm, AFeather", 
+            "HomeWarp, DWings, WCB, GForm, RRibbon",
             "HomeWarp, RRibbon, AFeather, WCB, GForm, OrbAvoid",
             "WWWarp, GForm, DWings, AFeather",
             "WWWarp, GForm, DWings, RRibbon",
@@ -5451,7 +5451,7 @@
             "SCWarp, GForm, DWings, RRibbon",
             "SCWarp, GForm, OrbAvoid, AFeather, RRibbon",
             "SAWarp, GForm, DWings, AFeather",
-            "SAWarp, GForm, DWing, RRibbon",
+            "SAWarp, GForm, DWings, RRibbon",
             "SAWarp, GForm, OrbAvoid, AFeather, RRibbon",
             "GEWarp, CCB, GForm, DWings, AFeather",
             "GEWarp, CCB, GForm, DWings, RRibbon",
@@ -5625,7 +5625,7 @@
                         "chest_opened_img": "images/items/GreyChest.png",
                         "chest_unopened_img": "images/items/Chest.png",
                         "clear_as_group": false,
-                        "access_rules":[ "RRibbon, AFeeather, BBubble, CDKey", "DWings, RRibbon, BBubble, CDKey", "DWings, AFeather, BBubble, CDKey" ]
+                        "access_rules":[ "RRibbon, AFeather, BBubble, CDKey", "DWings, RRibbon, BBubble, CDKey", "DWings, AFeather, BBubble, CDKey" ]
                     }
                 ]
             },
@@ -6679,8 +6679,8 @@
                         "chest_unopened_img": "images/items/Peach.png",
                         "clear_as_group": true,
                         "access_rules":[
-            "HomeWarp, DWings, RHKey, WCB, GForm, AFeather", 
-            "HomeWarp, DWings, RHKey, WCB, GForm",
+            "HomeWarp, DWings, WCB, GForm, AFeather", 
+            "HomeWarp, DWings, WCB, GForm, RRibbon",
             "HomeWarp, RRibbon, AFeather, WCB, GForm, OrbAvoid",
             "WWWarp, GForm, DWings, AFeather",
             "WWWarp, GForm, DWings, RRibbon",
@@ -6692,7 +6692,7 @@
             "SCWarp, GForm, DWings, RRibbon",
             "SCWarp, GForm, OrbAvoid, AFeather, RRibbon",
             "SAWarp, GForm, DWings, AFeather",
-            "SAWarp, GForm, DWing, RRibbon",
+            "SAWarp, GForm, DWings, RRibbon",
             "SAWarp, GForm, OrbAvoid, AFeather, RRibbon",
             "GEWarp, CCB, GForm, DWings, AFeather",
             "GEWarp, CCB, GForm, DWings, RRibbon",
