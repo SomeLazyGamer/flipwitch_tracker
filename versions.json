@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "2.1.0",
+			"download_url": "https://github.com/SomeLazyGamer/flipwitch_tracker/releases/download/2.1.0/FlipWitch_Tracker_SLG_2.1.0.zip",
+			"sha256": "19cf71a461faa0bd11b0af068f803ede3c753469962a1ce02fad8d4b8a803e5c",
+			"changelog": ["Huge Ghost Castle Logic Update"]
+		},
+		{
 			"package_version": "2.0.9",
 			"download_url": "https://github.com/SomeLazyGamer/flipwitch_tracker/releases/download/2.0.9/FlipWitch_Tracker_SLG_2.0.9.zip",
 			"sha256": "8b5b44c54f440dd4e735914881952d570882e3fe4ce63c6dc37d4d908759f43c",
