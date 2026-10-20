@@ -49,9 +49,9 @@ LOCATION_MAPPING = {
 --Ghost Castle
 
     [91] = { "@East Spirit City/Below Entrance/Chest" },
-    [92] = { "@Early Ghost Castle/Slime Form Coins/Ground Chests" },
+    [92] = { "@Early Ghost Castle/Slime Form Coins/Raised Chest" },
     [93] = { "@Early Ghost Castle/Slime Form Coins/Ground Chests" },
-    [94] = { "@Early Ghost Castle/Slime Form Coins/Raised Chest" },
+    [94] = { "@Early Ghost Castle/Slime Form Coins/Ground Chests" },
     [95] = { "@Early Ghost Castle/Flip Magic Platform/Chest" },
     [96] = { "@Early Ghost Castle/Hidden Ledge/Chest" },
     [97] = { "@Rose Garden/Elf Merchant Chest/Chest" },
